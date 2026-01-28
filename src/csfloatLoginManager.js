@@ -64,7 +64,7 @@ async function clearLockFiles() {
  * @param {boolean} forceNewProfile - Se true, deleta o perfil existente antes de lançar.
  * @param {boolean} headless - Se true, o navegador é iniciado sem interface gráfica.
  */
-async function launchBrowserContext(forceNewProfile = false, headless = true) {
+async function launchBrowserContext(forceNewProfile = false, headless = false) { // trocar o headless para false para visualizar
     // Se já existe uma instância e não estamos forçando um novo perfil, reutilizamos
     if (browserContextInstance && !forceNewProfile) {
         console.log(`[CSFLOAT-LOGIN] Navegador já está ativo (headless: ${browserContextInstance._options.headless}), reutilizando contexto.`);

@@ -4,7 +4,7 @@ const path = require('path');
 
 const svc = new Service({
   name: 'Apics',
-  script: path.join(__dirname, 'fetch_geral.js')
+  script: path.join(__dirname, 'fetch_arbitragem.js')
 });
 
 svc.on('uninstall', function(){

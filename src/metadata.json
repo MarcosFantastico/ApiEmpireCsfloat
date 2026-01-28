@@ -1,0 +1,6143 @@
+{
+  "AK-47 | Phantom Disruptor": {
+    "def_index": 7,
+    "paint_index": 941
+  },
+  "Tec-9 | Decimator": {
+    "def_index": 30,
+    "paint_index": 889
+  },
+  "M4A4 | Cyber Security": {
+    "def_index": 16,
+    "paint_index": 985
+  },
+  "AWP | Black Nile": {
+    "def_index": 9,
+    "paint_index": 1239
+  },
+  "UMP-45 | K.O. Factory": {
+    "def_index": 24,
+    "paint_index": 1194
+  },
+  "AK-47 | Searing Rage": {
+    "def_index": 7,
+    "paint_index": 1207
+  },
+  "P250 | Vino Primo": {
+    "def_index": 36,
+    "paint_index": 749
+  },
+  "AUG | Death by Puppy": {
+    "def_index": 8,
+    "paint_index": 913
+  },
+  "Desert Eagle | Printstream": {
+    "def_index": 1,
+    "paint_index": 962
+  },
+  "M4A4 | 龍王 (Dragon King)": {
+    "def_index": 16,
+    "paint_index": 400
+  },
+  "SSG 08 | Blood in the Water": {
+    "def_index": 40,
+    "paint_index": 222
+  },
+  "M4A4 | Poly Mag": {
+    "def_index": 16,
+    "paint_index": 1149
+  },
+  "USP-S | PC-GRN": {
+    "def_index": 61,
+    "paint_index": 1186
+  },
+  "Nova | Wild Six": {
+    "def_index": 35,
+    "paint_index": 699
+  },
+  "MAC-10 | Allure": {
+    "def_index": 17,
+    "paint_index": 965
+  },
+  "MP9 | Food Chain": {
+    "def_index": 34,
+    "paint_index": 1037
+  },
+  "UMP-45 | Wild Child": {
+    "def_index": 24,
+    "paint_index": 1236
+  },
+  "Glock-18 | Shinobu": {
+    "def_index": 4,
+    "paint_index": 1208
+  },
+  "Dual Berettas | Melondrama": {
+    "def_index": 2,
+    "paint_index": 1126
+  },
+  "Glock-18 | Glockingbird": {
+    "def_index": 4,
+    "paint_index": 1282
+  },
+  "MAG-7 | Justice": {
+    "def_index": 27,
+    "paint_index": 948
+  },
+  "XM1014 | XOXO": {
+    "def_index": 25,
+    "paint_index": 1046
+  },
+  "UMP-45 | Primal Saber": {
+    "def_index": 24,
+    "paint_index": 556
+  },
+  "P250 | Asiimov": {
+    "def_index": 36,
+    "paint_index": 551
+  },
+  "Galil AR | Chromatic Aberration": {
+    "def_index": 13,
+    "paint_index": 1038
+  },
+  "AWP | Fever Dream": {
+    "def_index": 9,
+    "paint_index": 640
+  },
+  "SSG 08 | Ghost Crusader": {
+    "def_index": 40,
+    "paint_index": 554
+  },
+  "P90 | Tiger Pit": {
+    "def_index": 19,
+    "paint_index": 1015
+  },
+  "MP7 | Bloodsport": {
+    "def_index": 33,
+    "paint_index": 696
+  },
+  "Glock-18 | Neo-Noir": {
+    "def_index": 4,
+    "paint_index": 988
+  },
+  "Elite Trapper Solman | Guerrilla Warfare": {
+    "ignore": true
+  },
+  "Five-SeveN | Angry Mob": {
+    "def_index": 3,
+    "paint_index": 837
+  },
+  "AWP | Chromatic Aberration": {
+    "def_index": 9,
+    "paint_index": 1144
+  },
+  "AK-47 | Asiimov": {
+    "def_index": 7,
+    "paint_index": 801
+  },
+  "★ Hand Wraps | Constrictor": {
+    "def_index": 5032,
+    "paint_index": 10083
+  },
+  "★ Ursus Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "PP-Bizon | Space Cat": {
+    "def_index": 26,
+    "paint_index": 1125
+  },
+  "MAC-10 | Lapis Gator": {
+    "def_index": 17,
+    "paint_index": 534
+  },
+  "P250 | Visions": {
+    "def_index": 36,
+    "paint_index": 1153
+  },
+  "Tec-9 | Re-Entry": {
+    "def_index": 30,
+    "paint_index": 555
+  },
+  "Glock-18 | Moonrise": {
+    "def_index": 4,
+    "paint_index": 694
+  },
+  "Tec-9 | Fuel Injector": {
+    "def_index": 30,
+    "paint_index": 614
+  },
+  "P250 | Digital Architect": {
+    "def_index": 36,
+    "paint_index": 1081
+  },
+  "P250 | Mehndi": {
+    "def_index": 36,
+    "paint_index": 258
+  },
+  "Glock-18 | Snack Attack": {
+    "def_index": 4,
+    "paint_index": 1100
+  },
+  "M4A1-S | Decimator": {
+    "def_index": 60,
+    "paint_index": 644
+  },
+  "AK-47 | Aquamarine Revenge": {
+    "def_index": 7,
+    "paint_index": 474
+  },
+  "M4A1-S | Player Two": {
+    "def_index": 60,
+    "paint_index": 946
+  },
+  "M4A1-S | Golden Coil": {
+    "def_index": 60,
+    "paint_index": 497
+  },
+  "★ Moto Gloves | Transport": {
+    "ignore": true
+  },
+  "Glock-18 | AXIA": {
+    "def_index": 4,
+    "paint_index": 832
+  },
+  "P250 | See Ya Later": {
+    "def_index": 36,
+    "paint_index": 678
+  },
+  "M4A1-S | Nightmare": {
+    "def_index": 60,
+    "paint_index": 714
+  },
+  "Nova | Moon in Libra": {
+    "def_index": 35,
+    "paint_index": 450
+  },
+  "AK-47 | Crossfade": {
+    "def_index": 7,
+    "paint_index": 912
+  },
+  "M4A4 | Desolate Space": {
+    "def_index": 16,
+    "paint_index": 588
+  },
+  "P2000 | Fire Elemental": {
+    "def_index": 32,
+    "paint_index": 389
+  },
+  "MP7 | Just Smile": {
+    "def_index": 33,
+    "paint_index": 1163
+  },
+  "MAC-10 | Derailment": {
+    "def_index": 17,
+    "paint_index": 1204
+  },
+  "Desert Eagle | Sputnik": {
+    "def_index": 1,
+    "paint_index": 1056
+  },
+  "★ Shadow Daggers | Ultraviolet": {
+    "ignore": true
+  },
+  "★ Hand Wraps | Desert Shamagh": {
+    "def_index": 5032,
+    "paint_index": 10081
+  },
+  "AWP | Containment Breach": {
+    "def_index": 9,
+    "paint_index": 887
+  },
+  "FAMAS | Bad Trip": {
+    "def_index": 10,
+    "paint_index": 1184
+  },
+  "Desert Eagle | Conspiracy": {
+    "def_index": 1,
+    "paint_index": 351
+  },
+  "Glock-18 | Water Elemental": {
+    "def_index": 4,
+    "paint_index": 353
+  },
+  "USP-S | Royal Blue": {
+    "def_index": 61,
+    "paint_index": 332
+  },
+  "AWP | Chrome Cannon": {
+    "def_index": 9,
+    "paint_index": 1170
+  },
+  "AWP | Corticera": {
+    "def_index": 9,
+    "paint_index": 181
+  },
+  "★ Broken Fang Gloves | Needle Point": {
+    "ignore": true
+  },
+  "USP-S | Kill Confirmed": {
+    "def_index": 61,
+    "paint_index": 504
+  },
+  "MAC-10 | Fade": {
+    "def_index": 17,
+    "paint_index": 38
+  },
+  "P2000 | Wicked Sick": {
+    "def_index": 32,
+    "paint_index": 1224
+  },
+  "XM1014 | Entombed": {
+    "def_index": 25,
+    "paint_index": 970
+  },
+  "MP7 | Abyssal Apparition": {
+    "def_index": 33,
+    "paint_index": 1133
+  },
+  "FAMAS | Commemoration": {
+    "def_index": 10,
+    "paint_index": 919
+  },
+  "AWP | Capillary": {
+    "def_index": 9,
+    "paint_index": 943
+  },
+  "Galil AR | Tuxedo": {
+    "def_index": 13,
+    "paint_index": 297
+  },
+  "P250 | Valence": {
+    "def_index": 36,
+    "paint_index": 426
+  },
+  "Glock-18 | Winterized": {
+    "def_index": 4,
+    "paint_index": 1158
+  },
+  "USP-S | Guardian": {
+    "def_index": 61,
+    "paint_index": 290
+  },
+  "M4A4 | Magnesium": {
+    "def_index": 16,
+    "paint_index": 811
+  },
+  "SG 553 | Cyrex": {
+    "def_index": 39,
+    "paint_index": 487
+  },
+  "SSG 08 | Rapid Transit": {
+    "def_index": 40,
+    "paint_index": 128
+  },
+  "M4A4 | In Living Color": {
+    "def_index": 16,
+    "paint_index": 1041
+  },
+  "★ Survival Knife": {
+    "ignore": true
+  },
+  "Desert Eagle | Heat Treated": {
+    "def_index": 1,
+    "paint_index": 1054
+  },
+  "MP9 | Cobalt Paisley": {
+    "def_index": 34,
+    "paint_index": 1258
+  },
+  "USP-S | Black Lotus": {
+    "def_index": 61,
+    "paint_index": 1102
+  },
+  "M4A1-S | Flashback": {
+    "def_index": 60,
+    "paint_index": 631
+  },
+  "AK-47 | Ice Coaled": {
+    "def_index": 7,
+    "paint_index": 1143
+  },
+  "M4A1-S | Black Lotus": {
+    "def_index": 60,
+    "paint_index": 1166
+  },
+  "AK-47 | Blue Laminate": {
+    "def_index": 7,
+    "paint_index": 226
+  },
+  "AUG | Amber Fade": {
+    "def_index": 8,
+    "paint_index": 246
+  },
+  "Glock-18 | Mirror Mosaic": {
+    "def_index": 4,
+    "paint_index": 1348
+  },
+  "'Blueberries' Buckshot | NSWC SEAL": {
+    "ignore": true
+  },
+  "Glock-18 | Groundwater": {
+    "def_index": 4,
+    "paint_index": 2
+  },
+  "★ Hydra Gloves | Rattler": {
+    "ignore": true
+  },
+  "★ Driver Gloves | Racing Green": {
+    "ignore": true
+  },
+  "★ Navaja Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "Glock-18 | Block-18": {
+    "def_index": 4,
+    "paint_index": 1167
+  },
+  "★ Hand Wraps | Giraffe": {
+    "def_index": 5032,
+    "paint_index": 10082
+  },
+  "FAMAS | Rapid Eye Movement": {
+    "def_index": 10,
+    "paint_index": 1127
+  },
+  "Glock-18 | Vogue": {
+    "def_index": 4,
+    "paint_index": 963
+  },
+  "AK-47 | Legion of Anubis": {
+    "def_index": 7,
+    "paint_index": 959
+  },
+  "AWP | Electric Hive": {
+    "def_index": 9,
+    "paint_index": 227
+  },
+  "SCAR-20 | Trail Blazer": {
+    "def_index": 38,
+    "paint_index": 117
+  },
+  "CZ75-Auto | Midnight Palm": {
+    "def_index": 63,
+    "paint_index": 933
+  },
+  "AK-47 | Inheritance": {
+    "def_index": 7,
+    "paint_index": 1171
+  },
+  "SSG 08 | Carbon Fiber": {
+    "def_index": 40,
+    "paint_index": 70
+  },
+  "M4A1-S | Nitro": {
+    "def_index": 60,
+    "paint_index": 254
+  },
+  "AWP | Atheris": {
+    "def_index": 9,
+    "paint_index": 838
+  },
+  "AWP | Printstream": {
+    "def_index": 9,
+    "paint_index": 1206
+  },
+  "Desert Eagle | Meteorite": {
+    "def_index": 1,
+    "paint_index": 296
+  },
+  "★ Specialist Gloves | Buckshot": {
+    "ignore": true
+  },
+  "Galil AR | Dusk Ruins": {
+    "def_index": 13,
+    "paint_index": 1032
+  },
+  "M4A4 | Neo-Noir": {
+    "def_index": 16,
+    "paint_index": 695
+  },
+  "M4A1-S | Liquidation": {
+    "def_index": 60,
+    "paint_index": 1340
+  },
+  "MP9 | Starlight Protector": {
+    "def_index": 34,
+    "paint_index": 1134
+  },
+  "SSG 08 | Acid Fade": {
+    "def_index": 40,
+    "paint_index": 253
+  },
+  "Glock-18 | Candy Apple": {
+    "def_index": 4,
+    "paint_index": 3
+  },
+  "USP-S | Cyrex": {
+    "def_index": 61,
+    "paint_index": 637
+  },
+  "Negev | Lionfish": {
+    "def_index": 28,
+    "paint_index": 698
+  },
+  "AUG | Arctic Wolf": {
+    "def_index": 8,
+    "paint_index": 886
+  },
+  "★ Kukri Knife | Stained": {
+    "ignore": true
+  },
+  "PP-Bizon | Night Riot": {
+    "def_index": 26,
+    "paint_index": 692
+  },
+  "SG 553 | Damascus Steel": {
+    "def_index": 39,
+    "paint_index": 247
+  },
+  "M4A1-S | Solitude": {
+    "def_index": 60,
+    "paint_index": 1338
+  },
+  "USP-S | Cortex": {
+    "def_index": 61,
+    "paint_index": 705
+  },
+  "AK-47 | Slate": {
+    "def_index": 7,
+    "paint_index": 1035
+  },
+  "AWP | Mortis": {
+    "def_index": 9,
+    "paint_index": 691
+  },
+  "Austin 2025 Viewer Pass": {
+    "ignore": true
+  },
+  "Desert Eagle | Mecha Industries": {
+    "def_index": 1,
+    "paint_index": 805
+  },
+  "AK-47 | Midnight Laminate": {
+    "def_index": 7,
+    "paint_index": 1218
+  },
+  "AUG | Eye of Zapems": {
+    "def_index": 8,
+    "paint_index": 134
+  },
+  "AK-47 | Nightwish": {
+    "def_index": 7,
+    "paint_index": 1141
+  },
+  "MP9 | Hydra": {
+    "def_index": 34,
+    "paint_index": 910
+  },
+  "USP-S | Dark Water": {
+    "def_index": 61,
+    "paint_index": 60
+  },
+  "AUG | Random Access": {
+    "def_index": 8,
+    "paint_index": 779
+  },
+  "AK-47 | Uncharted": {
+    "def_index": 7,
+    "paint_index": 836
+  },
+  "USP-S | Jawbreaker": {
+    "def_index": 61,
+    "paint_index": 1173
+  },
+  "★ StatTrak™ Kukri Knife | Scorched": {
+    "ignore": true
+  },
+  "★ Ursus Knife | Stained": {
+    "ignore": true
+  },
+  "XM1014 | Zombie Offensive": {
+    "def_index": 25,
+    "paint_index": 1135
+  },
+  "M4A4 | Tooth Fairy": {
+    "def_index": 16,
+    "paint_index": 971
+  },
+  "Glock-18 | Reactor": {
+    "def_index": 4,
+    "paint_index": 367
+  },
+  "★ Driver Gloves | Queen Jaguar": {
+    "ignore": true
+  },
+  "USP-S | Serum": {
+    "def_index": 61,
+    "paint_index": 221
+  },
+  "P250 | Epicenter": {
+    "def_index": 36,
+    "paint_index": 130
+  },
+  "AWP | Neo-Noir": {
+    "def_index": 9,
+    "paint_index": 803
+  },
+  "FAMAS | Yeti Camo": {
+    "def_index": 10,
+    "paint_index": 1219
+  },
+  "P250 | Supernova": {
+    "def_index": 36,
+    "paint_index": 358
+  },
+  "MAC-10 | Saibā Oni": {
+    "def_index": 17,
+    "paint_index": 126
+  },
+  "★ StatTrak™ Shadow Daggers | Lore": {
+    "ignore": true
+  },
+  "Nova | Ocular": {
+    "def_index": 35,
+    "paint_index": 1350
+  },
+  "P2000 | Amber Fade": {
+    "def_index": 32,
+    "paint_index": 246
+  },
+  "USP-S | Torque": {
+    "def_index": 61,
+    "paint_index": 489
+  },
+  "USP-S | Forest Leaves": {
+    "def_index": 61,
+    "paint_index": 25
+  },
+  "AK-47 | Head Shot": {
+    "def_index": 7,
+    "paint_index": 1221
+  },
+  "★ Kukri Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "M4A4 | Global Offensive": {
+    "def_index": 16,
+    "paint_index": 993
+  },
+  "M4A4 | Polysoup": {
+    "def_index": 16,
+    "paint_index": 874
+  },
+  "★ Ursus Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "★ Bowie Knife | Rust Coat": {
+    "ignore": true
+  },
+  "★ Paracord Knife | Stained": {
+    "ignore": true
+  },
+  "★ Shadow Daggers | Lore": {
+    "ignore": true
+  },
+  "Glock-18 | Umbral Rabbit": {
+    "def_index": 4,
+    "paint_index": 1227
+  },
+  "M4A1-S | Night Terror": {
+    "def_index": 60,
+    "paint_index": 1130
+  },
+  "M4A1-S | Guardian": {
+    "def_index": 60,
+    "paint_index": 257
+  },
+  "★ Kukri Knife | Night Stripe": {
+    "ignore": true
+  },
+  "AK-47 | Frontside Misty": {
+    "def_index": 7,
+    "paint_index": 490
+  },
+  "Sawed-Off | Kiss♥Love": {
+    "def_index": 29,
+    "paint_index": 1155
+  },
+  "P90 | ScaraB Rush": {
+    "def_index": 19,
+    "paint_index": 1250
+  },
+  "USP-S | Alpine Camo": {
+    "def_index": 61,
+    "paint_index": 830
+  },
+  "AWP | PAW": {
+    "def_index": 9,
+    "paint_index": 718
+  },
+  "★ Flip Knife | Scorched": {
+    "ignore": true
+  },
+  "USP-S | Printstream": {
+    "def_index": 61,
+    "paint_index": 1142
+  },
+  "★ Moto Gloves | Turtle": {
+    "ignore": true
+  },
+  "M4A1-S | Leaded Glass": {
+    "def_index": 60,
+    "paint_index": 681
+  },
+  "M4A4 | Spider Lily": {
+    "def_index": 16,
+    "paint_index": 1097
+  },
+  "Five-SeveN | Silver Quartz": {
+    "def_index": 3,
+    "paint_index": 252
+  },
+  "MP9 | Mount Fuji": {
+    "def_index": 34,
+    "paint_index": 1094
+  },
+  "Galil AR | Rainbow Spoon": {
+    "def_index": 13,
+    "paint_index": 1178
+  },
+  "M4A4 | Temukau": {
+    "def_index": 16,
+    "paint_index": 1228
+  },
+  "★ Paracord Knife": {
+    "ignore": true
+  },
+  "MAC-10 | Disco Tech": {
+    "def_index": 17,
+    "paint_index": 947
+  },
+  "★ Survival Knife | Stained": {
+    "ignore": true
+  },
+  "Desert Eagle | Serpent Strike": {
+    "def_index": 1,
+    "paint_index": 1189
+  },
+  "★ StatTrak™ Navaja Knife": {
+    "ignore": true
+  },
+  "★ Huntsman Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "USP-S | Caiman": {
+    "def_index": 61,
+    "paint_index": 339
+  },
+  "★ Hand Wraps | Arboreal": {
+    "def_index": 5032,
+    "paint_index": 10056
+  },
+  "★ Classic Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "Desert Eagle | Crimson Web": {
+    "def_index": 1,
+    "paint_index": 232
+  },
+  "Desert Eagle | Kumicho Dragon": {
+    "def_index": 1,
+    "paint_index": 527
+  },
+  "★ Survival Knife | Night Stripe": {
+    "ignore": true
+  },
+  "★ Gut Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "★ Moto Gloves | POW!": {
+    "ignore": true
+  },
+  "M4A1-S | VariCamo": {
+    "def_index": 60,
+    "paint_index": 235
+  },
+  "★ Bowie Knife | Black Laminate": {
+    "ignore": true
+  },
+  "P250 | Red Tide": {
+    "def_index": 36,
+    "paint_index": 1315
+  },
+  "Galil AR | Control": {
+    "def_index": 13,
+    "paint_index": 1185
+  },
+  "Blackwolf | Sabre": {
+    "ignore": true
+  },
+  "Desert Eagle | Mint Fan": {
+    "def_index": 1,
+    "paint_index": 1257
+  },
+  "XM1014 | Red Python": {
+    "def_index": 25,
+    "paint_index": 320
+  },
+  "AWP | Arsenic Spill": {
+    "def_index": 9,
+    "paint_index": 1324
+  },
+  "MP9 | Airlock": {
+    "def_index": 34,
+    "paint_index": 609
+  },
+  "Desert Eagle | Code Red": {
+    "def_index": 1,
+    "paint_index": 711
+  },
+  "AWP | Redline": {
+    "def_index": 9,
+    "paint_index": 259
+  },
+  "AWP | Hyper Beast": {
+    "def_index": 9,
+    "paint_index": 475
+  },
+  "★ Navaja Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "★ Kukri Knife | Blue Steel": {
+    "ignore": true
+  },
+  "AUG | Lil' Pig": {
+    "def_index": 8,
+    "paint_index": 173
+  },
+  "AWP | Elite Build": {
+    "def_index": 9,
+    "paint_index": 525
+  },
+  "★ Gut Knife | Bright Water": {
+    "ignore": true
+  },
+  "USP-S | Ticket to Hell": {
+    "def_index": 61,
+    "paint_index": 1136
+  },
+  "M4A1-S | Emphorosaur-S": {
+    "def_index": 60,
+    "paint_index": 1223
+  },
+  "★ Huntsman Knife | Rust Coat": {
+    "ignore": true
+  },
+  "FAMAS | Djinn": {
+    "def_index": 10,
+    "paint_index": 429
+  },
+  "M4A4 | Full Throttle": {
+    "def_index": 16,
+    "paint_index": 1353
+  },
+  "★ Gut Knife | Black Laminate": {
+    "ignore": true
+  },
+  "★ Falchion Knife | Lore": {
+    "ignore": true
+  },
+  "Glock-18 | Nuclear Garden": {
+    "def_index": 4,
+    "paint_index": 789
+  },
+  "SG 553 | Dragon Tech": {
+    "def_index": 39,
+    "paint_index": 1151
+  },
+  "AWP | Ice Coaled": {
+    "def_index": 9,
+    "paint_index": 1346
+  },
+  "MP5-SD | Gauss": {
+    "def_index": 23,
+    "paint_index": 846
+  },
+  "M4A4 | Evil Daimyo": {
+    "def_index": 16,
+    "paint_index": 480
+  },
+  "Galil AR | Crimson Tsunami": {
+    "def_index": 13,
+    "paint_index": 647
+  },
+  "FAMAS | Eye of Athena": {
+    "def_index": 10,
+    "paint_index": 723
+  },
+  "AWP | Duality": {
+    "def_index": 9,
+    "paint_index": 1222
+  },
+  "USP-S | Orion": {
+    "def_index": 61,
+    "paint_index": 313
+  },
+  "Jungle Rebel | Elite Crew": {
+    "ignore": true
+  },
+  "FAMAS | Mecha Industries": {
+    "def_index": 10,
+    "paint_index": 626
+  },
+  "★ Huntsman Knife | Black Laminate": {
+    "ignore": true
+  },
+  "AUG | Aristocrat": {
+    "def_index": 8,
+    "paint_index": 583
+  },
+  "AWP | Phobos": {
+    "def_index": 9,
+    "paint_index": 584
+  },
+  "XM1014 | Black Tie": {
+    "def_index": 25,
+    "paint_index": 557
+  },
+  "P90 | Chopper": {
+    "def_index": 19,
+    "paint_index": 593
+  },
+  "SSG 08 | Fever Dream": {
+    "def_index": 40,
+    "paint_index": 956
+  },
+  "XM1014 | Incinegator": {
+    "def_index": 25,
+    "paint_index": 850
+  },
+  "MP5-SD | Kitbash": {
+    "def_index": 23,
+    "paint_index": 974
+  },
+  "AUG | Stymphalian": {
+    "def_index": 8,
+    "paint_index": 690
+  },
+  "★ Gut Knife | Scorched": {
+    "ignore": true
+  },
+  "AWP | Wildfire": {
+    "def_index": 9,
+    "paint_index": 917
+  },
+  "AK-47 | Redline": {
+    "def_index": 7,
+    "paint_index": 282
+  },
+  "★ Gut Knife | Stained": {
+    "ignore": true
+  },
+  "'Two Times' McCoy | TACP Cavalry": {
+    "ignore": true
+  },
+  "Nova | Rising Sun": {
+    "def_index": 35,
+    "paint_index": 1192
+  },
+  "FAMAS | Pulse": {
+    "def_index": 10,
+    "paint_index": 260
+  },
+  "P90 | Wave Breaker": {
+    "def_index": 19,
+    "paint_index": 1190
+  },
+  "P2000 | Sure Grip": {
+    "def_index": 32,
+    "paint_index": 1181
+  },
+  "AK-47 | Steel Delta": {
+    "def_index": 7,
+    "paint_index": 1238
+  },
+  "USP-S | Flashback": {
+    "def_index": 61,
+    "paint_index": 817
+  },
+  "CZ75-Auto | Tigris": {
+    "def_index": 63,
+    "paint_index": 350
+  },
+  "Desert Eagle | Oxide Blaze": {
+    "def_index": 1,
+    "paint_index": 645
+  },
+  "Galil AR | Akoben": {
+    "def_index": 13,
+    "paint_index": 842
+  },
+  "FAMAS | Decommissioned": {
+    "def_index": 10,
+    "paint_index": 904
+  },
+  "Five-SeveN | Buddy": {
+    "def_index": 3,
+    "paint_index": 906
+  },
+  "Sawed-Off | Apocalypto": {
+    "def_index": 29,
+    "paint_index": 953
+  },
+  "Desert Eagle | Light Rail": {
+    "def_index": 1,
+    "paint_index": 841
+  },
+  "SCAR-20 | Wild Berry": {
+    "def_index": 38,
+    "paint_index": 883
+  },
+  "Glock-18 | Gold Toof": {
+    "def_index": 4,
+    "paint_index": 129
+  },
+  "MAC-10 | Propaganda": {
+    "def_index": 17,
+    "paint_index": 1067
+  },
+  "UMP-45 | Momentum": {
+    "def_index": 24,
+    "paint_index": 802
+  },
+  "AWP | Exoskeleton": {
+    "def_index": 9,
+    "paint_index": 975
+  },
+  "AWP | Pit Viper": {
+    "def_index": 9,
+    "paint_index": 251
+  },
+  "Berlin 2019 Minor Challengers (Holo/Foil)": {
+    "ignore": true
+  },
+  "M4A1-S | Glitched Paint": {
+    "def_index": 60,
+    "paint_index": 1311
+  },
+  "AK-47 | Elite Build": {
+    "def_index": 7,
+    "paint_index": 422
+  },
+  "SCAR-20 | Powercore": {
+    "def_index": 38,
+    "paint_index": 612
+  },
+  "AK-47 | Red Laminate": {
+    "def_index": 7,
+    "paint_index": 14
+  },
+  "CZ75-Auto | Pole Position": {
+    "def_index": 63,
+    "paint_index": 435
+  },
+  "USP-S | Bleeding Edge": {
+    "def_index": 61,
+    "paint_index": 1323
+  },
+  "Desert Eagle | Mulberry": {
+    "def_index": 1,
+    "paint_index": 1318
+  },
+  "AWP | Crakow!": {
+    "def_index": 9,
+    "paint_index": 137
+  },
+  "AK-47 | Neon Rider": {
+    "def_index": 7,
+    "paint_index": 707
+  },
+  "M4A1-S | Fizzy POP": {
+    "def_index": 60,
+    "paint_index": 1059
+  },
+  "M4A4 | Sheet Lightning": {
+    "def_index": 16,
+    "paint_index": 1281
+  },
+  "UMP-45 | Crimson Foil": {
+    "def_index": 24,
+    "paint_index": 412
+  },
+  "Zeus x27 | Tosai": {
+    "def_index": 31,
+    "paint_index": 1183
+  },
+  "USP-S | Royal Guard": {
+    "def_index": 61,
+    "paint_index": 1217
+  },
+  "P2000 | Red Wing": {
+    "def_index": 32,
+    "paint_index": 1342
+  },
+  "Glock-18 | Bullet Queen": {
+    "def_index": 4,
+    "paint_index": 957
+  },
+  "M4A4 | Turbine": {
+    "def_index": 16,
+    "paint_index": 118
+  },
+  "★ Bowie Knife | Freehand": {
+    "ignore": true
+  },
+  "Desert Eagle | Corinthian": {
+    "def_index": 1,
+    "paint_index": 509
+  },
+  "M249 | Downtown": {
+    "def_index": 14,
+    "paint_index": 1148
+  },
+  "Zeus x27 | Olympus": {
+    "def_index": 31,
+    "paint_index": 1172
+  },
+  "M4A4 | Urban DDPAT": {
+    "def_index": 16,
+    "paint_index": 17
+  },
+  "MP9 | Orange Peel": {
+    "def_index": 34,
+    "paint_index": 141
+  },
+  "★ Bowie Knife | Autotronic": {
+    "ignore": true
+  },
+  "Bio-Haz Specialist | SWAT": {
+    "ignore": true
+  },
+  "★ Nomad Knife | Scorched": {
+    "ignore": true
+  },
+  "Nova | Exo": {
+    "def_index": 35,
+    "paint_index": 590
+  },
+  "★ Huntsman Knife | Freehand": {
+    "ignore": true
+  },
+  "AK-47 | Green Laminate": {
+    "def_index": 7,
+    "paint_index": 1070
+  },
+  "AK-47 | Cartel": {
+    "def_index": 7,
+    "paint_index": 394
+  },
+  "Galil AR | Eco": {
+    "def_index": 13,
+    "paint_index": 428
+  },
+  "Galil AR | Vandal": {
+    "def_index": 13,
+    "paint_index": 981
+  },
+  "Glock-18 | Weasel": {
+    "def_index": 4,
+    "paint_index": 607
+  },
+  "Five-SeveN | Boost Protocol": {
+    "def_index": 3,
+    "paint_index": 1093
+  },
+  "AK-47 | Nouveau Rouge": {
+    "def_index": 7,
+    "paint_index": 1309
+  },
+  "★ Moto Gloves | Finish Line": {
+    "ignore": true
+  },
+  "MP9 | Arctic Tri-Tone": {
+    "def_index": 34,
+    "paint_index": 331
+  },
+  "M249 | System Lock": {
+    "def_index": 14,
+    "paint_index": 401
+  },
+  "MP7 | Fade": {
+    "def_index": 33,
+    "paint_index": 752
+  },
+  "R8 Revolver | Reboot": {
+    "def_index": 64,
+    "paint_index": 595
+  },
+  "Desert Eagle | Urban Rubble": {
+    "def_index": 1,
+    "paint_index": 237
+  },
+  "MP9 | Goo": {
+    "def_index": 34,
+    "paint_index": 679
+  },
+  "M4A4 | Etch Lord": {
+    "def_index": 16,
+    "paint_index": 1165
+  },
+  "MP9 | Nexus": {
+    "def_index": 34,
+    "paint_index": 1193
+  },
+  "Desert Eagle | Trigger Discipline": {
+    "def_index": 1,
+    "paint_index": 1050
+  },
+  "MAC-10 | Stalker": {
+    "def_index": 17,
+    "paint_index": 898
+  },
+  "USP-S | 27": {
+    "def_index": 61,
+    "paint_index": 115
+  },
+  "AK-47 | Wintergreen": {
+    "def_index": 7,
+    "paint_index": 1283
+  },
+  "M4A4 | Converter": {
+    "def_index": 16,
+    "paint_index": 793
+  },
+  "MAC-10 | Sakkaku": {
+    "def_index": 17,
+    "paint_index": 1229
+  },
+  "★ Survival Knife | Urban Masked": {
+    "ignore": true
+  },
+  "★ Paracord Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "★ Nomad Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "M4A1-S | Atomic Alloy": {
+    "def_index": 60,
+    "paint_index": 301
+  },
+  "FAMAS | Neural Net": {
+    "def_index": 10,
+    "paint_index": 477
+  },
+  "AWP | Worm God": {
+    "def_index": 9,
+    "paint_index": 424
+  },
+  "★ Paracord Knife | Crimson Web": {
+    "ignore": true
+  },
+  "Nova | Bloomstick": {
+    "def_index": 35,
+    "paint_index": 62
+  },
+  "MP7 | Nemesis": {
+    "def_index": 33,
+    "paint_index": 481
+  },
+  "Tec-9 | Whiteout": {
+    "def_index": 30,
+    "paint_index": 1214
+  },
+  "★ Huntsman Knife | Lore": {
+    "ignore": true
+  },
+  "MP9 | Latte Rush": {
+    "def_index": 34,
+    "paint_index": 1211
+  },
+  "Glock-18 | Wasteland Rebel": {
+    "def_index": 4,
+    "paint_index": 586
+  },
+  "AK-47 | Point Disarray": {
+    "def_index": 7,
+    "paint_index": 506
+  },
+  "Five-SeveN | Urban Hazard": {
+    "def_index": 3,
+    "paint_index": 387
+  },
+  "AWP | Sun in Leo": {
+    "def_index": 9,
+    "paint_index": 451
+  },
+  "AWP | POP AWP": {
+    "def_index": 9,
+    "paint_index": 1058
+  },
+  "Glock-18 | Coral Bloom": {
+    "def_index": 4,
+    "paint_index": 1312
+  },
+  "Five-SeveN | Violent Daimyo": {
+    "def_index": 3,
+    "paint_index": 585
+  },
+  "Desert Eagle | Directive": {
+    "def_index": 1,
+    "paint_index": 603
+  },
+  "CZ75-Auto | Red Astor": {
+    "def_index": 63,
+    "paint_index": 543
+  },
+  "Desert Eagle | Naga": {
+    "def_index": 1,
+    "paint_index": 397
+  },
+  "UMP-45 | Neo-Noir": {
+    "def_index": 24,
+    "paint_index": 131
+  },
+  "M4A1-S | Vaporwave": {
+    "def_index": 60,
+    "paint_index": 106
+  },
+  "P2000 | Acid Etched": {
+    "def_index": 32,
+    "paint_index": 951
+  },
+  "M4A1-S | Bright Water": {
+    "def_index": 60,
+    "paint_index": 189
+  },
+  "MAC-10 | Nuclear Garden": {
+    "def_index": 17,
+    "paint_index": 372
+  },
+  "AK-47 | Safety Net": {
+    "def_index": 7,
+    "paint_index": 795
+  },
+  "Galil AR | Cerberus": {
+    "def_index": 13,
+    "paint_index": 379
+  },
+  "Markus Delrow | FBI HRT": {
+    "ignore": true
+  },
+  "USP-S | Neo-Noir": {
+    "def_index": 61,
+    "paint_index": 653
+  },
+  "M4A1-S | Control Panel": {
+    "def_index": 60,
+    "paint_index": 792
+  },
+  "Dual Berettas | Anodized Navy": {
+    "def_index": 2,
+    "paint_index": 28
+  },
+  "PP-Bizon | Urban Dashed": {
+    "def_index": 26,
+    "paint_index": 149
+  },
+  "★ Kukri Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "AWP | Green Energy": {
+    "def_index": 9,
+    "paint_index": 1280
+  },
+  "CZ75-Auto | Polymer": {
+    "def_index": 63,
+    "paint_index": 622
+  },
+  "Chem-Haz Capitaine | Gendarmerie Nationale": {
+    "ignore": true
+  },
+  "SSG 08 | Zeno": {
+    "def_index": 40,
+    "paint_index": 513
+  },
+  "Sawed-Off | Analog Input": {
+    "def_index": 29,
+    "paint_index": 1160
+  },
+  "P90 | Shapewood": {
+    "def_index": 19,
+    "paint_index": 516
+  },
+  "★ Paracord Knife | Night Stripe": {
+    "ignore": true
+  },
+  "USP-S | Tropical Breeze": {
+    "def_index": 61,
+    "paint_index": 1284
+  },
+  "Operator | FBI SWAT": {
+    "ignore": true
+  },
+  "AK-47 | VariCamo Grey": {
+    "def_index": 7,
+    "paint_index": 1288
+  },
+  "Sawed-Off | Wasteland Princess": {
+    "def_index": 29,
+    "paint_index": 638
+  },
+  "AUG | Luxe Trim": {
+    "def_index": 8,
+    "paint_index": 121
+  },
+  "Tec-9 | Sandstorm": {
+    "def_index": 30,
+    "paint_index": 289
+  },
+  "SG 553 | Darkwing": {
+    "def_index": 39,
+    "paint_index": 955
+  },
+  "P90 | Neoqueen": {
+    "def_index": 19,
+    "paint_index": 1233
+  },
+  "USP-S | Stainless": {
+    "def_index": 61,
+    "paint_index": 277
+  },
+  "★ Survival Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "★ StatTrak™ Ursus Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "Desert Eagle | Blue Ply": {
+    "def_index": 1,
+    "paint_index": 945
+  },
+  "AWP | Asiimov": {
+    "def_index": 9,
+    "paint_index": 279
+  },
+  "CZ75-Auto | Xiangliu": {
+    "def_index": 63,
+    "paint_index": 643
+  },
+  "Lieutenant 'Tree Hugger' Farlow | SWAT": {
+    "ignore": true
+  },
+  "Sawed-Off | Limelight": {
+    "def_index": 29,
+    "paint_index": 596
+  },
+  "Zeus x27 | Charged Up": {
+    "def_index": 31,
+    "paint_index": 1205
+  },
+  "★ Nomad Knife | Urban Masked": {
+    "ignore": true
+  },
+  "UMP-45 | Roadblock": {
+    "def_index": 24,
+    "paint_index": 1157
+  },
+  "Dual Berettas | Flora Carnivora": {
+    "def_index": 2,
+    "paint_index": 1156
+  },
+  "★ StatTrak™ Shadow Daggers | Black Laminate": {
+    "ignore": true
+  },
+  "Five-SeveN | Hot Shot": {
+    "def_index": 3,
+    "paint_index": 377
+  },
+  "AWP | Acheron": {
+    "def_index": 9,
+    "paint_index": 788
+  },
+  "SSG 08 | Big Iron": {
+    "def_index": 40,
+    "paint_index": 503
+  },
+  "★ Broken Fang Gloves | Unhinged": {
+    "ignore": true
+  },
+  "AK-47 | Olive Polycam": {
+    "def_index": 7,
+    "paint_index": 1179
+  },
+  "USP-S | Purple DDPAT": {
+    "def_index": 61,
+    "paint_index": 818
+  },
+  "M4A1-S | Dark Water": {
+    "def_index": 60,
+    "paint_index": 60
+  },
+  "★ Navaja Knife | Tiger Tooth": {
+    "ignore": true
+  },
+  "P90 | Nostalgia": {
+    "def_index": 19,
+    "paint_index": 911
+  },
+  "★ Ursus Knife | Rust Coat": {
+    "ignore": true
+  },
+  "Dual Berettas | Hemoglobin": {
+    "def_index": 2,
+    "paint_index": 220
+  },
+  "AUG | Syd Mead": {
+    "def_index": 8,
+    "paint_index": 601
+  },
+  "MP7 | Orange Peel": {
+    "def_index": 33,
+    "paint_index": 141
+  },
+  "Copenhagen 2024 Viewer Pass + 3 Souvenir Tokens": {
+    "ignore": true
+  },
+  "SSG 08 | Turbo Peek": {
+    "def_index": 40,
+    "paint_index": 1101
+  },
+  "★ Shadow Daggers | Autotronic": {
+    "ignore": true
+  },
+  "★ Paracord Knife | Scorched": {
+    "ignore": true
+  },
+  "★ Nomad Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "Dual Berettas | Twin Turbo": {
+    "def_index": 2,
+    "paint_index": 747
+  },
+  "AUG | Chameleon": {
+    "def_index": 8,
+    "paint_index": 280
+  },
+  "R8 Revolver | Banana Cannon": {
+    "def_index": 64,
+    "paint_index": 1232
+  },
+  "UMP-45 | Arctic Wolf": {
+    "def_index": 24,
+    "paint_index": 704
+  },
+  "Glock-18 | Grinder": {
+    "def_index": 4,
+    "paint_index": 381
+  },
+  "★ Navaja Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "★ Shadow Daggers | Bright Water": {
+    "ignore": true
+  },
+  "R8 Revolver | Fade": {
+    "def_index": 64,
+    "paint_index": 522
+  },
+  "★ Moto Gloves | 3rd Commando Company": {
+    "ignore": true
+  },
+  "MAG-7 | Monster Call": {
+    "def_index": 27,
+    "paint_index": 961
+  },
+  "Five-SeveN | Hybrid": {
+    "def_index": 3,
+    "paint_index": 1168
+  },
+  "G3SG1 | Dream Glade": {
+    "def_index": 11,
+    "paint_index": 1129
+  },
+  "Galil AR | Rocket Pop": {
+    "def_index": 13,
+    "paint_index": 478
+  },
+  "Desert Eagle | Calligraffiti": {
+    "def_index": 1,
+    "paint_index": 114
+  },
+  "G3SG1 | Orange Crash": {
+    "def_index": 11,
+    "paint_index": 545
+  },
+  "Desert Eagle | Heirloom": {
+    "def_index": 1,
+    "paint_index": 273
+  },
+  "Tec-9 | Bamboozle": {
+    "def_index": 30,
+    "paint_index": 839
+  },
+  "SSG 08 | Necropos": {
+    "def_index": 40,
+    "paint_index": 538
+  },
+  "FAMAS | ZX Spectron": {
+    "def_index": 10,
+    "paint_index": 1092
+  },
+  "★ Hydra Gloves | Mangrove": {
+    "ignore": true
+  },
+  "Five-SeveN | Monkey Business": {
+    "def_index": 3,
+    "paint_index": 427
+  },
+  "M4A1-S | Basilisk": {
+    "def_index": 60,
+    "paint_index": 383
+  },
+  "Buckshot | NSWC SEAL": {
+    "ignore": true
+  },
+  "★ Classic Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "Tec-9 | Ice Cap": {
+    "def_index": 30,
+    "paint_index": 599
+  },
+  "FAMAS | Waters of Nephthys": {
+    "def_index": 10,
+    "paint_index": 1241
+  },
+  "Galil AR | Connexion": {
+    "def_index": 13,
+    "paint_index": 972
+  },
+  "Glock-18 | Ironwork": {
+    "def_index": 4,
+    "paint_index": 623
+  },
+  "MAC-10 | Ensnared": {
+    "def_index": 17,
+    "paint_index": 1131
+  },
+  "P2000 | Gnarled": {
+    "def_index": 32,
+    "paint_index": 960
+  },
+  "XM1014 | Mockingbird": {
+    "def_index": 25,
+    "paint_index": 1182
+  },
+  "Glock-18 | Bunsen Burner": {
+    "def_index": 4,
+    "paint_index": 479
+  },
+  "Galil AR | Black Sand": {
+    "def_index": 13,
+    "paint_index": 629
+  },
+  "Tec-9 | Brother": {
+    "def_index": 30,
+    "paint_index": 964
+  },
+  "G3SG1 | Scavenger": {
+    "def_index": 11,
+    "paint_index": 806
+  },
+  "SSG 08 | Mainframe 001": {
+    "def_index": 40,
+    "paint_index": 967
+  },
+  "UMP-45 | Indigo": {
+    "def_index": 24,
+    "paint_index": 333
+  },
+  "XM1014 | Seasons": {
+    "def_index": 25,
+    "paint_index": 654
+  },
+  "UMP-45 | Moonrise": {
+    "def_index": 24,
+    "paint_index": 851
+  },
+  "Tec-9 | Rebel": {
+    "def_index": 30,
+    "paint_index": 1235
+  },
+  "Negev | Power Loader": {
+    "def_index": 28,
+    "paint_index": 514
+  },
+  "3rd Commando Company | KSK": {
+    "ignore": true
+  },
+  "AK-47 | Black Laminate": {
+    "def_index": 7,
+    "paint_index": 172
+  },
+  "M4A4 | Desert-Strike": {
+    "def_index": 16,
+    "paint_index": 336
+  },
+  "★ Classic Knife | Scorched": {
+    "ignore": true
+  },
+  "★ Falchion Knife | Freehand": {
+    "ignore": true
+  },
+  "Desert Eagle | Tilted": {
+    "def_index": 1,
+    "paint_index": 138
+  },
+  "M4A1-S | Moss Quartz": {
+    "def_index": 60,
+    "paint_index": 862
+  },
+  "M4A1-S | Stratosphere": {
+    "def_index": 60,
+    "paint_index": 1216
+  },
+  "★ Bowie Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "CZ75-Auto | Tacticat": {
+    "def_index": 63,
+    "paint_index": 687
+  },
+  "Galil AR | Firefight": {
+    "def_index": 13,
+    "paint_index": 546
+  },
+  "MP7 | Skulls": {
+    "def_index": 33,
+    "paint_index": 11
+  },
+  "AWP | Safari Mesh": {
+    "def_index": 9,
+    "paint_index": 72
+  },
+  "M4A4 | Royal Paladin": {
+    "def_index": 16,
+    "paint_index": 512
+  },
+  "Glock-18 | Off World": {
+    "def_index": 4,
+    "paint_index": 680
+  },
+  "MP7 | Smoking Kills": {
+    "def_index": 33,
+    "paint_index": 1354
+  },
+  "★ Shadow Daggers | Rust Coat": {
+    "ignore": true
+  },
+  "★ Huntsman Knife | Urban Masked": {
+    "ignore": true
+  },
+  "★ Shadow Daggers | Crimson Web": {
+    "ignore": true
+  },
+  "★ Hydra Gloves | Emerald": {
+    "ignore": true
+  },
+  "USP-S | Monster Mashup": {
+    "def_index": 61,
+    "paint_index": 991
+  },
+  "USP-S | Blueprint": {
+    "def_index": 61,
+    "paint_index": 657
+  },
+  "★ Falchion Knife | Black Laminate": {
+    "ignore": true
+  },
+  "MP7 | Cirrus": {
+    "def_index": 33,
+    "paint_index": 627
+  },
+  "MAG-7 | Storm": {
+    "def_index": 27,
+    "paint_index": 100
+  },
+  "MP9 | Sand Scale": {
+    "def_index": 34,
+    "paint_index": 630
+  },
+  "P90 | Storm": {
+    "def_index": 19,
+    "paint_index": 100
+  },
+  "Dual Berettas | Briar": {
+    "def_index": 2,
+    "paint_index": 330
+  },
+  "CZ75-Auto | Army Sheen": {
+    "def_index": 63,
+    "paint_index": 298
+  },
+  "Sawed-Off | Bamboo Shadow": {
+    "def_index": 29,
+    "paint_index": 458
+  },
+  "MP7 | Asterion": {
+    "def_index": 33,
+    "paint_index": 442
+  },
+  "AUG | Daedalus": {
+    "def_index": 8,
+    "paint_index": 444
+  },
+  "R8 Revolver | Crazy 8": {
+    "def_index": 64,
+    "paint_index": 1145
+  },
+  "Glock-18 | Ramese's Reach": {
+    "def_index": 4,
+    "paint_index": 1240
+  },
+  "★ Shadow Daggers | Freehand": {
+    "ignore": true
+  },
+  "Ground Rebel  | Elite Crew": {
+    "ignore": true
+  },
+  "★ Shadow Daggers | Black Laminate": {
+    "ignore": true
+  },
+  "★ Survival Knife | Rust Coat": {
+    "ignore": true
+  },
+  "MAG-7 | BI83 Spectrum": {
+    "def_index": 27,
+    "paint_index": 1089
+  },
+  "M4A1-S | Wash me plz": {
+    "def_index": 60,
+    "paint_index": 160
+  },
+  "Nova | Hyper Beast": {
+    "def_index": 35,
+    "paint_index": 537
+  },
+  "Dual Berettas | Royal Consorts": {
+    "def_index": 2,
+    "paint_index": 625
+  },
+  "UMP-45 | Crime Scene": {
+    "def_index": 24,
+    "paint_index": 1003
+  },
+  "XM1014 | Solitude": {
+    "def_index": 25,
+    "paint_index": 1215
+  },
+  "★ Navaja Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "★ Kukri Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "Nova | Gila": {
+    "def_index": 35,
+    "paint_index": 634
+  },
+  "★ Hand Wraps | Duct Tape": {
+    "def_index": 5032,
+    "paint_index": 10055
+  },
+  "★ Shadow Daggers | Safari Mesh": {
+    "ignore": true
+  },
+  "★ StatTrak™ Survival Knife | Scorched": {
+    "ignore": true
+  },
+  "★ Shadow Daggers | Tiger Tooth": {
+    "ignore": true
+  },
+  "★ Gut Knife | Crimson Web": {
+    "ignore": true
+  },
+  "★ Classic Knife | Night Stripe": {
+    "ignore": true
+  },
+  "★ Hand Wraps | Overprint": {
+    "def_index": 5032,
+    "paint_index": 10054
+  },
+  "XM1014 | Halftone Shift": {
+    "def_index": 25,
+    "paint_index": 834
+  },
+  "★ Gut Knife | Blue Steel": {
+    "ignore": true
+  },
+  "AK-47 | Orbit Mk01": {
+    "def_index": 7,
+    "paint_index": 656
+  },
+  "XM1014 | Watchdog": {
+    "def_index": 25,
+    "paint_index": 1103
+  },
+  "★ Bowie Knife | Scorched": {
+    "ignore": true
+  },
+  "Tec-9 | Isaac": {
+    "def_index": 30,
+    "paint_index": 303
+  },
+  "★ Paracord Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "★ Survival Knife | Scorched": {
+    "ignore": true
+  },
+  "USP-S | Check Engine": {
+    "def_index": 61,
+    "paint_index": 796
+  },
+  "★ Navaja Knife | Rust Coat": {
+    "ignore": true
+  },
+  "UMP-45 | Scaffold": {
+    "def_index": 24,
+    "paint_index": 652
+  },
+  "AK-47 | Wasteland Rebel": {
+    "def_index": 7,
+    "paint_index": 380
+  },
+  "MAG-7 | Core Breach": {
+    "def_index": 27,
+    "paint_index": 787
+  },
+  "Nova | Sobek's Bite": {
+    "def_index": 35,
+    "paint_index": 1247
+  },
+  "★ Driver Gloves | Overtake": {
+    "ignore": true
+  },
+  "AK-47 | Baroque Purple": {
+    "def_index": 7,
+    "paint_index": 745
+  },
+  "MP5-SD | Oxide Oasis": {
+    "def_index": 23,
+    "paint_index": 923
+  },
+  "MAG-7 | Hard Water": {
+    "def_index": 27,
+    "paint_index": 666
+  },
+  "USP-S | Lead Conduit": {
+    "def_index": 61,
+    "paint_index": 540
+  },
+  "Sawed-Off | Highwayman": {
+    "def_index": 29,
+    "paint_index": 390
+  },
+  "Desert Eagle | Bronze Deco": {
+    "def_index": 1,
+    "paint_index": 425
+  },
+  "MP9 | Hypnotic": {
+    "def_index": 34,
+    "paint_index": 61
+  },
+  "M4A1-S | Mud-Spec": {
+    "def_index": 60,
+    "paint_index": 1243
+  },
+  "Nova | Antique": {
+    "def_index": 35,
+    "paint_index": 286
+  },
+  "SG 553 | Pulse": {
+    "def_index": 39,
+    "paint_index": 287
+  },
+  "AK-47 | Rat Rod": {
+    "def_index": 7,
+    "paint_index": 885
+  },
+  "Glock-18 | Catacombs": {
+    "def_index": 4,
+    "paint_index": 399
+  },
+  "★ StatTrak™ Survival Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "Tec-9 | Safety Net": {
+    "def_index": 30,
+    "paint_index": 795
+  },
+  "SG 553 | Integrale": {
+    "def_index": 39,
+    "paint_index": 750
+  },
+  "Five-SeveN | Scrawl": {
+    "def_index": 3,
+    "paint_index": 1128
+  },
+  "Glock-18 | High Beam": {
+    "def_index": 4,
+    "paint_index": 799
+  },
+  "PP-Bizon | Candy Apple": {
+    "def_index": 26,
+    "paint_index": 3
+  },
+  "AUG | Triqua": {
+    "def_index": 8,
+    "paint_index": 674
+  },
+  "Michael Syfers  | FBI Sniper": {
+    "ignore": true
+  },
+  "AK-47 | Jaguar": {
+    "def_index": 7,
+    "paint_index": 316
+  },
+  "Tec-9 | Avalanche": {
+    "def_index": 30,
+    "paint_index": 520
+  },
+  "1st Lieutenant Farlow | SWAT": {
+    "ignore": true
+  },
+  "Desert Eagle | Night Heist": {
+    "def_index": 1,
+    "paint_index": 1006
+  },
+  "Desert Eagle | Urban DDPAT": {
+    "def_index": 1,
+    "paint_index": 17
+  },
+  "MAC-10 | Pipe Down": {
+    "def_index": 17,
+    "paint_index": 812
+  },
+  "P250 | Whiteout": {
+    "def_index": 36,
+    "paint_index": 102
+  },
+  "★ Broken Fang Gloves | Yellow-banded": {
+    "ignore": true
+  },
+  "P90 | Ancient Earth": {
+    "def_index": 19,
+    "paint_index": 1020
+  },
+  "M4A4 | Radiation Hazard": {
+    "def_index": 16,
+    "paint_index": 167
+  },
+  "UMP-45 | Plastique": {
+    "def_index": 24,
+    "paint_index": 916
+  },
+  "P2000 | Silver": {
+    "def_index": 32,
+    "paint_index": 32
+  },
+  "P2000 | Imperial": {
+    "def_index": 32,
+    "paint_index": 515
+  },
+  "MAG-7 | Resupply": {
+    "def_index": 27,
+    "paint_index": 1188
+  },
+  "P250 | Nevermore": {
+    "def_index": 36,
+    "paint_index": 813
+  },
+  "Galil AR | Amber Fade": {
+    "def_index": 13,
+    "paint_index": 246
+  },
+  "Dual Berettas | Sweet Little Angels": {
+    "def_index": 2,
+    "paint_index": 139
+  },
+  "Glock-18 | Warhawk": {
+    "def_index": 4,
+    "paint_index": 713
+  },
+  "★ Kukri Knife | Urban Masked": {
+    "ignore": true
+  },
+  "M4A4 | Naval Shred Camo": {
+    "def_index": 16,
+    "paint_index": 1266
+  },
+  "P250 | Franklin": {
+    "def_index": 36,
+    "paint_index": 295
+  },
+  "P2000 | Pathfinder": {
+    "def_index": 32,
+    "paint_index": 443
+  },
+  "★ StatTrak™ Paracord Knife | Urban Masked": {
+    "ignore": true
+  },
+  "Primeiro Tenente | Brazilian 1st Battalion": {
+    "ignore": true
+  },
+  "★ Falchion Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "M4A4 | Choppa": {
+    "def_index": 16,
+    "paint_index": 1210
+  },
+  "MP5-SD | Necro Jr.": {
+    "def_index": 23,
+    "paint_index": 1137
+  },
+  "P90 | Elite Build": {
+    "def_index": 19,
+    "paint_index": 486
+  },
+  "Galil AR | Stone Cold": {
+    "def_index": 13,
+    "paint_index": 494
+  },
+  "P250 | Hive": {
+    "def_index": 36,
+    "paint_index": 219
+  },
+  "★ Survival Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "M4A1-S | Blood Tiger": {
+    "def_index": 60,
+    "paint_index": 217
+  },
+  "★ Gut Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "PP-Bizon | Runic": {
+    "def_index": 26,
+    "paint_index": 973
+  },
+  "AUG | Sand Storm": {
+    "def_index": 8,
+    "paint_index": 823
+  },
+  "Glock-18 | Blue Fissure": {
+    "def_index": 4,
+    "paint_index": 278
+  },
+  "★ Huntsman Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "★ Kukri Knife | Scorched": {
+    "ignore": true
+  },
+  "★ Survival Knife | Crimson Web": {
+    "ignore": true
+  },
+  "★ Shadow Daggers | Marble Fade": {
+    "ignore": true
+  },
+  "AUG | Carved Jade": {
+    "def_index": 8,
+    "paint_index": 1033
+  },
+  "P250 | Wingshot": {
+    "def_index": 36,
+    "paint_index": 501
+  },
+  "MAC-10 | Ultraviolet": {
+    "def_index": 17,
+    "paint_index": 98
+  },
+  "Galil AR | Signal": {
+    "def_index": 13,
+    "paint_index": 807
+  },
+  "Tec-9 | Remote Control": {
+    "def_index": 30,
+    "paint_index": 791
+  },
+  "AUG | Surveillance": {
+    "def_index": 8,
+    "paint_index": 995
+  },
+  "Dual Berettas | Switch Board": {
+    "def_index": 2,
+    "paint_index": 998
+  },
+  "★ Navaja Knife | Slaughter": {
+    "ignore": true
+  },
+  "M4A4 | Tornado": {
+    "def_index": 16,
+    "paint_index": 101
+  },
+  "MAC-10 | Light Box": {
+    "def_index": 17,
+    "paint_index": 1164
+  },
+  "★ Ursus Knife | Night Stripe": {
+    "ignore": true
+  },
+  "P90 | Module": {
+    "def_index": 19,
+    "paint_index": 335
+  },
+  "★ StatTrak™ Shadow Daggers | Autotronic": {
+    "ignore": true
+  },
+  "★ Bowie Knife | Lore": {
+    "ignore": true
+  },
+  "★ Paracord Knife | Urban Masked": {
+    "ignore": true
+  },
+  "M4A4 | Asiimov": {
+    "def_index": 16,
+    "paint_index": 255
+  },
+  "SSG 08 | Bloodshot": {
+    "def_index": 40,
+    "paint_index": 899
+  },
+  "MP5-SD | Gold Leaf": {
+    "def_index": 23,
+    "paint_index": 1294
+  },
+  "P90 | Randy Rush": {
+    "def_index": 19,
+    "paint_index": 127
+  },
+  "MP7 | Special Delivery": {
+    "def_index": 33,
+    "paint_index": 500
+  },
+  "SSG 08 | Slashed": {
+    "def_index": 40,
+    "paint_index": 304
+  },
+  "P250 | Re.built": {
+    "def_index": 36,
+    "paint_index": 1230
+  },
+  "★ Falchion Knife | Rust Coat": {
+    "ignore": true
+  },
+  "SG 553 | Aerial": {
+    "def_index": 39,
+    "paint_index": 598
+  },
+  "XM1014 | Charter": {
+    "def_index": 25,
+    "paint_index": 994
+  },
+  "★ Huntsman Knife | Scorched": {
+    "ignore": true
+  },
+  "SG 553 | Colony IV": {
+    "def_index": 39,
+    "paint_index": 897
+  },
+  "M249 | Emerald Poison Dart": {
+    "def_index": 14,
+    "paint_index": 648
+  },
+  "Sawed-Off | Devourer": {
+    "def_index": 29,
+    "paint_index": 720
+  },
+  "SG 553 | Triarch": {
+    "def_index": 39,
+    "paint_index": 613
+  },
+  "P250 | Apep's Curse": {
+    "def_index": 36,
+    "paint_index": 1248
+  },
+  "AUG | Trigger Discipline": {
+    "def_index": 8,
+    "paint_index": 1339
+  },
+  "Galil AR | Shattered": {
+    "def_index": 13,
+    "paint_index": 192
+  },
+  "MAG-7 | Carbon Fiber": {
+    "def_index": 27,
+    "paint_index": 70
+  },
+  "Five-SeveN | Heat Treated": {
+    "def_index": 3,
+    "paint_index": 831
+  },
+  "P90 | Vent Rush": {
+    "def_index": 19,
+    "paint_index": 1154
+  },
+  "PP-Bizon | Lumen": {
+    "ignore": true
+  },
+  "P250 | Gunsmoke": {
+    "def_index": 36,
+    "paint_index": 15
+  },
+  "CZ75-Auto | Slalom": {
+    "def_index": 63,
+    "paint_index": 937
+  },
+  "FAMAS | Meow 36": {
+    "def_index": 10,
+    "paint_index": 1146
+  },
+  "SSG 08 | Abyss": {
+    "def_index": 40,
+    "paint_index": 361
+  },
+  "Glock-18 | Teal Graf": {
+    "def_index": 4,
+    "paint_index": 152
+  },
+  "MAC-10 | Pipsqueak": {
+    "def_index": 17,
+    "paint_index": 140
+  },
+  "P250 | Muertos": {
+    "def_index": 36,
+    "paint_index": 404
+  },
+  "CZ75-Auto | Yellow Jacket": {
+    "def_index": 63,
+    "paint_index": 476
+  },
+  "Dual Berettas | Shred": {
+    "def_index": 2,
+    "paint_index": 710
+  },
+  "Tec-9 | Slag": {
+    "def_index": 30,
+    "paint_index": 1159
+  },
+  "M4A4 | Griffin": {
+    "def_index": 16,
+    "paint_index": 384
+  },
+  "SSG 08 | Dragonfire": {
+    "def_index": 40,
+    "paint_index": 624
+  },
+  "M4A1-S | Briefing": {
+    "def_index": 60,
+    "paint_index": 663
+  },
+  "★ Gut Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "★ Specialist Gloves | Foundation": {
+    "ignore": true
+  },
+  "UMP-45 | Fade": {
+    "def_index": 24,
+    "paint_index": 879
+  },
+  "CZ75-Auto | Victoria": {
+    "def_index": 63,
+    "paint_index": 270
+  },
+  "G3SG1 | Digital Mesh": {
+    "def_index": 11,
+    "paint_index": 980
+  },
+  "UMP-45 | Full Stop": {
+    "def_index": 24,
+    "paint_index": 250
+  },
+  "P2000 | Red FragCam": {
+    "def_index": 32,
+    "paint_index": 275
+  },
+  "★ StatTrak™ Falchion Knife | Bright Water": {
+    "ignore": true
+  },
+  "★ Bowie Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "Negev | Bulkhead": {
+    "def_index": 28,
+    "paint_index": 783
+  },
+  "Dual Berettas | Hydro Strike": {
+    "def_index": 2,
+    "paint_index": 112
+  },
+  "SG 553 | Barricade": {
+    "def_index": 39,
+    "paint_index": 861
+  },
+  "XM1014 | Run Run Run": {
+    "def_index": 25,
+    "paint_index": 1201
+  },
+  "SCAR-20 | Bloodsport": {
+    "def_index": 38,
+    "paint_index": 597
+  },
+  "UMP-45 | Continuum": {
+    "def_index": 24,
+    "paint_index": 1351
+  },
+  "CZ75-Auto | Syndicate": {
+    "def_index": 63,
+    "paint_index": 1064
+  },
+  "XM1014 | Quicksilver": {
+    "def_index": 25,
+    "paint_index": 407
+  },
+  "P250 | Bullfrog": {
+    "def_index": 36,
+    "paint_index": 1345
+  },
+  "M4A4 | Hellish": {
+    "def_index": 16,
+    "paint_index": 1209
+  },
+  "★ Huntsman Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "MP9 | Featherweight": {
+    "def_index": 34,
+    "paint_index": 1225
+  },
+  "XM1014 | Red Leather": {
+    "def_index": 25,
+    "paint_index": 348
+  },
+  "XM1014 | Monster Melt": {
+    "def_index": 25,
+    "paint_index": 146
+  },
+  "SG 553 | Ultraviolet": {
+    "def_index": 39,
+    "paint_index": 98
+  },
+  "★ StatTrak™ Falchion Knife | Black Laminate": {
+    "ignore": true
+  },
+  "★ Bowie Knife | Bright Water": {
+    "ignore": true
+  },
+  "FAMAS | 2A2F": {
+    "def_index": 10,
+    "paint_index": 1202
+  },
+  "MAC-10 | Cat Fight": {
+    "def_index": 17,
+    "paint_index": 1349
+  },
+  "★ Shadow Daggers | Scorched": {
+    "ignore": true
+  },
+  "★ Navaja Knife | Crimson Web": {
+    "ignore": true
+  },
+  "Sawed-Off | Spirit Board": {
+    "def_index": 29,
+    "paint_index": 1140
+  },
+  "P90 | Blind Spot": {
+    "def_index": 19,
+    "paint_index": 228
+  },
+  "MAG-7 | SWAG-7": {
+    "def_index": 27,
+    "paint_index": 703
+  },
+  "★ Bowie Knife | Night": {
+    "ignore": true
+  },
+  "FAMAS | Hexane": {
+    "def_index": 10,
+    "paint_index": 218
+  },
+  "P2000 | Royal Baroque": {
+    "def_index": 32,
+    "paint_index": 1259
+  },
+  "★ Nomad Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "P90 | Attack Vector": {
+    "def_index": 19,
+    "paint_index": 936
+  },
+  "Glock-18 | Clear Polymer": {
+    "def_index": 4,
+    "paint_index": 1039
+  },
+  "★ Survival Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "P2000 | Scorpion": {
+    "def_index": 32,
+    "paint_index": 71
+  },
+  "P250 | Contaminant": {
+    "def_index": 36,
+    "paint_index": 982
+  },
+  "MP9 | Ruby Poison Dart": {
+    "def_index": 34,
+    "paint_index": 482
+  },
+  "★ Ursus Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "MAG-7 | Heat": {
+    "def_index": 27,
+    "paint_index": 431
+  },
+  "P90 | Reef Grief": {
+    "def_index": 19,
+    "paint_index": 1256
+  },
+  "Glock-18 | Brass": {
+    "def_index": 4,
+    "paint_index": 159
+  },
+  "★ Kukri Knife | Crimson Web": {
+    "ignore": true
+  },
+  "P250 | Bengal Tiger": {
+    "def_index": 36,
+    "paint_index": 1030
+  },
+  "SSG 08 | Death's Head": {
+    "def_index": 40,
+    "paint_index": 670
+  },
+  "M4A4 | Buzz Kill": {
+    "def_index": 16,
+    "paint_index": 632
+  },
+  "★ StatTrak™ Survival Knife | Rust Coat": {
+    "ignore": true
+  },
+  "★ Falchion Knife | Scorched": {
+    "ignore": true
+  },
+  "★ StatTrak™ Classic Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "★ Falchion Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "P2000 | Dispatch": {
+    "def_index": 32,
+    "paint_index": 997
+  },
+  "Five-SeveN | Kami": {
+    "def_index": 3,
+    "paint_index": 265
+  },
+  "★ Falchion Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "MAG-7 | MAGnitude": {
+    "def_index": 27,
+    "paint_index": 1355
+  },
+  "MP9 | Rose Iron": {
+    "def_index": 34,
+    "paint_index": 262
+  },
+  "AUG | Ricochet": {
+    "def_index": 8,
+    "paint_index": 507
+  },
+  "MP9 | Black Sand": {
+    "def_index": 34,
+    "paint_index": 697
+  },
+  "SSG 08 | Spring Twilly": {
+    "def_index": 40,
+    "paint_index": 1060
+  },
+  "Five-SeveN | Nitro": {
+    "def_index": 3,
+    "paint_index": 254
+  },
+  "XM1014 | Ziggy": {
+    "def_index": 25,
+    "paint_index": 689
+  },
+  "Galil AR | Green Apple": {
+    "def_index": 13,
+    "paint_index": 294
+  },
+  "★ Huntsman Knife | Stained": {
+    "ignore": true
+  },
+  "★ Nomad Knife | Night Stripe": {
+    "ignore": true
+  },
+  "★ Paracord Knife | Blue Steel": {
+    "ignore": true
+  },
+  "MP9 | Capillary": {
+    "def_index": 34,
+    "paint_index": 715
+  },
+  "PP-Bizon | Brass": {
+    "def_index": 26,
+    "paint_index": 159
+  },
+  "Five-SeveN | Withered Vine": {
+    "def_index": 3,
+    "paint_index": 932
+  },
+  "FAMAS | Roll Cage": {
+    "def_index": 10,
+    "paint_index": 604
+  },
+  "Dual Berettas | Angel Eyes": {
+    "def_index": 2,
+    "paint_index": 1347
+  },
+  "M4A4 | Red DDPAT": {
+    "def_index": 16,
+    "paint_index": 926
+  },
+  "UMP-45 | Blaze": {
+    "def_index": 24,
+    "paint_index": 37
+  },
+  "Nova | Wurst Hölle": {
+    "def_index": 35,
+    "paint_index": 145
+  },
+  "★ StatTrak™ Huntsman Knife | Bright Water": {
+    "ignore": true
+  },
+  "SG 553 | Tiger Moth": {
+    "def_index": 39,
+    "paint_index": 519
+  },
+  "P90 | Cold Blooded": {
+    "def_index": 19,
+    "paint_index": 67
+  },
+  "M249 | Contrast Spray": {
+    "def_index": 14,
+    "paint_index": 22
+  },
+  "MP7 | Guerrilla": {
+    "def_index": 33,
+    "paint_index": 1096
+  },
+  "M249 | Jungle": {
+    "def_index": 14,
+    "paint_index": 151
+  },
+  "G3SG1 | Stinger": {
+    "def_index": 11,
+    "paint_index": 628
+  },
+  "AUG | Radiation Hazard": {
+    "def_index": 8,
+    "paint_index": 375
+  },
+  "AUG | Steel Sentinel": {
+    "def_index": 8,
+    "paint_index": 1198
+  },
+  "M4A1-S | Rose Hex": {
+    "def_index": 60,
+    "paint_index": 1319
+  },
+  "★ Huntsman Knife | Bright Water": {
+    "ignore": true
+  },
+  "MP5-SD | Phosphor": {
+    "def_index": 23,
+    "paint_index": 810
+  },
+  "AUG | Wings": {
+    "def_index": 8,
+    "paint_index": 73
+  },
+  "MP7 | Akoben": {
+    "def_index": 33,
+    "paint_index": 649
+  },
+  "SCAR-20 | Army Sheen": {
+    "def_index": 38,
+    "paint_index": 298
+  },
+  "★ Classic Knife | Urban Masked": {
+    "ignore": true
+  },
+  "Galil AR | Sugar Rush": {
+    "def_index": 13,
+    "paint_index": 661
+  },
+  "MAC-10 | Toybox": {
+    "def_index": 17,
+    "paint_index": 1098
+  },
+  "MAC-10 | Amber Fade": {
+    "def_index": 17,
+    "paint_index": 246
+  },
+  "★ Ursus Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "★ Ursus Knife | Urban Masked": {
+    "ignore": true
+  },
+  "PP-Bizon | High Roller": {
+    "def_index": 26,
+    "paint_index": 676
+  },
+  "P250 | Splash": {
+    "def_index": 36,
+    "paint_index": 162
+  },
+  "Galil AR | Sandstorm": {
+    "def_index": 13,
+    "paint_index": 264
+  },
+  "MP9 | Shredded": {
+    "def_index": 34,
+    "paint_index": 1310
+  },
+  "AK-47 | B the Monster": {
+    "def_index": 7,
+    "paint_index": 142
+  },
+  "★ Paracord Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "★ Flip Knife | Urban Masked": {
+    "ignore": true
+  },
+  "P90 | Freight": {
+    "def_index": 19,
+    "paint_index": 969
+  },
+  "SCAR-20 | Palm": {
+    "def_index": 38,
+    "paint_index": 157
+  },
+  "Negev | Nuclear Waste": {
+    "def_index": 28,
+    "paint_index": 369
+  },
+  "CZ75-Auto | Imprint": {
+    "def_index": 63,
+    "paint_index": 602
+  },
+  "Glock-18 | Night": {
+    "def_index": 4,
+    "paint_index": 40
+  },
+  "MAC-10 | Heat": {
+    "def_index": 17,
+    "paint_index": 284
+  },
+  "Zeus x27 | Dragon Snore": {
+    "def_index": 31,
+    "paint_index": 292
+  },
+  "★ Gut Knife | Autotronic": {
+    "ignore": true
+  },
+  "★ StatTrak™ Gut Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "MP9 | Deadly Poison": {
+    "def_index": 34,
+    "paint_index": 403
+  },
+  "AUG | Momentum": {
+    "def_index": 8,
+    "paint_index": 845
+  },
+  "P250 | Cyber Shell": {
+    "def_index": 36,
+    "paint_index": 1044
+  },
+  "MAC-10 | Curse": {
+    "def_index": 17,
+    "paint_index": 310
+  },
+  "G3SG1 | New Roots": {
+    "def_index": 11,
+    "paint_index": 930
+  },
+  "★ Gut Knife | Rust Coat": {
+    "ignore": true
+  },
+  "PP-Bizon | Bamboo Print": {
+    "def_index": 26,
+    "paint_index": 457
+  },
+  "Tec-9 | Bamboo Forest": {
+    "def_index": 30,
+    "paint_index": 459
+  },
+  "MAG-7 | Sand Dune": {
+    "def_index": 27,
+    "paint_index": 99
+  },
+  "★ Classic Knife | Stained": {
+    "ignore": true
+  },
+  "AUG | Bengal Tiger": {
+    "def_index": 8,
+    "paint_index": 9
+  },
+  "Desert Eagle | Cobalt Disruption": {
+    "def_index": 1,
+    "paint_index": 231
+  },
+  "Desert Eagle | Midnight Storm": {
+    "def_index": 1,
+    "paint_index": 468
+  },
+  "Five-SeveN | Nightshade": {
+    "def_index": 3,
+    "paint_index": 223
+  },
+  "★ Gut Knife | Night": {
+    "ignore": true
+  },
+  "★ Bowie Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "P250 | Small Game": {
+    "def_index": 36,
+    "paint_index": 774
+  },
+  "USP-S | Overgrowth": {
+    "def_index": 61,
+    "paint_index": 183
+  },
+  "★ Huntsman Knife | Autotronic": {
+    "ignore": true
+  },
+  "SG 553 | Wave Spray": {
+    "def_index": 39,
+    "paint_index": 186
+  },
+  "MP5-SD | Focus": {
+    "def_index": 23,
+    "paint_index": 1344
+  },
+  "★ Falchion Knife | Bright Water": {
+    "ignore": true
+  },
+  "Glock-18 | Oxide Blaze": {
+    "def_index": 4,
+    "paint_index": 808
+  },
+  "R8 Revolver | Junk Yard": {
+    "def_index": 64,
+    "paint_index": 1047
+  },
+  "★ Classic Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "★ StatTrak™ Paracord Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "★ Ursus Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "★ Broken Fang Gloves | Jade": {
+    "ignore": true
+  },
+  "MAC-10 | Malachite": {
+    "def_index": 17,
+    "paint_index": 402
+  },
+  "★ Navaja Knife | Marble Fade": {
+    "ignore": true
+  },
+  "★ Navaja Knife": {
+    "ignore": true
+  },
+  "★ Moto Gloves | Polygon": {
+    "ignore": true
+  },
+  "★ Paracord Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "★ StatTrak™ Survival Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "★ StatTrak™ Navaja Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "SCAR-20 | Cyrex": {
+    "def_index": 38,
+    "paint_index": 312
+  },
+  "★ Bowie Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "Nova | Yorkshire": {
+    "def_index": 35,
+    "paint_index": 324
+  },
+  "FAMAS | CaliCamo": {
+    "def_index": 10,
+    "paint_index": 240
+  },
+  "Five-SeveN | Flame Test": {
+    "def_index": 3,
+    "paint_index": 693
+  },
+  "★ Gut Knife | Lore": {
+    "ignore": true
+  },
+  "★ Paracord Knife | Rust Coat": {
+    "ignore": true
+  },
+  "Glock-18 | Ocean Topo": {
+    "def_index": 4,
+    "paint_index": 1265
+  },
+  "★ Shadow Daggers | Damascus Steel": {
+    "ignore": true
+  },
+  "P2000 | Turf": {
+    "def_index": 32,
+    "paint_index": 635
+  },
+  "M4A1-S | Mecha Industries": {
+    "def_index": 60,
+    "paint_index": 587
+  },
+  "Desert Eagle | Starcade": {
+    "def_index": 1,
+    "paint_index": 938
+  },
+  "XM1014 | Heaven Guard": {
+    "def_index": 25,
+    "paint_index": 314
+  },
+  "AK-47 | Neon Revolution": {
+    "def_index": 7,
+    "paint_index": 600
+  },
+  "★ Navaja Knife | Scorched": {
+    "ignore": true
+  },
+  "★ Navaja Knife | Stained": {
+    "ignore": true
+  },
+  "★ Survival Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "USP-S | Road Rash": {
+    "def_index": 61,
+    "paint_index": 318
+  },
+  "★ Shadow Daggers | Urban Masked": {
+    "ignore": true
+  },
+  "★ StatTrak™ Shadow Daggers | Rust Coat": {
+    "ignore": true
+  },
+  "Dual Berettas | Emerald": {
+    "def_index": 2,
+    "paint_index": 453
+  },
+  "Galil AR | Metallic Squeezer": {
+    "def_index": 13,
+    "paint_index": 239
+  },
+  "P250 | Cartel": {
+    "def_index": 36,
+    "paint_index": 388
+  },
+  "CZ75-Auto | Crimson Web": {
+    "def_index": 63,
+    "paint_index": 12
+  },
+  "Nova | Graphite": {
+    "def_index": 35,
+    "paint_index": 214
+  },
+  "AUG | Fleet Flock": {
+    "def_index": 8,
+    "paint_index": 541
+  },
+  "G3SG1 | Black Sand": {
+    "def_index": 11,
+    "paint_index": 891
+  },
+  "Nova | Plume": {
+    "def_index": 35,
+    "paint_index": 890
+  },
+  "MP5-SD | Acid Wash": {
+    "def_index": 23,
+    "paint_index": 888
+  },
+  "Dual Berettas | Balance": {
+    "ignore": true
+  },
+  "MAC-10 | Last Dive": {
+    "def_index": 17,
+    "paint_index": 651
+  },
+  "SCAR-20 | Crimson Web": {
+    "def_index": 38,
+    "paint_index": 232
+  },
+  "Desert Eagle | Night": {
+    "def_index": 1,
+    "paint_index": 40
+  },
+  "Dual Berettas | Tread": {
+    "def_index": 2,
+    "paint_index": 1091
+  },
+  "R8 Revolver | Llama Cannon": {
+    "def_index": 64,
+    "paint_index": 683
+  },
+  "Zeus x27 | Electric Blue": {
+    "def_index": 31,
+    "paint_index": 1268
+  },
+  "Glock-18 | Green Line": {
+    "def_index": 4,
+    "paint_index": 1200
+  },
+  "MP9 | Storm": {
+    "def_index": 34,
+    "paint_index": 100
+  },
+  "Tec-9 | Tornado": {
+    "def_index": 30,
+    "paint_index": 206
+  },
+  "Galil AR | Tornado": {
+    "def_index": 13,
+    "paint_index": 101
+  },
+  "FAMAS | Teardown": {
+    "def_index": 10,
+    "paint_index": 244
+  },
+  "R8 Revolver | Skull Crusher": {
+    "def_index": 64,
+    "paint_index": 843
+  },
+  "SSG 08 | Threat Detected": {
+    "def_index": 40,
+    "paint_index": 996
+  },
+  "Desert Eagle | Ocean Drive": {
+    "def_index": 1,
+    "paint_index": 1090
+  },
+  "FAMAS | Styx": {
+    "def_index": 10,
+    "paint_index": 371
+  },
+  "★ Paracord Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "PP-Bizon | Cobalt Halftone": {
+    "def_index": 26,
+    "paint_index": 267
+  },
+  "MP9 | Bioleak": {
+    "def_index": 34,
+    "paint_index": 549
+  },
+  "Glock-18 | Wraiths": {
+    "def_index": 4,
+    "paint_index": 495
+  },
+  "SG 553 | Phantom": {
+    "def_index": 39,
+    "paint_index": 686
+  },
+  "MAC-10 | Poplar Thicket": {
+    "def_index": 17,
+    "paint_index": 1285
+  },
+  "CZ75-Auto | Eco": {
+    "def_index": 63,
+    "paint_index": 709
+  },
+  "XM1014 | Copperflage": {
+    "def_index": 25,
+    "paint_index": 1287
+  },
+  "M4A4 | Desert Storm": {
+    "def_index": 16,
+    "paint_index": 8
+  },
+  "★ Huntsman Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "P250 | Undertow": {
+    "def_index": 36,
+    "paint_index": 271
+  },
+  "★ Navaja Knife | Urban Masked": {
+    "ignore": true
+  },
+  "Glock-18 | Sacrifice": {
+    "def_index": 4,
+    "paint_index": 918
+  },
+  "XM1014 | Blue Steel": {
+    "def_index": 25,
+    "paint_index": 42
+  },
+  "Five-SeveN | Fowl Play": {
+    "def_index": 3,
+    "paint_index": 352
+  },
+  "MAG-7 | Petroglyph": {
+    "def_index": 27,
+    "paint_index": 608
+  },
+  "★ StatTrak™ Navaja Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "P250 | X-Ray": {
+    "def_index": 36,
+    "paint_index": 125
+  },
+  "MP5-SD | Lab Rats": {
+    "def_index": 23,
+    "paint_index": 800
+  },
+  "M4A4 | Mainframe": {
+    "def_index": 16,
+    "paint_index": 780
+  },
+  "P2000 | Woodsman": {
+    "def_index": 32,
+    "paint_index": 667
+  },
+  "FAMAS | Meltdown": {
+    "ignore": true
+  },
+  "★ Navaja Knife | Night Stripe": {
+    "ignore": true
+  },
+  "★ Navaja Knife | Blue Steel": {
+    "ignore": true
+  },
+  "★ StatTrak™ Navaja Knife | Scorched": {
+    "ignore": true
+  },
+  "★ Shadow Daggers | Gamma Doppler (Factory New) - Phase 1": {
+    "ignore": true
+  },
+  "★ StatTrak™ Navaja Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "★ StatTrak™ Navaja Knife | Urban Masked": {
+    "ignore": true
+  },
+  "★ StatTrak™ Navaja Knife | Night Stripe": {
+    "ignore": true
+  },
+  "M4A4 | Bullet Rain": {
+    "def_index": 16,
+    "paint_index": 155
+  },
+  "PP-Bizon | Photic Zone": {
+    "def_index": 26,
+    "paint_index": 526
+  },
+  "MAC-10 | Calf Skin": {
+    "def_index": 17,
+    "paint_index": 748
+  },
+  "SSG 08 | Dezastre": {
+    "def_index": 40,
+    "paint_index": 1161
+  },
+  "Glock-18 | Royal Legion": {
+    "def_index": 4,
+    "paint_index": 532
+  },
+  "Sawed-Off | Origami": {
+    "def_index": 29,
+    "paint_index": 434
+  },
+  "XM1014 | Slipstream": {
+    "def_index": 25,
+    "paint_index": 616
+  },
+  "P2000 | Corticera": {
+    "def_index": 32,
+    "paint_index": 184
+  },
+  "MAC-10 | Monkeyflage": {
+    "def_index": 17,
+    "paint_index": 1150
+  },
+  "MAC-10 | Indigo": {
+    "def_index": 17,
+    "paint_index": 333
+  },
+  "XM1014 | Scumbria": {
+    "def_index": 25,
+    "paint_index": 505
+  },
+  "SG 553 | Gator Mesh": {
+    "def_index": 39,
+    "paint_index": 243
+  },
+  "★ Gut Knife | Freehand": {
+    "ignore": true
+  },
+  "Five-SeveN | Candy Apple": {
+    "def_index": 3,
+    "paint_index": 3
+  },
+  "MAC-10 | Candy Apple": {
+    "def_index": 17,
+    "paint_index": 3
+  },
+  "SSG 08 | Parallax": {
+    "def_index": 40,
+    "paint_index": 989
+  },
+  "Five-SeveN | Fairy Tale": {
+    "def_index": 3,
+    "paint_index": 979
+  },
+  "MAG-7 | Firestarter": {
+    "def_index": 27,
+    "paint_index": 385
+  },
+  "P250 | Crimson Kimono": {
+    "def_index": 36,
+    "paint_index": 466
+  },
+  "XM1014 | Tranquility": {
+    "def_index": 25,
+    "paint_index": 393
+  },
+  "Glock-18 | Sand Dune": {
+    "def_index": 4,
+    "paint_index": 208
+  },
+  "MP7 | Tall Grass": {
+    "def_index": 33,
+    "paint_index": 1023
+  },
+  "PP-Bizon | Breaker Box": {
+    "def_index": 26,
+    "paint_index": 1083
+  },
+  "P2000 | Space Race": {
+    "def_index": 32,
+    "paint_index": 1055
+  },
+  "UMP-45 | Mechanism": {
+    "def_index": 24,
+    "paint_index": 1085
+  },
+  "★ Ursus Knife | Scorched": {
+    "ignore": true
+  },
+  "★ Falchion Knife | Autotronic": {
+    "ignore": true
+  },
+  "R8 Revolver | Amber Fade": {
+    "def_index": 64,
+    "paint_index": 523
+  },
+  "SSG 08 | Azure Glyph": {
+    "def_index": 40,
+    "paint_index": 1251
+  },
+  "★ StatTrak™ Classic Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "P90 | Shallow Grave": {
+    "def_index": 19,
+    "paint_index": 636
+  },
+  "★ StatTrak™ Shadow Daggers | Boreal Forest": {
+    "ignore": true
+  },
+  "SG 553 | Fallout Warning": {
+    "def_index": 39,
+    "paint_index": 378
+  },
+  "Tec-9 | Hades": {
+    "def_index": 30,
+    "paint_index": 439
+  },
+  "Tec-9 | Toxic": {
+    "def_index": 30,
+    "paint_index": 374
+  },
+  "MAC-10 | Graven": {
+    "def_index": 17,
+    "paint_index": 188
+  },
+  "MAC-10 | Rangeen": {
+    "def_index": 17,
+    "paint_index": 498
+  },
+  "MP7 | Scorched": {
+    "def_index": 33,
+    "paint_index": 175
+  },
+  "SSG 08 | Red Stone": {
+    "def_index": 40,
+    "paint_index": 762
+  },
+  "★ Navaja Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "Galil AR | Hunting Blind": {
+    "def_index": 13,
+    "paint_index": 241
+  },
+  "★ Shadow Daggers | Blue Steel": {
+    "ignore": true
+  },
+  "MAC-10 | Tatter": {
+    "def_index": 17,
+    "paint_index": 337
+  },
+  "CZ75-Auto | Nitro": {
+    "def_index": 63,
+    "paint_index": 322
+  },
+  "P90 | Trigon": {
+    "def_index": 19,
+    "paint_index": 283
+  },
+  "FAMAS | Survivor Z": {
+    "def_index": 10,
+    "paint_index": 492
+  },
+  "UMP-45 | Late Night Transit": {
+    "def_index": 24,
+    "paint_index": 1203
+  },
+  "★ Survival Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "P2000 | Lifted Spirits": {
+    "def_index": 32,
+    "paint_index": 1138
+  },
+  "AK-47 | Leet Museo": {
+    "def_index": 7,
+    "paint_index": 1087
+  },
+  "SSG 08 | Detour": {
+    "def_index": 40,
+    "paint_index": 319
+  },
+  "FAMAS | Valence": {
+    "def_index": 10,
+    "paint_index": 529
+  },
+  "★ StatTrak™ Nomad Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "★ Shadow Daggers": {
+    "ignore": true
+  },
+  "★ Flip Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "Dual Berettas | Marina": {
+    "def_index": 2,
+    "paint_index": 261
+  },
+  "FAMAS | Spitfire": {
+    "def_index": 10,
+    "paint_index": 194
+  },
+  "FAMAS | Crypsis": {
+    "def_index": 10,
+    "paint_index": 835
+  },
+  "★ StatTrak™ Huntsman Knife | Freehand": {
+    "ignore": true
+  },
+  "G3SG1 | High Seas": {
+    "def_index": 11,
+    "paint_index": 712
+  },
+  "★ Gut Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "M4A4 | Modern Hunter": {
+    "def_index": 16,
+    "paint_index": 164
+  },
+  "Negev | Dazzle": {
+    "def_index": 28,
+    "paint_index": 610
+  },
+  "CZ75-Auto | Indigo": {
+    "def_index": 63,
+    "paint_index": 333
+  },
+  "SCAR-20 | Grotto": {
+    "def_index": 38,
+    "paint_index": 406
+  },
+  "MP7 | Powercore": {
+    "def_index": 33,
+    "paint_index": 719
+  },
+  "SSG 08 | Jungle Dashed": {
+    "def_index": 40,
+    "paint_index": 147
+  },
+  "PP-Bizon | Seabird": {
+    "def_index": 26,
+    "paint_index": 873
+  },
+  "M4A4 | X-Ray": {
+    "def_index": 16,
+    "paint_index": 215
+  },
+  "P90 | Straight Dimes": {
+    "def_index": 19,
+    "paint_index": 1199
+  },
+  "Five-SeveN | Triumvirate": {
+    "def_index": 3,
+    "paint_index": 530
+  },
+  "MP7 | Impire": {
+    "def_index": 33,
+    "paint_index": 536
+  },
+  "Galil AR | Blue Titanium": {
+    "def_index": 13,
+    "paint_index": 216
+  },
+  "Dual Berettas | Cartel": {
+    "def_index": 2,
+    "paint_index": 528
+  },
+  "MAC-10 | Neon Rider": {
+    "def_index": 17,
+    "paint_index": 433
+  },
+  "★ StatTrak™ Kukri Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "★ Shadow Daggers | Gamma Doppler (Factory New) - Phase 4": {
+    "ignore": true
+  },
+  "SG 553 | Heavy Metal": {
+    "def_index": 39,
+    "paint_index": 1048
+  },
+  "P90 | Teardown": {
+    "def_index": 19,
+    "paint_index": 244
+  },
+  "UMP-45 | Riot": {
+    "def_index": 24,
+    "paint_index": 488
+  },
+  "MAG-7 | Prism Terrace": {
+    "def_index": 27,
+    "paint_index": 1072
+  },
+  "SSG 08 | Hand Brake": {
+    "def_index": 40,
+    "paint_index": 751
+  },
+  "P250 | Nuclear Threat": {
+    "def_index": 36,
+    "paint_index": 168
+  },
+  "P90 | Verdant Growth": {
+    "def_index": 19,
+    "paint_index": 828
+  },
+  "Nova | Rust Coat": {
+    "def_index": 35,
+    "paint_index": 323
+  },
+  "Dual Berettas | Drift Wood": {
+    "def_index": 2,
+    "paint_index": 824
+  },
+  "CZ75-Auto | Twist": {
+    "def_index": 63,
+    "paint_index": 334
+  },
+  "★ Shadow Daggers | Forest DDPAT": {
+    "ignore": true
+  },
+  "★ Bowie Knife | Stained": {
+    "ignore": true
+  },
+  "Dual Berettas | Cobra Strike": {
+    "def_index": 2,
+    "paint_index": 658
+  },
+  "XM1014 | Bone Machine": {
+    "def_index": 25,
+    "paint_index": 370
+  },
+  "G3SG1 | Polar Camo": {
+    "def_index": 11,
+    "paint_index": 74
+  },
+  "M4A4 | Zirka": {
+    "def_index": 16,
+    "paint_index": 187
+  },
+  "P2000 | Imperial Dragon": {
+    "def_index": 32,
+    "paint_index": 591
+  },
+  "USP-S | Orange Anolis": {
+    "def_index": 61,
+    "paint_index": 922
+  },
+  "MAG-7 | Sonar": {
+    "def_index": 27,
+    "paint_index": 633
+  },
+  "FAMAS | Sergeant": {
+    "def_index": 10,
+    "paint_index": 288
+  },
+  "MAC-10 | Oceanic": {
+    "def_index": 17,
+    "paint_index": 682
+  },
+  "★ StatTrak™ Gut Knife | Black Laminate": {
+    "ignore": true
+  },
+  "★ Bowie Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "★ StatTrak™ Bowie Knife | Rust Coat": {
+    "ignore": true
+  },
+  "P250 | Inferno": {
+    "def_index": 36,
+    "paint_index": 907
+  },
+  "MP9 | Broken Record": {
+    "def_index": 34,
+    "paint_index": 1341
+  },
+  "★ StatTrak™ Kukri Knife | Night Stripe": {
+    "ignore": true
+  },
+  "Dual Berettas | Polished Malachite": {
+    "def_index": 2,
+    "paint_index": 1290
+  },
+  "★ Bayonet | Lore": {
+    "def_index": 500,
+    "paint_index": 558
+  },
+  "Tec-9 | Titanium Bit": {
+    "def_index": 30,
+    "paint_index": 272
+  },
+  "SCAR-20 | Cardiac": {
+    "def_index": 38,
+    "paint_index": 391
+  },
+  "M249 | Nebula Crusader": {
+    "def_index": 14,
+    "paint_index": 496
+  },
+  "MP9 | Music Box": {
+    "def_index": 34,
+    "paint_index": 820
+  },
+  "★ Moto Gloves | Smoke Out": {
+    "ignore": true
+  },
+  "Galil AR | Orange DDPAT": {
+    "def_index": 13,
+    "paint_index": 83
+  },
+  "P2000 | Handgun": {
+    "def_index": 32,
+    "paint_index": 485
+  },
+  "★ Flip Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "★ Gut Knife | Urban Masked": {
+    "ignore": true
+  },
+  "Dual Berettas | Urban Shock": {
+    "def_index": 2,
+    "paint_index": 396
+  },
+  "SSG 08 | Blush Pour": {
+    "def_index": 40,
+    "paint_index": 1316
+  },
+  "FAMAS | Night Borre": {
+    "def_index": 10,
+    "paint_index": 863
+  },
+  "Galil AR | CAUTION!": {
+    "def_index": 13,
+    "paint_index": 1071
+  },
+  "P90 | Virus": {
+    "def_index": 19,
+    "paint_index": 20
+  },
+  "Nova | Koi": {
+    "def_index": 35,
+    "paint_index": 356
+  },
+  "MP7 | Neon Ply": {
+    "def_index": 33,
+    "paint_index": 893
+  },
+  "MAC-10 | Surfwood": {
+    "def_index": 17,
+    "paint_index": 871
+  },
+  "MP5-SD | Bamboo Garden": {
+    "def_index": 23,
+    "paint_index": 872
+  },
+  "Sawed-Off | Jungle Thicket": {
+    "def_index": 29,
+    "paint_index": 870
+  },
+  "Tec-9 | Orange Murano": {
+    "def_index": 30,
+    "paint_index": 738
+  },
+  "SG 553 | Berry Gel Coat": {
+    "def_index": 39,
+    "paint_index": 901
+  },
+  "★ StatTrak™ Shadow Daggers | Bright Water": {
+    "ignore": true
+  },
+  "UMP-45 | Fallout Warning": {
+    "def_index": 24,
+    "paint_index": 169
+  },
+  "SSG 08 | Sand Dune": {
+    "def_index": 40,
+    "paint_index": 99
+  },
+  "AWP | LongDog": {
+    "def_index": 9,
+    "paint_index": 1213
+  },
+  "Sawed-Off | Full Stop": {
+    "def_index": 29,
+    "paint_index": 250
+  },
+  "MAC-10 | Gold Brick": {
+    "ignore": true
+  },
+  "Tec-9 | Mummy's Rot": {
+    "def_index": 30,
+    "paint_index": 1252
+  },
+  "P250 | Mint Kimono": {
+    "def_index": 36,
+    "paint_index": 467
+  },
+  "M249 | Aztec": {
+    "def_index": 14,
+    "paint_index": 902
+  },
+  "P90 | Emerald Dragon": {
+    "def_index": 19,
+    "paint_index": 182
+  },
+  "MP7 | Whiteout": {
+    "def_index": 33,
+    "paint_index": 102
+  },
+  "★ StatTrak™ Paracord Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "★ StatTrak™ Falchion Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "MAG-7 | Bulldozer": {
+    "def_index": 27,
+    "paint_index": 39
+  },
+  "UMP-45 | Exposure": {
+    "def_index": 24,
+    "paint_index": 688
+  },
+  "P250 | Exchanger": {
+    "def_index": 36,
+    "paint_index": 786
+  },
+  "SCAR-20 | Assault": {
+    "def_index": 38,
+    "paint_index": 914
+  },
+  "M249 | Jungle DDPAT": {
+    "ignore": true
+  },
+  "Dual Berettas | Elite 1.6": {
+    "def_index": 2,
+    "paint_index": 903
+  },
+  "Nova | Wood Fired": {
+    "def_index": 35,
+    "paint_index": 809
+  },
+  "Negev | Prototype": {
+    "def_index": 28,
+    "paint_index": 950
+  },
+  "XM1014 | Elegant Vines": {
+    "def_index": 25,
+    "paint_index": 821
+  },
+  "USP-S | Business Class": {
+    "def_index": 61,
+    "paint_index": 364
+  },
+  "Tec-9 | Snek-9": {
+    "def_index": 30,
+    "paint_index": 722
+  },
+  "★ StatTrak™ Paracord Knife": {
+    "ignore": true
+  },
+  "Nova | Clear Polymer": {
+    "def_index": 35,
+    "paint_index": 987
+  },
+  "G3SG1 | Keeping Tabs": {
+    "def_index": 11,
+    "paint_index": 1095
+  },
+  "MP5-SD | Autumn Twilly": {
+    "def_index": 23,
+    "paint_index": 1061
+  },
+  "Dual Berettas | Panther": {
+    "def_index": 2,
+    "paint_index": 276
+  },
+  "★ Nomad Knife | Rust Coat": {
+    "ignore": true
+  },
+  "MP5-SD | Co-Processor": {
+    "def_index": 23,
+    "paint_index": 781
+  },
+  "★ Huntsman Knife | Night": {
+    "ignore": true
+  },
+  "G3SG1 | Demeter": {
+    "def_index": 11,
+    "paint_index": 195
+  },
+  "P90 | Baroque Red": {
+    "def_index": 19,
+    "paint_index": 744
+  },
+  "USP-S | Blood Tiger": {
+    "def_index": 61,
+    "paint_index": 217
+  },
+  "R8 Revolver | Tango": {
+    "def_index": 64,
+    "paint_index": 123
+  },
+  "Negev | dev_texture": {
+    "def_index": 28,
+    "paint_index": 1043
+  },
+  "MP9 | Old Roots": {
+    "def_index": 34,
+    "paint_index": 931
+  },
+  "R8 Revolver | Blaze": {
+    "def_index": 64,
+    "paint_index": 37
+  },
+  "MP5-SD | Nitro": {
+    "def_index": 23,
+    "paint_index": 798
+  },
+  "M249 | Midnight Palm": {
+    "def_index": 14,
+    "paint_index": 933
+  },
+  "PP-Bizon | Carbon Fiber": {
+    "def_index": 26,
+    "paint_index": 70
+  },
+  "CZ75-Auto | Framework": {
+    "def_index": 63,
+    "paint_index": 1076
+  },
+  "FAMAS | Afterimage": {
+    "def_index": 10,
+    "paint_index": 154
+  },
+  "★ Survival Knife | Blue Steel": {
+    "ignore": true
+  },
+  "★ StatTrak™ Classic Knife | Urban Masked": {
+    "ignore": true
+  },
+  "MAC-10 | Carnivore": {
+    "def_index": 17,
+    "paint_index": 589
+  },
+  "M4A4 | Jungle Tiger": {
+    "def_index": 16,
+    "paint_index": 16
+  },
+  "PP-Bizon | Fuel Rod": {
+    "def_index": 26,
+    "paint_index": 508
+  },
+  "Sawed-Off | Mosaico": {
+    "ignore": true
+  },
+  "Sawed-Off | Rust Coat": {
+    "def_index": 29,
+    "paint_index": 323
+  },
+  "USP-S | Night Ops": {
+    "def_index": 61,
+    "paint_index": 236
+  },
+  "XM1014 | Blue Spruce": {
+    "def_index": 25,
+    "paint_index": 96
+  },
+  "★ StatTrak™ Shadow Daggers | Freehand": {
+    "ignore": true
+  },
+  "Nova | Green Apple": {
+    "def_index": 35,
+    "paint_index": 294
+  },
+  "★ StatTrak™ Bowie Knife | Freehand": {
+    "ignore": true
+  },
+  "★ StatTrak™ Nomad Knife | Rust Coat": {
+    "ignore": true
+  },
+  "★ StatTrak™ Flip Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "Nova | Sand Dune": {
+    "def_index": 35,
+    "paint_index": 99
+  },
+  "PP-Bizon | Water Sigil": {
+    "def_index": 26,
+    "paint_index": 224
+  },
+  "SCAR-20 | Splash Jam": {
+    "def_index": 38,
+    "paint_index": 165
+  },
+  "Dual Berettas | Moon in Libra": {
+    "def_index": 2,
+    "paint_index": 450
+  },
+  "PP-Bizon | Antique": {
+    "def_index": 26,
+    "paint_index": 306
+  },
+  "MAG-7 | Copper Coated": {
+    "def_index": 27,
+    "paint_index": 1245
+  },
+  "Nova | Red Quartz": {
+    "def_index": 35,
+    "paint_index": 248
+  },
+  "Five-SeveN | Forest Night": {
+    "def_index": 3,
+    "paint_index": 78
+  },
+  "★ Falchion Knife | Urban Masked": {
+    "ignore": true
+  },
+  "★ StatTrak™ Paracord Knife | Rust Coat": {
+    "ignore": true
+  },
+  "★ Falchion Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "USP-S | Para Green": {
+    "def_index": 61,
+    "paint_index": 454
+  },
+  "P250 | Dark Filigree": {
+    "def_index": 36,
+    "paint_index": 741
+  },
+  "Negev | Boroque Sand": {
+    "def_index": 28,
+    "paint_index": 920
+  },
+  "XM1014 | Teclu Burner": {
+    "def_index": 25,
+    "paint_index": 521
+  },
+  "PP-Bizon | Embargo": {
+    "def_index": 26,
+    "paint_index": 884
+  },
+  "★ Shadow Daggers | Doppler (Minimal Wear) - Phase 4": {
+    "ignore": true
+  },
+  "USP-S | Whiteout": {
+    "def_index": 61,
+    "paint_index": 1065
+  },
+  "★ Huntsman Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "P250 | Verdigris": {
+    "def_index": 36,
+    "paint_index": 848
+  },
+  "Five-SeveN | Capillary": {
+    "def_index": 3,
+    "paint_index": 646
+  },
+  "P90 | Scorched": {
+    "def_index": 19,
+    "paint_index": 175
+  },
+  "FAMAS | Faulty Wiring": {
+    "def_index": 10,
+    "paint_index": 1066
+  },
+  "P90 | Facility Negative": {
+    "def_index": 19,
+    "paint_index": 776
+  },
+  "Five-SeveN | Fall Hazard": {
+    "def_index": 3,
+    "paint_index": 1082
+  },
+  "MAC-10 | Echoing Sands": {
+    "def_index": 17,
+    "paint_index": 1244
+  },
+  "★ StatTrak™ Shadow Daggers | Safari Mesh": {
+    "ignore": true
+  },
+  "MP7 | Gunsmoke": {
+    "def_index": 33,
+    "paint_index": 15
+  },
+  "Five-SeveN | Retrobution": {
+    "def_index": 3,
+    "paint_index": 510
+  },
+  "★ StatTrak™ Paracord Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "AK-47 | Jungle Spray": {
+    "def_index": 7,
+    "paint_index": 122
+  },
+  "USP-S | Desert Tactical": {
+    "def_index": 61,
+    "paint_index": 1253
+  },
+  "P250 | Ripple": {
+    "def_index": 36,
+    "paint_index": 650
+  },
+  "P90 | Desert Warfare": {
+    "def_index": 19,
+    "paint_index": 311
+  },
+  "Negev | Desert-Strike": {
+    "def_index": 28,
+    "paint_index": 355
+  },
+  "AUG | Plague": {
+    "def_index": 8,
+    "paint_index": 1088
+  },
+  "P250 | Sand Dune": {
+    "def_index": 36,
+    "paint_index": 99
+  },
+  "R8 Revolver | Memento": {
+    "ignore": true
+  },
+  "Sawed-Off | Zander": {
+    "def_index": 29,
+    "paint_index": 655
+  },
+  "P250 | Steel Disruption": {
+    "def_index": 36,
+    "paint_index": 230
+  },
+  "MP7 | Ocean Foam": {
+    "def_index": 33,
+    "paint_index": 213
+  },
+  "AUG | Torque": {
+    "def_index": 8,
+    "paint_index": 305
+  },
+  "PP-Bizon | Chemical Green": {
+    "def_index": 26,
+    "paint_index": 376
+  },
+  "MAG-7 | Seabird": {
+    "def_index": 27,
+    "paint_index": 473
+  },
+  "Galil AR | Kami": {
+    "def_index": 13,
+    "paint_index": 308
+  },
+  "Nova | Windblown": {
+    "def_index": 35,
+    "paint_index": 1051
+  },
+  "UMP-45 | Corporal": {
+    "def_index": 24,
+    "paint_index": 281
+  },
+  "USP-S | Ancient Visions": {
+    "def_index": 61,
+    "paint_index": 1031
+  },
+  "Dual Berettas | Dualing Dragons": {
+    "def_index": 2,
+    "paint_index": 491
+  },
+  "Negev | Bratatat": {
+    "def_index": 28,
+    "paint_index": 317
+  },
+  "★ Shadow Daggers | Gamma Doppler (Factory New) - Phase 2": {
+    "ignore": true
+  },
+  "MP9 | Setting Sun": {
+    "def_index": 34,
+    "paint_index": 368
+  },
+  "M4A1-S | Hyper Beast": {
+    "def_index": 60,
+    "paint_index": 430
+  },
+  "Sawed-Off | Fubar": {
+    "def_index": 29,
+    "paint_index": 552
+  },
+  "SSG 08 | Memorial": {
+    "def_index": 40,
+    "paint_index": 1187
+  },
+  "UMP-45 | Briefing": {
+    "def_index": 24,
+    "paint_index": 615
+  },
+  "★ Gut Knife": {
+    "ignore": true
+  },
+  "★ Flip Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "P2000 | Urban Hazard": {
+    "def_index": 32,
+    "paint_index": 700
+  },
+  "AK-47 | Predator": {
+    "def_index": 7,
+    "paint_index": 170
+  },
+  "★ StatTrak™ Nomad Knife | Urban Masked": {
+    "ignore": true
+  },
+  "XM1014 | Banana Leaf": {
+    "def_index": 25,
+    "paint_index": 731
+  },
+  "MAG-7 | Popdog": {
+    "def_index": 27,
+    "paint_index": 909
+  },
+  "MAG-7 | Heaven Guard": {
+    "def_index": 27,
+    "paint_index": 291
+  },
+  "★ StatTrak™ Ursus Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "P90 | Glacier Mesh": {
+    "def_index": 19,
+    "paint_index": 111
+  },
+  "Sawed-Off | Black Sand": {
+    "def_index": 29,
+    "paint_index": 814
+  },
+  "XM1014 | Urban Perforated": {
+    "def_index": 25,
+    "paint_index": 135
+  },
+  "★ Falchion Knife | Stained": {
+    "ignore": true
+  },
+  "M249 | Impact Drill": {
+    "def_index": 14,
+    "paint_index": 472
+  },
+  "★ Shadow Daggers | Boreal Forest": {
+    "ignore": true
+  },
+  "MP7 | Armor Core": {
+    "def_index": 33,
+    "paint_index": 423
+  },
+  "Negev | Loudmouth": {
+    "def_index": 28,
+    "paint_index": 483
+  },
+  "G3SG1 | Hunter": {
+    "def_index": 11,
+    "paint_index": 677
+  },
+  "UMP-45 | Scorched": {
+    "def_index": 24,
+    "paint_index": 175
+  },
+  "★ StatTrak™ Nomad Knife | Scorched": {
+    "ignore": true
+  },
+  "M249 | O.S.I.P.R.": {
+    "def_index": 14,
+    "paint_index": 1042
+  },
+  "★ Bloodhound Gloves | Bronzed": {
+    "ignore": true
+  },
+  "P90 | Death by Kitty": {
+    "def_index": 19,
+    "paint_index": 156
+  },
+  "P90 | Cocoa Rampage": {
+    "def_index": 19,
+    "paint_index": 977
+  },
+  "★ StatTrak™ Ursus Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "★ StatTrak™ Huntsman Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "Glock-18 | Franklin": {
+    "def_index": 4,
+    "paint_index": 1016
+  },
+  "PP-Bizon | Irradiated Alert": {
+    "def_index": 26,
+    "paint_index": 171
+  },
+  "Galil AR | Chatterbox": {
+    "def_index": 13,
+    "paint_index": 398
+  },
+  "★ Shadow Daggers | Stained": {
+    "ignore": true
+  },
+  "G3SG1 | Orange Kimono": {
+    "def_index": 11,
+    "paint_index": 465
+  },
+  "AUG | Colony": {
+    "def_index": 8,
+    "paint_index": 47
+  },
+  "FAMAS | Halftone Wash": {
+    "def_index": 10,
+    "paint_index": 882
+  },
+  "FAMAS | Doomkitty": {
+    "def_index": 10,
+    "paint_index": 178
+  },
+  "G3SG1 | Flux": {
+    "def_index": 11,
+    "paint_index": 493
+  },
+  "CZ75-Auto | Vendetta": {
+    "def_index": 63,
+    "paint_index": 976
+  },
+  "UMP-45 | Gold Bismuth": {
+    "def_index": 24,
+    "paint_index": 990
+  },
+  "Five-SeveN | Copper Galaxy": {
+    "def_index": 3,
+    "paint_index": 274
+  },
+  "MAC-10 | Button Masher": {
+    "def_index": 17,
+    "paint_index": 1045
+  },
+  "M4A4 | Dark Blossom": {
+    "def_index": 16,
+    "paint_index": 730
+  },
+  "Tec-9 | Groundwater": {
+    "def_index": 30,
+    "paint_index": 2
+  },
+  "Nova | Rising Skull": {
+    "def_index": 35,
+    "paint_index": 263
+  },
+  "★ Gut Knife | Tiger Tooth": {
+    "ignore": true
+  },
+  "Negev | Drop Me": {
+    "def_index": 28,
+    "paint_index": 1152
+  },
+  "R8 Revolver | Grip": {
+    "def_index": 64,
+    "paint_index": 701
+  },
+  "AUG | Navy Murano": {
+    "def_index": 8,
+    "paint_index": 740
+  },
+  "SG 553 | Candy Apple": {
+    "def_index": 39,
+    "paint_index": 864
+  },
+  "UMP-45 | Bone Pile": {
+    "def_index": 24,
+    "paint_index": 193
+  },
+  "M4A1-S | Boreal Forest": {
+    "def_index": 60,
+    "paint_index": 77
+  },
+  "M249 | Humidor": {
+    "def_index": 14,
+    "paint_index": 827
+  },
+  "MAG-7 | Chainmail": {
+    "def_index": 27,
+    "paint_index": 327
+  },
+  "MP7 | Mischief": {
+    "def_index": 33,
+    "paint_index": 847
+  },
+  "★ Gut Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "★ StatTrak™ Kukri Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "P250 | Red Rock": {
+    "def_index": 36,
+    "paint_index": 668
+  },
+  "MAC-10 | Aloha": {
+    "def_index": 17,
+    "paint_index": 665
+  },
+  "★ StatTrak™ Survival Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "MP9 | Dark Age": {
+    "def_index": 34,
+    "paint_index": 329
+  },
+  "Tec-9 | Nuclear Threat": {
+    "def_index": 30,
+    "paint_index": 179
+  },
+  "★ StatTrak™ Navaja Knife | Rust Coat": {
+    "ignore": true
+  },
+  "★ StatTrak™ Shadow Daggers | Blue Steel": {
+    "ignore": true
+  },
+  "Nova | Modern Hunter": {
+    "def_index": 35,
+    "paint_index": 164
+  },
+  "Tec-9 | Blue Titanium": {
+    "def_index": 30,
+    "paint_index": 216
+  },
+  "MAG-7 | Silver": {
+    "def_index": 27,
+    "paint_index": 32
+  },
+  "AWP | Snake Camo": {
+    "def_index": 9,
+    "paint_index": 30
+  },
+  "★ StatTrak™ Kukri Knife | Stained": {
+    "ignore": true
+  },
+  "M4A1-S | Chantico's Fire": {
+    "def_index": 60,
+    "paint_index": 548
+  },
+  "UMP-45 | Grand Prix": {
+    "def_index": 24,
+    "paint_index": 436
+  },
+  "SCAR-20 | Storm": {
+    "def_index": 38,
+    "paint_index": 100
+  },
+  "Tec-9 | Ossified": {
+    "def_index": 30,
+    "paint_index": 36
+  },
+  "XM1014 | Ancient Lore": {
+    "def_index": 25,
+    "paint_index": 1021
+  },
+  "P90 | Off World": {
+    "def_index": 19,
+    "paint_index": 849
+  },
+  "P90 | Traction": {
+    "def_index": 19,
+    "paint_index": 717
+  },
+  "R8 Revolver | Phoenix Marker": {
+    "def_index": 64,
+    "paint_index": 1011
+  },
+  "CZ75-Auto | Distressed": {
+    "def_index": 63,
+    "paint_index": 944
+  },
+  "Dual Berettas | Black Limba": {
+    "def_index": 2,
+    "paint_index": 190
+  },
+  "★ StatTrak™ Survival Knife": {
+    "ignore": true
+  },
+  "Dual Berettas | Cobalt Quartz": {
+    "def_index": 2,
+    "paint_index": 249
+  },
+  "★ Bloodhound Gloves | Guerrilla": {
+    "ignore": true
+  },
+  "M249 | Spectre": {
+    "def_index": 14,
+    "paint_index": 547
+  },
+  "P250 | Modern Hunter": {
+    "def_index": 36,
+    "paint_index": 164
+  },
+  "Glock-18 | Steel Disruption": {
+    "def_index": 4,
+    "paint_index": 230
+  },
+  "Sawed-Off | Sage Spray": {
+    "def_index": 29,
+    "paint_index": 119
+  },
+  "P2000 | Grassland": {
+    "def_index": 32,
+    "paint_index": 95
+  },
+  "★ StatTrak™ Kukri Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "P2000 | Panther Camo": {
+    "def_index": 32,
+    "paint_index": 1019
+  },
+  "XM1014 | Jungle": {
+    "def_index": 25,
+    "paint_index": 205
+  },
+  "Five-SeveN | Scumbria": {
+    "def_index": 3,
+    "paint_index": 605
+  },
+  "M4A4 | Faded Zebra": {
+    "def_index": 16,
+    "paint_index": 176
+  },
+  "SCAR-20 | Caged": {
+    "def_index": 38,
+    "paint_index": 1343
+  },
+  "UMP-45 | Caramel": {
+    "def_index": 24,
+    "paint_index": 93
+  },
+  "AK-47 | Bloodsport": {
+    "def_index": 7,
+    "paint_index": 639
+  },
+  "SG 553 | Danger Close": {
+    "def_index": 39,
+    "paint_index": 815
+  },
+  "CZ75-Auto | Hexane": {
+    "def_index": 63,
+    "paint_index": 218
+  },
+  "★ StatTrak™ Navaja Knife | Tiger Tooth": {
+    "ignore": true
+  },
+  "★ StatTrak™ Huntsman Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "★ Bowie Knife | Urban Masked": {
+    "ignore": true
+  },
+  "★ Ursus Knife | Blue Steel": {
+    "ignore": true
+  },
+  "P2000 | Obsidian": {
+    "def_index": 32,
+    "paint_index": 894
+  },
+  "G3SG1 | Desert Storm": {
+    "def_index": 11,
+    "paint_index": 8
+  },
+  "MP7 | Anodized Navy": {
+    "def_index": 33,
+    "paint_index": 28
+  },
+  "UMP-45 | Delusion": {
+    "def_index": 24,
+    "paint_index": 392
+  },
+  "Tec-9 | VariCamo": {
+    "def_index": 30,
+    "paint_index": 235
+  },
+  "CZ75-Auto | Green Plaid": {
+    "def_index": 63,
+    "paint_index": 366
+  },
+  "Desert Eagle | Pilot": {
+    "def_index": 1,
+    "paint_index": 347
+  },
+  "Negev | Terrain": {
+    "def_index": 28,
+    "paint_index": 285
+  },
+  "MAG-7 | Praetorian": {
+    "def_index": 27,
+    "paint_index": 535
+  },
+  "Tec-9 | Blast From the Past": {
+    "def_index": 30,
+    "paint_index": 1024
+  },
+  "SSG 08 | Lichen Dashed": {
+    "def_index": 40,
+    "paint_index": 26
+  },
+  "MAC-10 | Urban DDPAT": {
+    "def_index": 17,
+    "paint_index": 17
+  },
+  "Five-SeveN | Contractor": {
+    "def_index": 3,
+    "paint_index": 46
+  },
+  "MAG-7 | Memento": {
+    "def_index": 27,
+    "paint_index": 177
+  },
+  "Sawed-Off | Irradiated Alert": {
+    "def_index": 29,
+    "paint_index": 171
+  },
+  "★ StatTrak™ Huntsman Knife | Rust Coat": {
+    "ignore": true
+  },
+  "PP-Bizon | Facility Sketch": {
+    "def_index": 26,
+    "paint_index": 775
+  },
+  "Nova | Ghost Camo": {
+    "def_index": 35,
+    "paint_index": 225
+  },
+  "★ StatTrak™ Shadow Daggers | Scorched": {
+    "ignore": true
+  },
+  "★ Shadow Daggers | Night": {
+    "ignore": true
+  },
+  "★ StatTrak™ Navaja Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "Dual Berettas | Oil Change": {
+    "def_index": 2,
+    "paint_index": 1086
+  },
+  "P250 | Forest Night": {
+    "def_index": 36,
+    "paint_index": 78
+  },
+  "★ StatTrak™ Ursus Knife | Rust Coat": {
+    "ignore": true
+  },
+  "Negev | CaliCamo": {
+    "def_index": 28,
+    "paint_index": 240
+  },
+  "XM1014 | VariCamo Blue": {
+    "def_index": 25,
+    "paint_index": 238
+  },
+  "Dual Berettas | Dezastre": {
+    "def_index": 2,
+    "paint_index": 978
+  },
+  "MAG-7 | Hazard": {
+    "def_index": 27,
+    "paint_index": 198
+  },
+  "★ StatTrak™ Stiletto Knife | Crimson Web": {
+    "ignore": true
+  },
+  "CZ75-Auto | Poison Dart": {
+    "def_index": 63,
+    "paint_index": 315
+  },
+  "MAC-10 | Palm": {
+    "def_index": 17,
+    "paint_index": 157
+  },
+  "Tec-9 | Brass": {
+    "def_index": 30,
+    "paint_index": 159
+  },
+  "PP-Bizon | Jungle Slipstream": {
+    "def_index": 26,
+    "paint_index": 641
+  },
+  "FAMAS | Macabre": {
+    "def_index": 10,
+    "paint_index": 659
+  },
+  "SSG 08 | Dark Water": {
+    "def_index": 40,
+    "paint_index": 60
+  },
+  "UMP-45 | Urban DDPAT": {
+    "def_index": 24,
+    "paint_index": 17
+  },
+  "P2000 | Chainmail": {
+    "def_index": 32,
+    "paint_index": 327
+  },
+  "SSG 08 | Blue Spruce": {
+    "def_index": 40,
+    "paint_index": 96
+  },
+  "MAC-10 | Whitefish": {
+    "def_index": 17,
+    "paint_index": 840
+  },
+  "FAMAS | Dark Water": {
+    "def_index": 10,
+    "paint_index": 60
+  },
+  "MP5-SD | Liquidation": {
+    "def_index": 23,
+    "paint_index": 1231
+  },
+  "AUG | Spalted Wood": {
+    "def_index": 8,
+    "paint_index": 927
+  },
+  "SG 553 | Anodized Navy": {
+    "def_index": 39,
+    "paint_index": 28
+  },
+  "MP9 | Dart": {
+    "def_index": 34,
+    "paint_index": 386
+  },
+  "CZ75-Auto | Tread Plate": {
+    "def_index": 63,
+    "paint_index": 268
+  },
+  "SCAR-20 | Torn": {
+    "def_index": 38,
+    "paint_index": 896
+  },
+  "R8 Revolver | Canal Spray": {
+    "def_index": 64,
+    "paint_index": 866
+  },
+  "SCAR-20 | Contractor": {
+    "def_index": 38,
+    "paint_index": 46
+  },
+  "★ StatTrak™ Huntsman Knife | Black Laminate": {
+    "ignore": true
+  },
+  "Galil AR | NV": {
+    "def_index": 13,
+    "paint_index": 939
+  },
+  "Tec-9 | Urban DDPAT": {
+    "def_index": 30,
+    "paint_index": 17
+  },
+  "★ Driver Gloves | Imperial Plaid": {
+    "ignore": true
+  },
+  "XM1014 | Oxide Blaze": {
+    "def_index": 25,
+    "paint_index": 706
+  },
+  "P90 | Schematic": {
+    "def_index": 19,
+    "paint_index": 1074
+  },
+  "Negev | Wall Bang": {
+    "def_index": 28,
+    "paint_index": 144
+  },
+  "MP9 | Sand Dashed": {
+    "def_index": 34,
+    "paint_index": 148
+  },
+  "SG 553 | Atlas": {
+    "def_index": 39,
+    "paint_index": 553
+  },
+  "★ StatTrak™ Survival Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "★ Flip Knife | Rust Coat": {
+    "ignore": true
+  },
+  "UMP-45 | Metal Flowers": {
+    "def_index": 24,
+    "paint_index": 672
+  },
+  "R8 Revolver | Night": {
+    "def_index": 64,
+    "paint_index": 40
+  },
+  "★ StatTrak™ Gut Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "★ StatTrak™ Survival Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "★ Flip Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "Glock-18 | Red Tire": {
+    "def_index": 4,
+    "paint_index": 1079
+  },
+  "CZ75-Auto | Emerald": {
+    "def_index": 63,
+    "paint_index": 453
+  },
+  "AK-47 | Safari Mesh": {
+    "def_index": 7,
+    "paint_index": 72
+  },
+  "★ StatTrak™ Paracord Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "P90 | Grim": {
+    "def_index": 19,
+    "paint_index": 611
+  },
+  "R8 Revolver | Crimson Web": {
+    "def_index": 64,
+    "paint_index": 12
+  },
+  "Five-SeveN | Jungle": {
+    "def_index": 3,
+    "paint_index": 151
+  },
+  "PP-Bizon | Blue Streak": {
+    "def_index": 26,
+    "paint_index": 13
+  },
+  "Nova | Tempest": {
+    "def_index": 35,
+    "paint_index": 191
+  },
+  "M249 | Magma": {
+    "def_index": 14,
+    "paint_index": 266
+  },
+  "SCAR-20 | Emerald": {
+    "def_index": 38,
+    "paint_index": 196
+  },
+  "UMP-45 | Houndstooth": {
+    "def_index": 24,
+    "paint_index": 1008
+  },
+  "★ Falchion Knife | Night": {
+    "ignore": true
+  },
+  "SG 553 | Hazard Pay": {
+    "def_index": 39,
+    "paint_index": 1084
+  },
+  "SG 553 | Cyberforce": {
+    "def_index": 39,
+    "paint_index": 1234
+  },
+  "★ Specialist Gloves | Fade": {
+    "ignore": true
+  },
+  "MP5-SD | Desert Strike": {
+    "def_index": 23,
+    "paint_index": 949
+  },
+  "MAC-10 | Tornado": {
+    "def_index": 17,
+    "paint_index": 101
+  },
+  "★ StatTrak™ Shadow Daggers | Stained": {
+    "ignore": true
+  },
+  "MP9 | Green Plaid": {
+    "def_index": 34,
+    "paint_index": 366
+  },
+  "P2000 | Pulse": {
+    "def_index": 32,
+    "paint_index": 338
+  },
+  "Tec-9 | Jambiya": {
+    "def_index": 30,
+    "paint_index": 539
+  },
+  "G3SG1 | Azure Zebra": {
+    "def_index": 11,
+    "paint_index": 229
+  },
+  "P2000 | Coach Class": {
+    "def_index": 32,
+    "paint_index": 346
+  },
+  "Galil AR | Cold Fusion": {
+    "def_index": 13,
+    "paint_index": 790
+  },
+  "★ StatTrak™ Kukri Knife | Urban Masked": {
+    "ignore": true
+  },
+  "★ StatTrak™ Gut Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "Sawed-Off | Serenity": {
+    "def_index": 29,
+    "paint_index": 405
+  },
+  "★ StatTrak™ Shadow Daggers | Ultraviolet": {
+    "ignore": true
+  },
+  "★ Falchion Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "★ StatTrak™ Paracord Knife | Scorched": {
+    "ignore": true
+  },
+  "SG 553 | Traveler": {
+    "def_index": 39,
+    "paint_index": 363
+  },
+  "★ StatTrak™ Navaja Knife | Blue Steel": {
+    "ignore": true
+  },
+  "★ Moto Gloves | Blood Pressure": {
+    "ignore": true
+  },
+  "R8 Revolver | Bone Forged": {
+    "def_index": 64,
+    "paint_index": 952
+  },
+  "AUG | Condemned": {
+    "def_index": 8,
+    "paint_index": 110
+  },
+  "MAG-7 | Insomnia": {
+    "def_index": 27,
+    "paint_index": 1220
+  },
+  "Five-SeveN | Sky Blue": {
+    "def_index": 3,
+    "paint_index": 1262
+  },
+  "FAMAS | Cyanospatter": {
+    "def_index": 10,
+    "paint_index": 92
+  },
+  "AUG | Amber Slipstream": {
+    "def_index": 8,
+    "paint_index": 708
+  },
+  "★ M9 Bayonet | Damascus Steel": {
+    "def_index": 508,
+    "paint_index": 411
+  },
+  "★ StatTrak™ Classic Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "Five-SeveN | Orange Peel": {
+    "def_index": 3,
+    "paint_index": 141
+  },
+  "MP9 | Army Sheen": {
+    "def_index": 34,
+    "paint_index": 298
+  },
+  "★ Butterfly Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "MP5-SD | Condition Zero": {
+    "def_index": 23,
+    "paint_index": 986
+  },
+  "★ StatTrak™ Karambit | Bright Water": {
+    "def_index": 507,
+    "paint_index": 578
+  },
+  "Tec-9 | Cut Out": {
+    "def_index": 30,
+    "paint_index": 671
+  },
+  "Dual Berettas | Pyre": {
+    "def_index": 2,
+    "paint_index": 860
+  },
+  "Galil AR | Phoenix Blacklight": {
+    "def_index": 13,
+    "paint_index": 1013
+  },
+  "★ StatTrak™ Navaja Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "XM1014 | Irezumi": {
+    "def_index": 25,
+    "paint_index": 1174
+  },
+  "MP5-SD | Statics": {
+    "def_index": 23,
+    "paint_index": 1180
+  },
+  "UMP-45 | Labyrinth": {
+    "def_index": 24,
+    "paint_index": 362
+  },
+  "P90 | Fallout Warning": {
+    "def_index": 19,
+    "paint_index": 169
+  },
+  "★ Specialist Gloves | Mogul": {
+    "ignore": true
+  },
+  "FAMAS | Sundown": {
+    "def_index": 10,
+    "paint_index": 869
+  },
+  "★ Bloodhound Gloves | Snakebite": {
+    "ignore": true
+  },
+  "★ StatTrak™ Shadow Daggers | Damascus Steel": {
+    "ignore": true
+  },
+  "★ StatTrak™ Nomad Knife | Night Stripe": {
+    "ignore": true
+  },
+  "★ StatTrak™ Classic Knife | Stained": {
+    "ignore": true
+  },
+  "★ StatTrak™ Skeleton Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "AUG | Tom Cat": {
+    "def_index": 8,
+    "paint_index": 942
+  },
+  "Dual Berettas | Heist": {
+    "def_index": 2,
+    "paint_index": 1005
+  },
+  "MAG-7 | Cobalt Core": {
+    "def_index": 27,
+    "paint_index": 499
+  },
+  "SG 553 | Hypnotic": {
+    "def_index": 39,
+    "paint_index": 61
+  },
+  "Dual Berettas | Demolition": {
+    "def_index": 2,
+    "paint_index": 153
+  },
+  "SCAR-20 | Magna Carta": {
+    "def_index": 38,
+    "paint_index": 1028
+  },
+  "G3SG1 | Arctic Camo": {
+    "def_index": 11,
+    "paint_index": 6
+  },
+  "G3SG1 | Murky": {
+    "def_index": 11,
+    "paint_index": 382
+  },
+  "XM1014 | Fallout Warning": {
+    "def_index": 25,
+    "paint_index": 169
+  },
+  "Negev | Phoenix Stencil": {
+    "def_index": 28,
+    "paint_index": 1012
+  },
+  "★ StatTrak™ M9 Bayonet | Urban Masked": {
+    "ignore": true
+  },
+  "★ Driver Gloves | Crimson Weave": {
+    "ignore": true
+  },
+  "SSG 08 | Death Strike": {
+    "def_index": 40,
+    "paint_index": 1052
+  },
+  "Nova | Quick Sand": {
+    "def_index": 35,
+    "paint_index": 929
+  },
+  "★ StatTrak™ Falchion Knife | Scorched": {
+    "ignore": true
+  },
+  "CZ75-Auto | Silver": {
+    "def_index": 63,
+    "paint_index": 32
+  },
+  "USP-S | Pathfinder": {
+    "def_index": 61,
+    "paint_index": 443
+  },
+  "★ StatTrak™ Survival Knife | Urban Masked": {
+    "ignore": true
+  },
+  "P2000 | Ivory": {
+    "def_index": 32,
+    "paint_index": 357
+  },
+  "P2000 | Oceanic": {
+    "def_index": 32,
+    "paint_index": 550
+  },
+  "★ StatTrak™ Bowie Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "★ Driver Gloves | Convoy": {
+    "ignore": true
+  },
+  "★ Driver Gloves | King Snake": {
+    "ignore": true
+  },
+  "★ Skeleton Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "SCAR-20 | Blueprint": {
+    "def_index": 38,
+    "paint_index": 642
+  },
+  "★ Huntsman Knife | Crimson Web": {
+    "ignore": true
+  },
+  "★ Paracord Knife | Tiger Tooth": {
+    "ignore": true
+  },
+  "★ Skeleton Knife | Rust Coat": {
+    "ignore": true
+  },
+  "★ Ursus Knife": {
+    "ignore": true
+  },
+  "★ Sport Gloves | Bronze Morph": {
+    "ignore": true
+  },
+  "★ Stiletto Knife | Rust Coat": {
+    "ignore": true
+  },
+  "PP-Bizon | Judgement of Anubis": {
+    "def_index": 26,
+    "paint_index": 542
+  },
+  "AWP | Man-o'-war": {
+    "def_index": 9,
+    "paint_index": 395
+  },
+  "P90 | Asiimov": {
+    "def_index": 19,
+    "paint_index": 359
+  },
+  "★ StatTrak™ Falchion Knife | Crimson Web": {
+    "ignore": true
+  },
+  "★ Specialist Gloves | Tiger Strike": {
+    "ignore": true
+  },
+  "★ Sport Gloves | Omega": {
+    "ignore": true
+  },
+  "Glock-18 | Gamma Doppler (Field-Tested) - Phase 2": {
+    "ignore": true
+  },
+  "★ Flip Knife | Black Laminate": {
+    "ignore": true
+  },
+  "P90 | Death Grip": {
+    "def_index": 19,
+    "paint_index": 669
+  },
+  "★ Survival Knife | Marble Fade": {
+    "ignore": true
+  },
+  "M4A1-S | Cyrex": {
+    "def_index": 60,
+    "paint_index": 360
+  },
+  "★ StatTrak™ Ursus Knife | Stained": {
+    "ignore": true
+  },
+  "★ Kukri Knife": {
+    "ignore": true
+  },
+  "★ Bowie Knife | Blue Steel": {
+    "ignore": true
+  },
+  "★ Huntsman Knife | Marble Fade": {
+    "ignore": true
+  },
+  "★ Bowie Knife | Marble Fade": {
+    "ignore": true
+  },
+  "★ Shadow Daggers | Doppler (Factory New) - Phase 3": {
+    "ignore": true
+  },
+  "★ Driver Gloves | Black Tie": {
+    "ignore": true
+  },
+  "★ Bayonet | Ultraviolet": {
+    "def_index": 500,
+    "paint_index": 98
+  },
+  "★ StatTrak™ Falchion Knife | Autotronic": {
+    "ignore": true
+  },
+  "★ Skeleton Knife | Urban Masked": {
+    "ignore": true
+  },
+  "★ StatTrak™ Kukri Knife": {
+    "ignore": true
+  },
+  "★ Nomad Knife | Blue Steel": {
+    "ignore": true
+  },
+  "★ Flip Knife | Autotronic": {
+    "ignore": true
+  },
+  "★ Falchion Knife": {
+    "ignore": true
+  },
+  "★ Falchion Knife | Crimson Web": {
+    "ignore": true
+  },
+  "★ Nomad Knife | Crimson Web": {
+    "ignore": true
+  },
+  "AWP | BOOM": {
+    "def_index": 9,
+    "paint_index": 174
+  },
+  "★ Huntsman Knife | Tiger Tooth": {
+    "ignore": true
+  },
+  "★ Navaja Knife | Doppler (Factory New) - Phase 3": {
+    "ignore": true
+  },
+  "★ Flip Knife | Crimson Web": {
+    "ignore": true
+  },
+  "★ Sport Gloves | Big Game": {
+    "ignore": true
+  },
+  "★ Hand Wraps | CAUTION!": {
+    "def_index": 5032,
+    "paint_index": 10084
+  },
+  "★ Paracord Knife | Marble Fade": {
+    "ignore": true
+  },
+  "Glock-18 | Gamma Doppler (Minimal Wear) - Phase 1": {
+    "ignore": true
+  },
+  "★ Navaja Knife | Doppler (Factory New) - Phase 1": {
+    "ignore": true
+  },
+  "AK-47 | Fuel Injector": {
+    "def_index": 7,
+    "paint_index": 524
+  },
+  "★ Bayonet | Rust Coat": {
+    "def_index": 500,
+    "paint_index": 414
+  },
+  "★ Stiletto Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "★ StatTrak™ Gut Knife | Doppler (Factory New) - Phase 3": {
+    "ignore": true
+  },
+  "★ Flip Knife | Lore": {
+    "ignore": true
+  },
+  "★ StatTrak™ Nomad Knife": {
+    "ignore": true
+  },
+  "★ Specialist Gloves | Marble Fade": {
+    "ignore": true
+  },
+  "★ Stiletto Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "USP-S | Target Acquired": {
+    "def_index": 61,
+    "paint_index": 1027
+  },
+  "★ Bayonet | Damascus Steel": {
+    "def_index": 500,
+    "paint_index": 410
+  },
+  "★ Navaja Knife | Doppler (Factory New) - Phase 4": {
+    "ignore": true
+  },
+  "★ Stiletto Knife | Urban Masked": {
+    "ignore": true
+  },
+  "AK-47 | Panthera onca": {
+    "def_index": 7,
+    "paint_index": 1018
+  },
+  "★ StatTrak™ Flip Knife | Stained": {
+    "ignore": true
+  },
+  "★ Nomad Knife | Stained": {
+    "ignore": true
+  },
+  "★ Skeleton Knife | Night Stripe": {
+    "ignore": true
+  },
+  "★ Survival Knife | Slaughter": {
+    "ignore": true
+  },
+  "★ Flip Knife | Freehand": {
+    "ignore": true
+  },
+  "★ Nomad Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "★ Stiletto Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "★ Nomad Knife": {
+    "ignore": true
+  },
+  "★ Paracord Knife | Fade": {
+    "ignore": true
+  },
+  "M249 | Hypnosis": {
+    "def_index": 14,
+    "paint_index": 120
+  },
+  "P90 | Sunset Lily": {
+    "def_index": 19,
+    "paint_index": 726
+  },
+  "★ StatTrak™ Falchion Knife | Blue Steel": {
+    "ignore": true
+  },
+  "★ StatTrak™ Falchion Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "★ Bayonet | Bright Water": {
+    "def_index": 500,
+    "paint_index": 578
+  },
+  "★ Gut Knife | Doppler (Factory New) - Phase 3": {
+    "ignore": true
+  },
+  "★ Falchion Knife | Marble Fade": {
+    "ignore": true
+  },
+  "★ Classic Knife | Slaughter": {
+    "ignore": true
+  },
+  "★ StatTrak™ Skeleton Knife | Rust Coat": {
+    "ignore": true
+  },
+  "Desert Eagle | Hypnotic": {
+    "def_index": 1,
+    "paint_index": 61
+  },
+  "Glock-18 | Gamma Doppler (Minimal Wear) - Phase 3": {
+    "ignore": true
+  },
+  "★ StatTrak™ Bowie Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "★ Bayonet | Black Laminate": {
+    "def_index": 500,
+    "paint_index": 563
+  },
+  "★ Bowie Knife | Tiger Tooth": {
+    "ignore": true
+  },
+  "★ Bowie Knife | Slaughter": {
+    "ignore": true
+  },
+  "★ Ursus Knife | Tiger Tooth": {
+    "ignore": true
+  },
+  "★ Survival Knife | Doppler (Factory New) - Phase 4": {
+    "ignore": true
+  },
+  "★ Flip Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "★ Falchion Knife | Tiger Tooth": {
+    "ignore": true
+  },
+  "★ Gut Knife | Gamma Doppler (Factory New) - Phase 1": {
+    "ignore": true
+  },
+  "★ Huntsman Knife": {
+    "ignore": true
+  },
+  "★ Flip Knife | Bright Water": {
+    "ignore": true
+  },
+  "★ Bayonet | Freehand": {
+    "def_index": 500,
+    "paint_index": 580
+  },
+  "CZ75-Auto | Emerald Quartz": {
+    "def_index": 63,
+    "paint_index": 859
+  },
+  "Glock-18 | Gamma Doppler (Well-Worn) - Phase 4": {
+    "ignore": true
+  },
+  "AK-47 | Vulcan": {
+    "def_index": 7,
+    "paint_index": 302
+  },
+  "★ Bayonet | Night": {
+    "def_index": 500,
+    "paint_index": 40
+  },
+  "★ Huntsman Knife | Blue Steel": {
+    "ignore": true
+  },
+  "Galil AR | Urban Rubble": {
+    "def_index": 13,
+    "paint_index": 237
+  },
+  "★ Specialist Gloves | Crimson Web": {
+    "ignore": true
+  },
+  "★ Kukri Knife | Slaughter": {
+    "ignore": true
+  },
+  "★ Skeleton Knife | Scorched": {
+    "ignore": true
+  },
+  "★ Bowie Knife | Crimson Web": {
+    "ignore": true
+  },
+  "★ Navaja Knife | Fade": {
+    "ignore": true
+  },
+  "★ StatTrak™ Ursus Knife | Tiger Tooth": {
+    "ignore": true
+  },
+  "★ Stiletto Knife | Scorched": {
+    "ignore": true
+  },
+  "★ Survival Knife | Doppler (Factory New) - Phase 3": {
+    "ignore": true
+  },
+  "AK-47 | First Class": {
+    "def_index": 7,
+    "paint_index": 341
+  },
+  "★ Ursus Knife | Marble Fade": {
+    "ignore": true
+  },
+  "★ StatTrak™ Bowie Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "Five-SeveN | Berries And Cherries": {
+    "def_index": 3,
+    "paint_index": 1002
+  },
+  "Glock-18 | Gamma Doppler (Minimal Wear) - Phase 2": {
+    "ignore": true
+  },
+  "★ StatTrak™ Kukri Knife | Blue Steel": {
+    "ignore": true
+  },
+  "★ Ursus Knife | Crimson Web": {
+    "ignore": true
+  },
+  "Glock-18 | Gamma Doppler": {
+    "def_index": 4,
+    "paint_index": 1119
+  },
+  "★ Skeleton Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "★ StatTrak™ Ursus Knife": {
+    "ignore": true
+  },
+  "★ Shadow Daggers | Gamma Doppler (Factory New) - Phase 3": {
+    "ignore": true
+  },
+  "★ Paracord Knife | Slaughter": {
+    "ignore": true
+  },
+  "★ Ursus Knife | Slaughter": {
+    "ignore": true
+  },
+  "★ StatTrak™ Ursus Knife | Blue Steel": {
+    "ignore": true
+  },
+  "★ StatTrak™ Flip Knife | Freehand": {
+    "ignore": true
+  },
+  "★ Shadow Daggers | Gamma Doppler (Minimal Wear) - Emerald": {
+    "ignore": true
+  },
+  "Glock-18 | Gamma Doppler (Field-Tested) - Phase 1": {
+    "ignore": true
+  },
+  "★ StatTrak™ Survival Knife | Fade": {
+    "ignore": true
+  },
+  "★ Flip Knife | Blue Steel": {
+    "ignore": true
+  },
+  "★ Bayonet | Blue Steel": {
+    "def_index": 500,
+    "paint_index": 42
+  },
+  "★ StatTrak™ Skeleton Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "★ StatTrak™ Gut Knife | Fade": {
+    "ignore": true
+  },
+  "★ StatTrak™ Stiletto Knife | Scorched": {
+    "ignore": true
+  },
+  "★ Classic Knife | Crimson Web": {
+    "ignore": true
+  },
+  "★ Gut Knife | Doppler (Factory New) - Phase 1": {
+    "ignore": true
+  },
+  "★ StatTrak™ Huntsman Knife | Autotronic": {
+    "ignore": true
+  },
+  "Glock-18 | Dragon Tattoo": {
+    "def_index": 4,
+    "paint_index": 48
+  },
+  "★ StatTrak™ Skeleton Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "Glock-18 | Gamma Doppler (Minimal Wear) - Phase 4": {
+    "ignore": true
+  },
+  "★ Flip Knife | Stained": {
+    "ignore": true
+  },
+  "★ Classic Knife | Blue Steel": {
+    "ignore": true
+  },
+  "★ StatTrak™ Paracord Knife | Marble Fade": {
+    "ignore": true
+  },
+  "★ Gut Knife | Doppler (Factory New) - Phase 4": {
+    "ignore": true
+  },
+  "★ StatTrak™ Gut Knife | Lore": {
+    "ignore": true
+  },
+  "★ Shadow Daggers | Doppler (Factory New) - Phase 2": {
+    "ignore": true
+  },
+  "★ Survival Knife | Doppler (Factory New) - Phase 1": {
+    "ignore": true
+  },
+  "★ StatTrak™ Nomad Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "★ Sport Gloves | Scarlet Shamagh": {
+    "ignore": true
+  },
+  "Glock-18 | Gamma Doppler (Field-Tested) - Phase 4": {
+    "ignore": true
+  },
+  "★ Stiletto Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "★ Bayonet | Safari Mesh": {
+    "def_index": 500,
+    "paint_index": 72
+  },
+  "★ Bayonet | Crimson Web": {
+    "def_index": 500,
+    "paint_index": 12
+  },
+  "★ Shadow Daggers | Slaughter": {
+    "ignore": true
+  },
+  "★ Skeleton Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "★ Talon Knife | Urban Masked": {
+    "ignore": true
+  },
+  "★ StatTrak™ Stiletto Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "★ StatTrak™ Kukri Knife | Crimson Web": {
+    "ignore": true
+  },
+  "AUG | Storm": {
+    "def_index": 8,
+    "paint_index": 100
+  },
+  "★ Skeleton Knife | Stained": {
+    "ignore": true
+  },
+  "★ Nomad Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "★ Gut Knife | Gamma Doppler (Factory New) - Phase 4": {
+    "ignore": true
+  },
+  "★ Talon Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "★ StatTrak™ Stiletto Knife | Forest DDPAT": {
+    "ignore": true
+  },
+  "★ Bayonet | Boreal Forest": {
+    "def_index": 500,
+    "paint_index": 77
+  },
+  "★ StatTrak™ Bowie Knife | Black Laminate": {
+    "ignore": true
+  },
+  "★ StatTrak™ Ursus Knife | Night Stripe": {
+    "ignore": true
+  },
+  "★ StatTrak™ Gut Knife | Tiger Tooth": {
+    "ignore": true
+  },
+  "★ Bayonet | Stained": {
+    "def_index": 500,
+    "paint_index": 43
+  },
+  "★ Gut Knife | Slaughter": {
+    "ignore": true
+  },
+  "SCAR-20 | Green Marine": {
+    "def_index": 38,
+    "paint_index": 502
+  },
+  "★ Gut Knife | Doppler (Factory New) - Phase 2": {
+    "ignore": true
+  },
+  "★ StatTrak™ Falchion Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "★ Bayonet | Urban Masked": {
+    "def_index": 500,
+    "paint_index": 143
+  },
+  "★ StatTrak™ Bayonet | Stained": {
+    "def_index": 500,
+    "paint_index": 43
+  },
+  "★ StatTrak™ Huntsman Knife | Lore": {
+    "ignore": true
+  },
+  "★ Survival Knife | Fade": {
+    "ignore": true
+  },
+  "M4A1-S | Master Piece": {
+    "def_index": 60,
+    "paint_index": 321
+  },
+  "P250 | Metallic DDPAT": {
+    "def_index": 36,
+    "paint_index": 34
+  },
+  "★ Survival Knife | Tiger Tooth": {
+    "ignore": true
+  },
+  "★ StatTrak™ Flip Knife | Night": {
+    "ignore": true
+  },
+  "★ StatTrak™ Survival Knife | Crimson Web": {
+    "ignore": true
+  },
+  "★ Bowie Knife | Gamma Doppler (Factory New) - Phase 3": {
+    "ignore": true
+  },
+  "★ StatTrak™ Kukri Knife | Slaughter": {
+    "ignore": true
+  },
+  "M4A1-S | Printstream": {
+    "def_index": 60,
+    "paint_index": 984
+  },
+  "★ StatTrak™ Stiletto Knife | Rust Coat": {
+    "ignore": true
+  },
+  "Tec-9 | Cracked Opal": {
+    "def_index": 30,
+    "paint_index": 684
+  },
+  "★ Gut Knife | Fade": {
+    "ignore": true
+  },
+  "★ StatTrak™ Nomad Knife | Stained": {
+    "ignore": true
+  },
+  "★ StatTrak™ Gut Knife | Autotronic": {
+    "ignore": true
+  },
+  "Glock-18 | Gamma Doppler (Well-Worn) - Phase 2": {
+    "ignore": true
+  },
+  "★ Stiletto Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "★ StatTrak™ Gut Knife | Doppler (Factory New) - Phase 4": {
+    "ignore": true
+  },
+  "MP9 | Bulldozer": {
+    "def_index": 34,
+    "paint_index": 39
+  },
+  "★ StatTrak™ Paracord Knife | Blue Steel": {
+    "ignore": true
+  },
+  "★ Gut Knife | Gamma Doppler (Factory New) - Phase 3": {
+    "ignore": true
+  },
+  "★ Talon Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "★ Stiletto Knife | Stained": {
+    "ignore": true
+  },
+  "★ StatTrak™ Flip Knife | Bright Water": {
+    "ignore": true
+  },
+  "SG 553 | Tornado": {
+    "def_index": 39,
+    "paint_index": 101
+  },
+  "★ Flip Knife | Night": {
+    "ignore": true
+  },
+  "Desert Eagle | Fennec Fox": {
+    "def_index": 1,
+    "paint_index": 764
+  },
+  "P250 | Black & Tan": {
+    "def_index": 36,
+    "paint_index": 928
+  },
+  "★ StatTrak™ Bowie Knife | Urban Masked": {
+    "ignore": true
+  },
+  "SSG 08 | Mayan Dreams": {
+    "def_index": 40,
+    "paint_index": 200
+  },
+  "★ StatTrak™ Stiletto Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "P250 | Iron Clad": {
+    "def_index": 36,
+    "paint_index": 592
+  },
+  "★ StatTrak™ Survival Knife | Night Stripe": {
+    "ignore": true
+  },
+  "★ StatTrak™ Falchion Knife": {
+    "ignore": true
+  },
+  "★ Bayonet | Forest DDPAT": {
+    "def_index": 500,
+    "paint_index": 5
+  },
+  "★ Stiletto Knife | Night Stripe": {
+    "ignore": true
+  },
+  "★ StatTrak™ Bayonet | Safari Mesh": {
+    "def_index": 500,
+    "paint_index": 72
+  },
+  "★ StatTrak™ Flip Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "★ StatTrak™ Falchion Knife | Freehand": {
+    "ignore": true
+  },
+  "★ Bloodhound Gloves | Charred": {
+    "ignore": true
+  },
+  "★ StatTrak™ Stiletto Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "★ StatTrak™ Stiletto Knife | Urban Masked": {
+    "ignore": true
+  },
+  "★ StatTrak™ Falchion Knife | Tiger Tooth": {
+    "ignore": true
+  },
+  "★ StatTrak™ Flip Knife | Rust Coat": {
+    "ignore": true
+  },
+  "★ Bayonet | Scorched": {
+    "def_index": 500,
+    "paint_index": 175
+  },
+  "★ Shadow Daggers | Fade": {
+    "ignore": true
+  },
+  "★ StatTrak™ Nomad Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "Five-SeveN | Crimson Blossom": {
+    "def_index": 3,
+    "paint_index": 729
+  },
+  "★ StatTrak™ Flip Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "★ StatTrak™ Paracord Knife | Night Stripe": {
+    "ignore": true
+  },
+  "Glock-18 | Gamma Doppler (Field-Tested) - Phase 3": {
+    "ignore": true
+  },
+  "SCAR-20 | Fragments": {
+    "def_index": 38,
+    "paint_index": 1226
+  },
+  "★ StatTrak™ Skeleton Knife | Scorched": {
+    "ignore": true
+  },
+  "R8 Revolver | Nitro": {
+    "def_index": 64,
+    "paint_index": 798
+  },
+  "★ Specialist Gloves | Forest DDPAT": {
+    "ignore": true
+  },
+  "Five-SeveN | Hyper Beast": {
+    "ignore": true
+  },
+  "★ Talon Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "★ StatTrak™ Shadow Daggers | Gamma Doppler (Factory New) - Phase 2": {
+    "ignore": true
+  },
+  "★ StatTrak™ Nomad Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "★ Talon Knife | Scorched": {
+    "ignore": true
+  },
+  "UMP-45 | Oscillator": {
+    "def_index": 24,
+    "paint_index": 1049
+  },
+  "★ Falchion Knife | Slaughter": {
+    "ignore": true
+  },
+  "SSG 08 | Tropical Storm": {
+    "def_index": 40,
+    "paint_index": 233
+  },
+  "PP-Bizon | Death Rattle": {
+    "def_index": 26,
+    "paint_index": 293
+  },
+  "★ Shadow Daggers | Gamma Doppler (Minimal Wear) - Phase 1": {
+    "ignore": true
+  },
+  "★ StatTrak™ Paracord Knife | Tiger Tooth": {
+    "ignore": true
+  },
+  "Tec-9 | Flash Out": {
+    "def_index": 30,
+    "paint_index": 905
+  },
+  "★ Shadow Daggers | Doppler (Factory New) - Phase 1": {
+    "ignore": true
+  },
+  "★ Classic Knife": {
+    "ignore": true
+  },
+  "★ Shadow Daggers | Doppler (Factory New) - Phase 4": {
+    "ignore": true
+  },
+  "★ StatTrak™ Nomad Knife | Blue Steel": {
+    "ignore": true
+  },
+  "M249 | Deep Relief": {
+    "def_index": 14,
+    "paint_index": 983
+  },
+  "AWP | CMYK": {
+    "def_index": 9,
+    "paint_index": 163
+  },
+  "★ StatTrak™ Falchion Knife | Ultraviolet": {
+    "ignore": true
+  },
+  "AWP | Graphite": {
+    "def_index": 9,
+    "paint_index": 212
+  },
+  "SG 553 | Lush Ruins": {
+    "def_index": 39,
+    "paint_index": 1022
+  },
+  "★ StatTrak™ Shadow Daggers | Gamma Doppler (Factory New) - Phase 1": {
+    "ignore": true
+  },
+  "UMP-45 | Gunsmoke": {
+    "ignore": true
+  },
+  "Sawed-Off | Snake Camo": {
+    "def_index": 29,
+    "paint_index": 30
+  },
+  "★ StatTrak™ Gut Knife | Night": {
+    "ignore": true
+  },
+  "Sawed-Off | Yorick": {
+    "def_index": 29,
+    "paint_index": 517
+  },
+  "SG 553 | Bleached": {
+    "def_index": 39,
+    "paint_index": 934
+  },
+  "MAC-10 | Strats": {
+    "def_index": 17,
+    "paint_index": 1075
+  },
+  "★ StatTrak™ Flip Knife | Blue Steel": {
+    "ignore": true
+  },
+  "Nova | Walnut": {
+    "def_index": 35,
+    "paint_index": 158
+  },
+  "★ StatTrak™ Bayonet | Damascus Steel": {
+    "def_index": 500,
+    "paint_index": 410
+  },
+  "★ Navaja Knife | Doppler (Factory New) - Phase 2": {
+    "ignore": true
+  },
+  "★ StatTrak™ Ursus Knife | Urban Masked": {
+    "ignore": true
+  },
+  "★ Moto Gloves | Boom!": {
+    "ignore": true
+  },
+  "Desert Eagle | Mudder": {
+    "def_index": 1,
+    "paint_index": 90
+  },
+  "★ Bowie Knife | Fade": {
+    "ignore": true
+  },
+  "Nova | Ranger": {
+    "def_index": 35,
+    "paint_index": 484
+  },
+  "MP7 | Urban Hazard": {
+    "def_index": 33,
+    "paint_index": 354
+  },
+  "★ Gut Knife | Doppler (Minimal Wear) - Phase 1": {
+    "ignore": true
+  },
+  "★ Driver Gloves | Lunar Weave": {
+    "ignore": true
+  },
+  "★ Shadow Daggers | Gamma Doppler (Minimal Wear) - Phase 3": {
+    "ignore": true
+  },
+  "★ Shadow Daggers | Gamma Doppler (Minimal Wear) - Phase 2": {
+    "ignore": true
+  },
+  "★ StatTrak™ Huntsman Knife | Blue Steel": {
+    "ignore": true
+  },
+  "★ StatTrak™ Paracord Knife | Damascus Steel": {
+    "ignore": true
+  },
+  "Galil AR | Destroyer": {
+    "def_index": 13,
+    "paint_index": 1147
+  },
+  "UMP-45 | Motorized": {
+    "def_index": 24,
+    "paint_index": 1175
+  },
+  "★ StatTrak™ Falchion Knife | Rust Coat": {
+    "ignore": true
+  },
+  "Tec-9 | Red Quartz": {
+    "def_index": 30,
+    "paint_index": 248
+  },
+  "SCAR-20 | Stone Mosaico": {
+    "def_index": 38,
+    "paint_index": 865
+  },
+  "P2000 | Grassland Leaves": {
+    "def_index": 32,
+    "paint_index": 104
+  },
+  "MAG-7 | Irradiated Alert": {
+    "ignore": true
+  },
+  "P250 | Bone Mask": {
+    "def_index": 36,
+    "paint_index": 27
+  },
+  "Nova | Blaze Orange": {
+    "def_index": 35,
+    "paint_index": 166
+  },
+  "G3SG1 | Ventilator": {
+    "def_index": 11,
+    "paint_index": 606
+  },
+  "M249 | Shipping Forecast": {
+    "def_index": 14,
+    "paint_index": 452
+  },
+  "Galil AR | Winter Forest": {
+    "def_index": 13,
+    "paint_index": 76
+  },
+  "XM1014 | Blaze Orange": {
+    "def_index": 25,
+    "paint_index": 166
+  },
+  "SCAR-20 | Outbreak": {
+    "def_index": 38,
+    "paint_index": 518
+  },
+  "P90 | Run and Hide": {
+    "def_index": 19,
+    "paint_index": 1000
+  },
+  "MP7 | Groundwater": {
+    "def_index": 33,
+    "paint_index": 209
+  },
+  "★ StatTrak™ Survival Knife | Stained": {
+    "ignore": true
+  },
+  "P250 | Contamination": {
+    "def_index": 36,
+    "paint_index": 373
+  },
+  "★ StatTrak™ Paracord Knife | Stained": {
+    "ignore": true
+  },
+  "MAC-10 | Sienna Damask": {
+    "def_index": 17,
+    "paint_index": 826
+  },
+  "AUG | Anodized Navy": {
+    "def_index": 8,
+    "paint_index": 197
+  },
+  "MP7 | Teal Blossom": {
+    "def_index": 33,
+    "paint_index": 728
+  },
+  "M249 | Warbird": {
+    "def_index": 14,
+    "paint_index": 900
+  },
+  "★ StatTrak™ Gut Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "★ StatTrak™ Ursus Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "Dual Berettas | Retribution": {
+    "def_index": 2,
+    "paint_index": 307
+  },
+  "MP7 | Vault Heist": {
+    "def_index": 33,
+    "paint_index": 1007
+  },
+  "MP9 | Slide": {
+    "def_index": 34,
+    "paint_index": 755
+  },
+  "Dual Berettas | Ventilators": {
+    "def_index": 2,
+    "paint_index": 544
+  },
+  "SG 553 | Waves Perforated": {
+    "def_index": 39,
+    "paint_index": 136
+  },
+  "★ StatTrak™ Gut Knife | Scorched": {
+    "ignore": true
+  },
+  "SG 553 | Desert Blossom": {
+    "def_index": 39,
+    "paint_index": 765
+  },
+  "P90 | Leather": {
+    "def_index": 19,
+    "paint_index": 342
+  },
+  "MAC-10 | Classic Crate": {
+    "def_index": 17,
+    "paint_index": 908
+  },
+  "Dual Berettas | Colony": {
+    "def_index": 2,
+    "paint_index": 47
+  },
+  "Five-SeveN | Anodized Gunmetal": {
+    "def_index": 3,
+    "paint_index": 210
+  },
+  "★ StatTrak™ Bowie Knife | Bright Water": {
+    "ignore": true
+  },
+  "MAC-10 | Copper Borre": {
+    "ignore": true
+  },
+  "MP9 | Modest Threat": {
+    "def_index": 34,
+    "paint_index": 804
+  },
+  "R8 Revolver | Survivalist": {
+    "def_index": 64,
+    "paint_index": 721
+  },
+  "FAMAS | Prime Conspiracy": {
+    "def_index": 10,
+    "paint_index": 999
+  },
+  "Tec-9 | Phoenix Chalk": {
+    "def_index": 30,
+    "paint_index": 1010
+  },
+  "XM1014 | Blue Tire": {
+    "ignore": true
+  },
+  "★ StatTrak™ Gut Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "Negev | Ultralight": {
+    "def_index": 28,
+    "paint_index": 958
+  },
+  "★ StatTrak™ Navaja Knife | Stained": {
+    "ignore": true
+  },
+  "★ StatTrak™ Gut Knife": {
+    "ignore": true
+  },
+  "★ StatTrak™ Talon Knife | Urban Masked": {
+    "ignore": true
+  },
+  "Sawed-Off | Clay Ambush": {
+    "def_index": 29,
+    "paint_index": 1014
+  },
+  "★ Skeleton Knife | Doppler (Factory New) - Phase 3": {
+    "ignore": true
+  },
+  "G3SG1 | Safari Mesh": {
+    "def_index": 11,
+    "paint_index": 72
+  },
+  "Sawed-Off | Brake Light": {
+    "def_index": 29,
+    "paint_index": 797
+  },
+  "★ StatTrak™ Gut Knife | Stained": {
+    "ignore": true
+  },
+  "★ StatTrak™ Huntsman Knife | Boreal Forest": {
+    "ignore": true
+  },
+  "MP7 | Prey": {
+    "def_index": 33,
+    "paint_index": 935
+  },
+  "CZ75-Auto | Tuxedo": {
+    "def_index": 63,
+    "paint_index": 297
+  },
+  "G3SG1 | Violet Murano": {
+    "def_index": 11,
+    "paint_index": 739
+  },
+  "★ StatTrak™ Gut Knife | Rust Coat": {
+    "ignore": true
+  },
+  "Nova | Interlock": {
+    "def_index": 35,
+    "paint_index": 1077
+  },
+  "R8 Revolver | Desert Brush": {
+    "def_index": 64,
+    "paint_index": 924
+  },
+  "M249 | Gator Mesh": {
+    "def_index": 14,
+    "paint_index": 243
+  },
+  "CZ75-Auto | Circaetus": {
+    "def_index": 63,
+    "paint_index": 1036
+  },
+  "★ StatTrak™ Stiletto Knife | Safari Mesh": {
+    "ignore": true
+  },
+  "G3SG1 | Ancient Ritual": {
+    "def_index": 11,
+    "paint_index": 1034
+  },
+  "MP7 | Sunbaked": {
+    "def_index": 33,
+    "paint_index": 1246
+  },
+  "UMP-45 | Day Lily": {
+    "def_index": 24,
+    "paint_index": 725
+  },
+  "★ StatTrak™ Huntsman Knife | Urban Masked": {
+    "def_index": 509,
+    "paint_index": 143
+  },
+  "Sawed-Off | Amber Fade": {
+    "def_index": 29,
+    "paint_index": 246
+  },
+  "P2000 | Granite Marbleized": {
+    "def_index": 32,
+    "paint_index": 21
+  },
+  "★ Falchion Knife | Gamma Doppler (Factory New) - Phase 2": {
+    "ignore": true
+  },
+  "XM1014 | Hieroglyph": {
+    "def_index": 25,
+    "paint_index": 1254
+  },
+  "Galil AR | Sage Spray": {
+    "def_index": 13,
+    "paint_index": 119
+  }
+}

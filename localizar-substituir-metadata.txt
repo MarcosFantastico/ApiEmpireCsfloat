@@ -1,0 +1,4 @@
+Localizar:
+("★.*(?:Knife|Glove|Shadow Daggers).*":\s*\{)[\s\S]+?(\s*\})
+Substituir:
+$1\r\n\t"ignore": true\r\n$2

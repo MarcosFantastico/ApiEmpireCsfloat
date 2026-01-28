@@ -1,170 +1,132 @@
-// csfloatScraper.js
-const { chromium } = require('playwright');
-const path = require('path');
-const fs = require('fs'); 
-require('dotenv').config({ path: path.join(__dirname, '../globalVariables.env') });
-//const PLAYWRIGHT_CHROME_PATH = 'C:\\Users\\Marcos\\AppData\\Local\\ms-playwright\\chromium-1187\\chrome-win\\chrome.exe'; // especificar caminho do executavel <-- SUBSTITUA COM SEU CAMINHO REAL!
-const PLAYWRIGHT_CHROME_PATH = process.env.PLAYWRIGHT_CHROME_PATH
+// src/csfloatScraper.js
+// ATENÇÃO: Este scraper espera receber um contexto de navegador JÁ ABERTO.
 
-const PLAYWRIGHT_PERSISTENT_PROFILE_PATH = path.join(__dirname, 'playwright_profile_csfloat');
-console.log(PLAYWRIGHT_PERSISTENT_PROFILE_PATH);
-//const AUTH_FILE = path.join(__dirname, '../', 'auth.json'); 
+const NO_THANKS_POPUP_BUTTON_SELECTOR = 'button:has-text("No Thanks")';
+const NOTIFICATION_OVERLAY_SELECTOR = 'div.cdk-overlay-backdrop';
 
-// --- SELECTORES ESPECÍFICOS PARA O CSFLOAT ---
-const LOGGED_IN_INDICATOR_SELECTOR = 'div.mat-badge'; 
-// Usei o seu seletor. Se ele for alterado no site, precisará ser atualizado aqui.
-
-const NO_THANKS_POPUP_BUTTON_SELECTOR = 'button:has-text("No Thanks")'; // Botão "No Thanks" do pop-up de feedback
-const NOTIFICATION_OVERLAY_SELECTOR = 'div.cdk-overlay-backdrop'; // Overlay das notificações
-
-/**
- * Tenta fechar o pop-up "Share Your Thoughts".
- */
-async function handleOptionalPopup(page) {
+async function handlePopups(page) {
     try {
-        console.log('[SCRAPER] Verificando se o pop-up de feedback apareceu...'); // Log menos verboso
         const noThanksButton = page.locator(NO_THANKS_POPUP_BUTTON_SELECTOR);
-        await noThanksButton.click({ timeout: 1000 }); // Ajustei para locator e timeout
-        console.log('[SCRAPER] Pop-up "Share your thoughts" fechado com sucesso.');
-    } catch (error) {
-        console.log('[SCRAPER] Pop-up de feedback não apareceu, continuando normalmente.');
+        if (await noThanksButton.isVisible({ timeout: 500 })) {
+            await noThanksButton.click();
+        }
+        
+        const notificationOverlay = page.locator(NOTIFICATION_OVERLAY_SELECTOR);
+        if (await notificationOverlay.isVisible({ timeout: 500 })) {
+            await notificationOverlay.click();
+        }
+    } catch (e) {
+        // Ignora erros de popup
     }
 }
 
 /**
- * Tenta fechar o pop-up de notificações.
+ * Raspa a ordem de compra.
+ * REGRAS ATUAIS:
+ * - IGNORA: Stickers específicos e Seeds/Patterns (Gemas, etc).
+ * - ACEITA: Restrições de Float, StatTrak e ordens genéricas.
  */
-async function handleNotificationDialog(page) {
+async function rasparMelhorOrdemDeCompra(context, url) {
+    let page = null;
     try {
-        console.log('[SCRAPER] Verificando se o pop-up de notificações apareceu...'); // Log menos verboso
-        // Usar page.locator para o overlay e esperar por ele
-        const notificationOverlay = page.locator(NOTIFICATION_OVERLAY_SELECTOR);
-        await notificationOverlay.waitFor({ state: 'visible', timeout: 1000 }); 
-        console.log('[SCRAPER] Overlay de notificações encontrado. Forçando o clique...');
+        page = await context.newPage();
+        await page.setDefaultTimeout(25000); 
 
-        // Clicar no overlay para fechar o pop-up
-        await notificationOverlay.click({ timeout: 1000 }); // Clicar no overlay visível
+        // Bloqueia imagens/fontes para velocidade
+        await page.route('**/*.{png,jpg,jpeg,gif,css,font}', route => route.abort());
 
-        console.log('[SCRAPER] Pop-up de notificações fechado com sucesso via clique no overlay.');
-        await page.waitForTimeout(500); // Pequena pausa para garantir que o pop-up sumiu
-    } catch (error) {
-       console.log('[SCRAPER] Pop-up de notificações não apareceu, continuando normalmente.');
-    }
-}
-
-async function rasparMelhorOrdemDeCompra(url) {
-    console.log(`[SCRAPER-PLAYWRIGHT] Iniciando raspagem da URL: ${url}`);
-    let context = null;
-
-    try {
-        context = await chromium.launchPersistentContext(PLAYWRIGHT_PERSISTENT_PROFILE_PATH, {
-            headless: false, // Mantenha false para o login manual
-            executablePath: PLAYWRIGHT_CHROME_PATH 
-        });
+        await page.goto(url, { waitUntil: 'domcontentloaded' });
         
-        const page = await context.newPage(); 
-        await page.setDefaultNavigationTimeout(60000);
+        await handlePopups(page);
+
+        // Abre a lista de Buy Orders
+        const PRIMEIRO_ITEM = 'div.content div.header';
+        await page.waitForSelector(PRIMEIRO_ITEM);
+       // await page.click(PRIMEIRO_ITEM);
+       await page.waitForTimeout(2000);  // Pequena pausa para garantir que o clique seja registrado
+       await page.click(PRIMEIRO_ITEM);
+
+
         
-        // --- Lógica para Login Manual via Steam ---
-        /*
-        console.log('[SCRAPER] Verificando status do login no CSFloat...');
-        await page.goto('https://csfloat.com/', { waitUntil: 'domcontentloaded' }); // Vá para a página inicial
 
-        let isLoggedIn = false;
-        try {
-            // Tenta verificar se já está logado usando o seletor específico
-            await page.waitForSelector(LOGGED_IN_INDICATOR_SELECTOR, { timeout: 7000 }); // Mais tempo para a página carregar
-            isLoggedIn = true;
-            console.log('[SCRAPER] Login já ativo no perfil persistente.');
-        } catch (e) {
-            console.warn('[SCRAPER] Login NÃO está ativo. Preparando para login manual...');
-            isLoggedIn = false;
-        }
 
-        // --- TRATAMENTO DOS POP-UPS AQUI, APÓS A VERIFICAÇÃO DE LOGIN INICIAL ---
-        // Eles podem aparecer mesmo antes do login, ou logo depois.
-        await handleOptionalPopup(page);
-        await handleNotificationDialog(page);
-        
-        if (!isLoggedIn) {
-            console.log('\n=============================================================');
-            console.log('POR FAVOR, FAÇA O LOGIN NO CSFLOAT NESTA JANELA DO NAVEGADOR.');
-            console.log('Você tem 2 minutos (ou até o indicador de login aparecer).');
-            console.log('=============================================================\n');
+        const PRECO_SELECTOR = 'div.order-container td.cdk-column-price';
+        await page.waitForSelector(PRECO_SELECTOR);
 
-            // Navega para a página de login se ainda não estiver logado
-            await page.goto('https://csfloat.com/login'); 
+        // Pega todas as linhas
+        const rows = await page.locator('div.order-container tr.mat-mdc-row').all();
 
-            // Espera até que o indicador de login apareça (indicando login bem-sucedido)
-            // ou até que o tempo limite de 2 minutos se esgote.
-            try {
-                await page.waitForSelector(LOGGED_IN_INDICATOR_SELECTOR, { waitUntil: 'visible', timeout: 120000 }); // 2 minutos
-                console.log('[SCRAPER] Detectado login bem-sucedido (indicador de login apareceu).');
-                console.log('Pasta playwright_profile_csfloat atualizada com o novo estado de login.');
-                isLoggedIn = true;
-            } catch (error) {
-                console.error('[SCRAPER] [ERRO] Tempo limite para login manual excedido ou indicador de login não apareceu.');
-                throw new Error('Falha no login manual: tempo esgotado ou indicador de login ausente.');
+        for (const row of rows) {
+            // --- 1. FILTRO RÁPIDO (Ícones Visíveis) ---
+            // Se tiver imagem de sticker explícita na linha, pula.
+            // (As vezes o CSFloat mostra o ícone do sticker direto na linha)
+            const countIcons = await row.locator('img.sticker-image').count(); 
+            if (countIcons > 0) continue;
+
+            // --- 2. FILTRO PROFUNDO (HOVER CHECK) ---
+            
+            // Limpa mouse anterior
+            await page.mouse.move(0, 0); 
+            await page.waitForTimeout(100); 
+
+            // Passa o mouse na linha atual
+            await row.hover();
+            await page.waitForTimeout(300); // Espera renderizar tooltip
+
+            // Busca o texto do tooltip
+            const overlayContainer = page.locator('.cdk-overlay-container');
+            let tooltipText = '';
+            
+            if (await overlayContainer.isVisible()) {
+                 const tooltips = overlayContainer.locator('.mat-mdc-tooltip-surface');
+                 if (await tooltips.count() > 0) {
+                     tooltipText = await tooltips.last().innerText();
+                 } else {
+                     tooltipText = await overlayContainer.innerText();
+                 }
             }
-        }
+            
+            // --- LISTA DE PALAVRAS QUE INDICAM "ITEM ESPECÍFICO DEMAIS" ---
+            // Se tiver isso, a gente PULA a linha.
+            // REMOVIDOS: 'Float', 'Paint', 'Rank' (Agora aceitamos float específico)
+            const restricaoDetectada = [
+                'Sticker', 
+                'HasSticker', 
+                'Seed', 
+                'Pattern'
+            ].some(term => tooltipText.includes(term));
 
-        if (!isLoggedIn) {
-            throw new Error('Login manual não foi bem-sucedido após espera.');
-        }
-*/
-        // --- TRATAMENTO DOS POP-UPS NOVAMENTE, CASO APAREÇAM APÓS O LOGIN ---
-        // É uma boa prática verificar novamente, pois a navegação de login pode ter fechado e reaberto pop-ups.
-        //await handleOptionalPopup(page);
-        //await handleNotificationDialog(page);
+            if (restricaoDetectada) {
+                // Se pede sticker ou pattern, pula.
+                continue; 
+            }
 
-        // Agora que o login está garantido, vá para a URL de raspagem
-        await page.goto(url, { waitUntil: 'networkidle' });
-        console.log('[SCRAPER-PLAYWRIGHT] Página de busca carregada.');
-        
-        // --- TRATAMENTO DOS POP-UPS UMA ÚLTIMA VEZ, CASO A NAVEGAÇÃO ACIONE NOVAMENTE ---
-        await handleOptionalPopup(page);
-        await handleNotificationDialog(page);
-
-        // O restante do seu código para raspar permanece o mesmo.
-        const PRIMEIRO_ITEM_SELECTOR = 'div.content div.header';
-        await page.waitForSelector(PRIMEIRO_ITEM_SELECTOR, { timeout: 30000 });
-        console.log('[SCRAPER-PLAYWRIGHT] Item encontrado. Clicando...');
-        await page.click(PRIMEIRO_ITEM_SELECTOR);
-
-        const DADOS_DA_TABELA_SELECTOR = 'div.order-container td.cdk-column-price';
-        await page.waitForSelector(DADOS_DA_TABELA_SELECTOR, { timeout: 10000 });
-        console.log('[SCRAPER-PLAYWRIGHT] Conteúdo da tabela carregado.');
-
-        const LINHA_BUY_ORDER_SELECTOR = 'div.order-container tr.mat-mdc-row';
-        const primeiraLinha = page.locator(LINHA_BUY_ORDER_SELECTOR).first();
-        const text = await primeiraLinha.innerText();
-        
-        if (text && text.includes('$')) {
-            const parts = text.replace('$', '').trim().split('\t');
-            if (parts.length === 2) {
-                const price = parseFloat(parts[0]);
-                const quantity = parseInt(parts[1]);
-                if (!isNaN(price) && !isNaN(quantity)) {
-                    console.log(`[SCRAPER-PLAYWRIGHT] Melhor ordem de compra encontrada: Price ${price}, Quantity ${quantity}.`);
-                    return { price, quantity };
+            // --- 3. SUCESSO (LINHA VÁLIDA) ---
+            // Se chegou aqui, é uma ordem limpa OU uma ordem com restrição de Float (que aceitamos)
+            const texto = await row.innerText();
+            if (texto && texto.includes('$')) {
+                const parts = texto.replace('$', '').trim().split('\t');
+                if (parts.length >= 2) {
+                    const price = parseFloat(parts[0]);
+                    const quantity = parseInt(parts[1]);
+                    
+                    if (!isNaN(price) && !isNaN(quantity)) {
+                        console.log(`[SCRAPER] Melhor ordem VÁLIDA encontrada: $${price} (Qtd: ${quantity})`);
+                        return { price, quantity };
+                    }
                 }
             }
         }
         
-        console.log('[SCRAPER-PLAYWRIGHT] Não foi possível processar a primeira linha da tabela.');
+        console.log('[SCRAPER] Nenhuma ordem de compra compatível encontrada.');
         return null;
 
     } catch (error) {
-        console.log(`[SCRAPER-PLAYWRIGHT] [ERRO] Falha ao raspar a página: ${error.message}`);
+        console.error(`[SCRAPER] Erro na URL ${url}: ${error.message}`);
         return null;
     } finally {
-        if (context) {
-            await context.close();
-            console.log('[SCRAPER-PLAYWRIGHT] Contexto do navegador fechado.');
-        }
+        if (page) await page.close(); 
     }
 }
 
-module.exports = {
-    rasparMelhorOrdemDeCompra
-};
+module.exports = { rasparMelhorOrdemDeCompra };

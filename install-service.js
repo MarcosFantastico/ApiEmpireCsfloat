@@ -5,7 +5,7 @@ const path = require('path');
 const svc = new Service({
   name: 'Apics',
   description: 'Serviço de API para CS:GO Empire e outros.',
-  script: path.join(__dirname, 'fetch_geral.js'),
+  script: path.join(__dirname, 'fetch_arbitragem.js'),
   // REMOVEMOS O BLOCO 'logOnAs' DAQUI, JÁ QUE ELE ESTÁ SENDO IGNORADO
 });
 

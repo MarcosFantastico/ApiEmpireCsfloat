@@ -68,8 +68,8 @@ dist/
 build/
 daemon/
 
-# WwebJS session and cache
-.wwebjs_cache/
+# Whats
+baileys_auth/
 .wwebjs_auth/
 
 # Misc
