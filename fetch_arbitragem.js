@@ -11,19 +11,13 @@ const TelegramBot = require('node-telegram-bot-api');
 
 // --- CONFIGURAÇÕES ---
 const SALDO_MAXIMO_USD = 100.00; 
-const MARGEM_LUCRO_MINIMA_USD = 1.00; 
-const TAXA_CSFLOAT = 0.98; 
-const COIN_EMPIRE = 0.6142808; 
+const MARGEM_PERCENTUAL_MINIMA = 5.0; // Exemplo: 5% de lucro sobre o custo. Ajuste como preferir!
+//const TAXA_CSFLOAT = 0.98; 
+const COIN_EMPIRE = 0.6142808;
 const CHAT_ID_TELEGRAM = '5175130296'; 
 const ZAP_ID = '120363402483665337@g.us'; 
 
-const TERMOS_IGNORADOS = [
-    'Sticker |', 'Graffiti |', 'Patch |', 'Music Kit |', 'Case', 
-    'Capsule', 'Package', 'Charm |', 'Pin', 'Sir ', 'The ', 'Agent', 
-    'Cmdr.', 'Lt. Commander', 'Officer', 'Osiris', 'Prof.', 'Rezan', 
-    'Getaway', 'Number K', 'Little Kev', 'Dragomir', 'Maximus', 'Enforcer', 
-    'Slingshot', 'Soldier'
-];
+const TERMOS_IGNORADOS = ['Graffiti |'];
 
 const bot = new TelegramBot(process.env.telegranBotToken, { polling: true });
 
@@ -38,6 +32,18 @@ initializeWhatsApp();
 const processedIds = new Set();
 let globalBrowser = null;
 let isShuttingDown = false; // Controle para parar o loop suavemente
+
+function eArmaOuFaca(nomeItem) {
+    const categoriasArmas = [
+        'AK-47', 'M4A4', 'M4A1-S', 'AWP', 'Desert Eagle', 'Glock-18', 'USP-S', 
+        'P250', 'Five-SeveN', 'Tec-9', 'CZ75-Auto', 'Dual Berettas', 'P2000', 
+        'R8 Revolver ', 'Galil AR', 'FAMAS', 'SG 553', 'AUG', 'SSG 08', 'G3SG1', 
+        'SCAR-20', 'MP9', 'MAC-10', 'MP7', 'MP5-SD', 'UMP-45', 'P90', 'PP-Bizon', 
+        'Nova', 'XM1014', 'MAG-7', 'Sawed-Off', 'M249', 'Negev', 'Knife', 'Bayonet', 
+        'Karambit', 'Daggers', 'Gloves', 'Wraps', '★'
+    ];
+    return categoriasArmas.some(tipo => nomeItem.includes(tipo));
+}
 
 function escapeTelegram(text) {
     if (!text) return '';
@@ -66,7 +72,7 @@ async function processarItens() {
     if (!globalBrowser) {
         console.error('[ERRO CRÍTICO] Navegador não inicializado! Tentando reconectar...');
         try {
-             globalBrowser = await csfloatLoginManager.launchBrowserContext(false, true);
+             globalBrowser = await csfloatLoginManager.launchBrowserContext(false, false);
         } catch(e) { return; }
     }
 
@@ -79,8 +85,12 @@ async function processarItens() {
         
         const nomeItem = item.market_name;
         const floatItem = item.wear || 0; 
+const itemEhArma = eArmaOuFaca(nomeItem);
 
-        if (floatItem <= 0.000001) { processedIds.add(item.id); continue; }
+        if (itemEhArma && floatItem <= 0.0000001) {
+        processedIds.add(item.id);
+        continue;
+    }
         if (TERMOS_IGNORADOS.some(termo => nomeItem.includes(termo))) { processedIds.add(item.id); continue; }
 
         const precoEmpire = (item.purchase_price / 100) * COIN_EMPIRE;
@@ -110,14 +120,26 @@ async function processarItens() {
             }
         }
 
-        const receboLiquido = precoBuyOrder * TAXA_CSFLOAT;
-        const lucro = receboLiquido - precoEmpire;
+       // --- CÁLCULO DE ARBITRAGEM BRUTA ---
+// Agora comparamos o preço da Buy Order direto com o custo no Empire
+const lucroBruto = precoBuyOrder - precoEmpire;
 
-        if (lucro >= MARGEM_LUCRO_MINIMA_USD) {
-            console.log(`\x1b[32m[OPORTUNIDADE] ${nomeItem} | Lucro: $${lucro.toFixed(2)}\x1b[0m`);
-            if (!linkCsFloat) linkCsFloat = await csfloatService.gerarLinkDeBusca(nomeItem, floatItem);
-            if (linkCsFloat) await notificar(item, precoEmpire, precoBuyOrder, lucro, floatItem, linkCsFloat);
-        }
+// Cálculo da margem baseado no valor bruto
+const margemPercentual = (lucroBruto / precoEmpire) * 100;
+
+// Notifica se houver qualquer lucro bruto acima da sua porcentagem
+if (lucroBruto > 0 && margemPercentual >= MARGEM_PERCENTUAL_MINIMA) {
+    console.log(`\x1b[32m[OPORTUNIDADE BRUTA] ${nomeItem}\x1b[0m`);
+    console.log(`   💰 Dif. Bruta: $${lucroBruto.toFixed(2)} | 📈 Margem: ${margemPercentual.toFixed(2)}%`);
+
+    if (!linkCsFloat) {
+        linkCsFloat = await csfloatService.gerarLinkDeBusca(nomeItem, floatItem);
+    }
+
+    if (linkCsFloat) {
+        await notificar(item, precoEmpire, precoBuyOrder, lucroBruto, floatItem, linkCsFloat);
+    }
+}
 
         processedIds.add(item.id);
         if (origemPreco === "LIVE SCRAP") await new Promise(r => setTimeout(r, 2000));
@@ -215,7 +237,7 @@ process.on('SIGTERM', () => encerrarBot('SIGTERM'));
     console.log("🚀 Iniciando Bot de Arbitragem...");
     
     try {
-        globalBrowser = await csfloatLoginManager.launchBrowserContext(false, true);
+        globalBrowser = await csfloatLoginManager.launchBrowserContext(false, false);
         console.log('✅ Navegador inicializado.');
     } catch (e) {
         console.error('❌ Falha ao abrir navegador:', e);

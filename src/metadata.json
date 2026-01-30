@@ -6139,5 +6139,119 @@
   "Galil AR | Sage Spray": {
     "def_index": 13,
     "paint_index": 119
+  },
+  "★ StatTrak™ Huntsman Knife | Safari Mesh": {
+    "def_index": 509,
+    "paint_index": 72
+  },
+  "★ StatTrak™ Shadow Daggers | Forest DDPAT": {
+    "ignore": true
+  },
+  "MP7 | Full Stop": {
+    "ignore": true
+  },
+  "FAMAS | Colony": {
+    "def_index": 10,
+    "paint_index": 47
+  },
+  "MP7 | Astrolabe": {
+    "def_index": 33,
+    "paint_index": 940
+  },
+  "MP7 | Motherboard": {
+    "def_index": 33,
+    "paint_index": 782
+  },
+  "M4A4 | The Battlestar": {
+    "def_index": 16,
+    "paint_index": 533
+  },
+  "★ Survival Knife | Case Hardened": {
+    "def_index": 518,
+    "paint_index": 44
+  },
+  "USP-S | The Traitor": {
+    "def_index": 61,
+    "paint_index": 1040
+  },
+  "AK-47 | Emerald Pinstripe": {
+    "def_index": 7,
+    "paint_index": 300
+  },
+  "AK-47 | The Empress": {
+    "def_index": 7,
+    "paint_index": 675
+  },
+  "MAC-10 | Case Hardened": {
+    "def_index": 17,
+    "paint_index": 44
+  },
+  "AWP | Pink DDPAT": {
+    "def_index": 9,
+    "paint_index": 84
+  },
+  "AK-47 | The Oligarch": {
+    "def_index": 7,
+    "paint_index": 1352
+  },
+  "MP5-SD | Agent": {
+    "def_index": 23,
+    "paint_index": 915
+  },
+  "Sawed-Off | The Kraken": {
+    "def_index": 29,
+    "paint_index": 256
+  },
+  "★ Gut Knife | Case Hardened": {
+    "def_index": 506,
+    "paint_index": 44
+  },
+  "AK-47 | The Outsiders": {
+    "def_index": 7,
+    "paint_index": 113
+  },
+  "Five-SeveN | Case Hardened": {
+    "def_index": 3,
+    "paint_index": 44
+  },
+  "Sawed-Off | Orange DDPAT": {
+    "def_index": 29,
+    "paint_index": 83
+  },
+  "SCAR-20 | Enforcer": {
+    "def_index": 38,
+    "paint_index": 954
+  },
+  "M4A4 | The Emperor": {
+    "def_index": 16,
+    "paint_index": 844
+  },
+  "SCAR-20 | Jungle Slipstream": {
+    "def_index": 38,
+    "paint_index": 685
+  },
+  "★ Driver Gloves | Rezan the Red": {
+    "def_index": 5031,
+    "paint_index": 10069
+  },
+  "★ Butterfly Knife | Black Laminate": {
+    "def_index": 515,
+    "paint_index": 1110
+  },
+  "★ Hydra Gloves | Case Hardened": {
+    "def_index": 5035,
+    "paint_index": 10060
+  },
+  "Gamma Case": {
+    "def_index": 4236,
+    "paint_index": 0
+  },
+  "Dreams & Nightmares Case": {
+    "def_index": 4818,
+    "paint_index": 0
+  },
+  "Music Kit | Tree Adams and Ben Bromfield, M.U.D.D. FORCE": {
+    "def_index": 58,
+    "paint_index": 0
   }
 }
