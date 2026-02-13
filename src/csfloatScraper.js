@@ -56,58 +56,44 @@ async function rasparMelhorOrdemDeCompra(context, url) {
         // Pega todas as linhas
         const rows = await page.locator('div.order-container tr.mat-mdc-row').all();
 
-        for (const row of rows) {
-            // --- 1. FILTRO RÁPIDO (Ícones Visíveis) ---
-            // Se tiver imagem de sticker explícita na linha, pula.
-            // (As vezes o CSFloat mostra o ícone do sticker direto na linha)
-            const countIcons = await row.locator('img.sticker-image').count(); 
-            if (countIcons > 0) continue;
+      for (const row of rows) {
+            // --- 1. IDENTIFICAÇÃO DO TIPO DE BUSCA ---
+            // Se a URL contém 'paint_index', estamos buscando uma ARMA/FACA.
+            // Se NÃO contém, estamos buscando um ITEM ESPECIAL (Cápsula, Agente, Adesivo, Caixa).
+            const isStandardSkin = url.includes('paint_index');
 
-            // --- 2. FILTRO PROFUNDO (HOVER CHECK) ---
-            
-            // Limpa mouse anterior
-            await page.mouse.move(0, 0); 
-            await page.waitForTimeout(100); 
+            // --- 2. FILTROS DE RESTRIÇÃO (Apenas para Armas) ---
+            if (isStandardSkin) {
+                // Se for arma, ignoramos se tiver ícone de sticker na linha
+                const countIcons = await row.locator('img.sticker-image').count(); 
+                if (countIcons > 0) continue;
 
-            // Passa o mouse na linha atual
-            await row.hover();
-            await page.waitForTimeout(300); // Espera renderizar tooltip
+                // Faz o hover para checar tooltips de restrição (Pattern/Seed/Sticker)
+                await page.mouse.move(0, 0); 
+                await row.hover();
+                await page.waitForTimeout(300);
 
-            // Busca o texto do tooltip
-            const overlayContainer = page.locator('.cdk-overlay-container');
-            let tooltipText = '';
-            
-            if (await overlayContainer.isVisible()) {
-                 const tooltips = overlayContainer.locator('.mat-mdc-tooltip-surface');
-                 if (await tooltips.count() > 0) {
-                     tooltipText = await tooltips.last().innerText();
-                 } else {
-                     tooltipText = await overlayContainer.innerText();
-                 }
-            }
-            
-            // --- LISTA DE PALAVRAS QUE INDICAM "ITEM ESPECÍFICO DEMAIS" ---
-            // Se tiver isso, a gente PULA a linha.
-            // REMOVIDOS: 'Float', 'Paint', 'Rank' (Agora aceitamos float específico)
-            const restricaoDetectada = [
-                'Sticker', 
-                'HasSticker', 
-                'Seed', 
-                'Pattern'
-            ].some(term => tooltipText.includes(term));
+                const overlayContainer = page.locator('.cdk-overlay-container');
+                let tooltipText = '';
+                if (await overlayContainer.isVisible()) {
+                    const tooltips = overlayContainer.locator('.mat-mdc-tooltip-surface');
+                    tooltipText = await tooltips.count() > 0 ? await tooltips.last().innerText() : await overlayContainer.innerText();
+                }
 
-            if (restricaoDetectada) {
-                // Se pede sticker ou pattern, pula.
-                continue; 
+                // Se for arma e o comprador pede Sticker, Seed ou Pattern, nós pulamos.
+                const restricaoDetectada = ['Sticker', 'HasSticker', 'Seed', 'Pattern'].some(term => tooltipText.includes(term));
+                if (restricaoDetectada) continue; 
             }
 
-            // --- 3. SUCESSO (LINHA VÁLIDA) ---
-            // Se chegou aqui, é uma ordem limpa OU uma ordem com restrição de Float (que aceitamos)
+            // --- 3. EXTRAÇÃO DE PREÇO (Para todos os itens) ---
             const texto = await row.innerText();
             if (texto && texto.includes('$')) {
-                const parts = texto.replace('$', '').trim().split('\t');
+                // Usamos uma expressão regular para separar por qualquer espaço/tab/quebra de linha
+                // Isso resolve o problema de o preço e a quantidade virem "grudados" no innerText
+                const parts = texto.replace('$', '').trim().split(/\s+/);
+                
                 if (parts.length >= 2) {
-                    const price = parseFloat(parts[0]);
+                    const price = parseFloat(parts[0].replace(',', ''));
                     const quantity = parseInt(parts[1]);
                     
                     if (!isNaN(price) && !isNaN(quantity)) {
