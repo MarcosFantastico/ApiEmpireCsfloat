@@ -6349,10 +6349,6 @@
     "def_index": 6103,
     "paint_index": 0
   },
-  "Patch | Health": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
   "Cache Pin": {
     "def_index": 6120,
     "paint_index": 0
@@ -6701,10 +6697,6 @@
     "def_index": 4613,
     "paint_index": 0
   },
-  "Patch | Giant Squid": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
   "Sticker | The MongolZ (Gold) | Copenhagen 2024": {
     "def_index": 1209,
     "paint_index": 0,
@@ -6874,10 +6866,6 @@
     "paint_index": 0,
     "sticker_id": 777
   },
-  "Patch | Metal Master Guardian Elite": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
   "Cmdr. Frank 'Wet Sox' Baroud | SEAL Frogman": {
     "def_index": 4771,
     "paint_index": 0
@@ -6893,10 +6881,6 @@
   },
   "Danger Zone Case": {
     "def_index": 4548,
-    "paint_index": 0
-  },
-  "Patch | Entropiq | Stockholm 2021": {
-    "def_index": 4609,
     "paint_index": 0
   },
   "Sticker | yuurih (Foil) | Berlin 2019": {
@@ -7386,18 +7370,6 @@
     "paint_index": 0,
     "sticker_id": 9548
   },
-  "Patch | Cruising Ray": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
-  "Patch | Abandon Hope": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
-  "Patch | Dead Men": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
   "Sticker | Imperial Esports (Glitter) | Antwerp 2022": {
     "def_index": 1209,
     "paint_index": 0,
@@ -7427,10 +7399,6 @@
   },
   "Sir Bloody Loudmouth Darryl | The Professionals": {
     "def_index": 4736,
-    "paint_index": 0
-  },
-  "Patch | Team Spirit (Gold) | Stockholm 2021": {
-    "def_index": 4609,
     "paint_index": 0
   },
   "Berlin 2019 Nuke Souvenir Package": {
@@ -7845,10 +7813,6 @@
     "paint_index": 0,
     "sticker_id": 5037
   },
-  "Patch | Mad Sushi": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
   "Sticker | snow (Holo) | Shanghai 2024": {
     "def_index": 1209,
     "paint_index": 0,
@@ -7863,18 +7827,6 @@
     "def_index": 1209,
     "paint_index": 0,
     "sticker_id": 1323
-  },
-  "Patch | Metal Distinguished Master Guardian": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
-  "Patch | Metal Legendary Eagle": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
-  "Patch | Metal Legendary Eagle Master": {
-    "def_index": 4609,
-    "paint_index": 0
   },
   "Sticker | device | Berlin 2019": {
     "def_index": 1209,
@@ -8095,10 +8047,6 @@
     "def_index": 1355,
     "paint_index": 0,
     "keychain_id": 43
-  },
-  "Patch | Chicken Lover": {
-    "def_index": 4609,
-    "paint_index": 0
   },
   "Sticker | Imperial Esports (Holo) | Budapest 2025": {
     "def_index": 1209,
@@ -8559,22 +8507,6 @@
     "paint_index": 0,
     "sticker_id": 9404
   },
-  "Patch | Alyx": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
-  "Patch | Danger Zone": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
-  "Patch | Easy Peasy": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
-  "Patch | Crazy Banana": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
   "Sticker | ScreaM | Cologne 2015": {
     "def_index": 1209,
     "paint_index": 0,
@@ -8594,10 +8526,6 @@
     "def_index": 1209,
     "paint_index": 0,
     "sticker_id": 1322
-  },
-  "Patch | Movistar Riders | Stockholm 2021": {
-    "def_index": 4609,
-    "paint_index": 0
   },
   "Sticker | mousesports | Boston 2018": {
     "def_index": 1209,
@@ -8727,10 +8655,6 @@
   },
   "DreamHack Cluj-Napoca 2015 Mirage Souvenir Package": {
     "def_index": 4177,
-    "paint_index": 0
-  },
-  "Patch | Metal Supreme Master First Class": {
-    "def_index": 4609,
     "paint_index": 0
   },
   "Sticker | aNdu (Gold) | Shanghai 2024": {
@@ -8930,10 +8854,6 @@
     "def_index": 1209,
     "paint_index": 0,
     "sticker_id": 5256
-  },
-  "Patch | Natus Vincere | Stockholm 2021": {
-    "def_index": 4609,
-    "paint_index": 0
   },
   "Sticker | Gambit Gaming (Holo) | Stockholm 2021": {
     "def_index": 1209,
@@ -9430,10 +9350,6 @@
     "paint_index": 0,
     "sticker_id": 4060
   },
-  "Patch | Astralis | Stockholm 2021": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
   "Sticker | Googly Eye (Lenticular)": {
     "def_index": 1209,
     "paint_index": 0,
@@ -9605,10 +9521,6 @@
     "paint_index": 0,
     "sticker_id": 8665
   },
-  "Patch | GODSENT (Gold) | Stockholm 2021": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
   "Sticker | hutji (Foil) | Boston 2018": {
     "def_index": 1209,
     "paint_index": 0,
@@ -9621,10 +9533,6 @@
   },
   "Huntsman Weapon Case": {
     "def_index": 4017,
-    "paint_index": 0
-  },
-  "Patch | The Boss": {
-    "def_index": 4609,
     "paint_index": 0
   },
   "Autograph Capsule | Team Liquid | MLG Columbus 2016": {
@@ -9808,10 +9716,6 @@
     "def_index": 1209,
     "paint_index": 0,
     "sticker_id": 7817
-  },
-  "Patch | Team Spirit | Stockholm 2021": {
-    "def_index": 4609,
-    "paint_index": 0
   },
   "Sticker | KSCERATO (Holo) | Paris 2023": {
     "def_index": 1209,
@@ -10066,10 +9970,6 @@
     "paint_index": 0,
     "sticker_id": 5015
   },
-  "Patch | Welcome to the Clutch": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
   "Sticker | Renegades (Holo) | Stockholm 2021": {
     "def_index": 1209,
     "paint_index": 0,
@@ -10174,10 +10074,6 @@
   },
   "Community Sticker Capsule 1": {
     "def_index": 4016,
-    "paint_index": 0
-  },
-  "Patch | Anchors Aweigh": {
-    "def_index": 4609,
     "paint_index": 0
   },
   "Sticker | ZywOo (Holo) | Stockholm 2021": {
@@ -10719,10 +10615,6 @@
     "def_index": 4686,
     "paint_index": 0
   },
-  "Patch | FURIA (Gold) | Stockholm 2021": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
   "Sticker | DeadFox (Foil) | Atlanta 2017": {
     "def_index": 1209,
     "paint_index": 0,
@@ -10808,10 +10700,6 @@
     "paint_index": 0,
     "sticker_id": 9476
   },
-  "Patch | G2 Esports | Stockholm 2021": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
   "Sticker | CT in Banana": {
     "def_index": 1209,
     "paint_index": 0,
@@ -10830,10 +10718,6 @@
     "def_index": 1209,
     "paint_index": 0,
     "sticker_id": 6928
-  },
-  "Patch | Tyloo | Stockholm 2021": {
-    "def_index": 4609,
-    "paint_index": 0
   },
   "Sticker | Battle Scarred": {
     "def_index": 1209,
@@ -10919,10 +10803,6 @@
     "def_index": 1209,
     "paint_index": 0,
     "sticker_id": 7337
-  },
-  "Patch | Vitality | Stockholm 2021": {
-    "def_index": 4609,
-    "paint_index": 0
   },
   "Sticker | Natus Vincere | Katowice 2015": {
     "def_index": 1209,
@@ -11300,10 +11180,6 @@
     "def_index": 58,
     "paint_index": 0,
     "music_kit_id": 28
-  },
-  "Patch | Aquatic Offensive": {
-    "def_index": 4609,
-    "paint_index": 0
   },
   "Music Kit | Daniel Sadowski, Eye of the Dragon": {
     "def_index": 58,
@@ -11853,10 +11729,6 @@
     "paint_index": 0,
     "sticker_id": 7556
   },
-  "Patch | Rage": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
   "Sticker | rain (Holo) | Shanghai 2024": {
     "def_index": 1209,
     "paint_index": 0,
@@ -12282,10 +12154,6 @@
     "paint_index": 0,
     "sticker_id": 3441
   },
-  "Patch | Koi": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
   "Sticker | friberg | Cologne 2015": {
     "def_index": 1209,
     "paint_index": 0,
@@ -12320,10 +12188,6 @@
     "def_index": 1209,
     "paint_index": 0,
     "sticker_id": 2274
-  },
-  "Patch | Team Liquid (Gold) | Stockholm 2021": {
-    "def_index": 4609,
-    "paint_index": 0
   },
   "Sticker | Team Liquid (Foil) | Berlin 2019": {
     "def_index": 1209,
@@ -12694,10 +12558,6 @@
     "paint_index": 0,
     "sticker_id": 15
   },
-  "Patch | Team Liquid | Stockholm 2021": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
   "Sticker | drop (Gold) | Budapest 2025": {
     "def_index": 1209,
     "paint_index": 0,
@@ -13031,10 +12891,6 @@
     "paint_index": 0,
     "music_kit_id": 57
   },
-  "Patch | Metal Silver": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
   "Sticker | dennis | Atlanta 2017": {
     "def_index": 1209,
     "paint_index": 0,
@@ -13176,10 +13032,6 @@
     "def_index": 1209,
     "paint_index": 0,
     "sticker_id": 8076
-  },
-  "Patch | FaZe Clan | Stockholm 2021": {
-    "def_index": 4609,
-    "paint_index": 0
   },
   "Sticker | Liazz (Gold) | Antwerp 2022": {
     "def_index": 1209,
@@ -13426,10 +13278,6 @@
     "paint_index": 0,
     "sticker_id": 2251
   },
-  "Patch | Death From Below": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
   "Sticker | Twistzz (Glitter) | Shanghai 2024": {
     "def_index": 1209,
     "paint_index": 0,
@@ -13437,10 +13285,6 @@
   },
   "Boston 2018 Overpass Souvenir Package": {
     "def_index": 4466,
-    "paint_index": 0
-  },
-  "Patch | Virtus.Pro | Stockholm 2021": {
-    "def_index": 4609,
     "paint_index": 0
   },
   "Sticker | m0NESY (Gold) | Copenhagen 2024": {
@@ -13520,30 +13364,6 @@
     "def_index": 1209,
     "paint_index": 0,
     "sticker_id": 3688
-  },
-  "Patch | PGL (Gold) | Stockholm 2021": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
-  "Patch | Evil Geniuses (Gold) | Stockholm 2021": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
-  "Patch | Gambit Gaming (Gold) | Stockholm 2021": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
-  "Patch | Ninjas in Pyjamas | Stockholm 2021": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
-  "Patch | Evil Geniuses | Stockholm 2021": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
-  "Patch | PGL | Stockholm 2021": {
-    "def_index": 4609,
-    "paint_index": 0
   },
   "Sticker | Flipsid3 Tactics | Katowice 2015": {
     "def_index": 1209,
@@ -13685,10 +13505,6 @@
   },
   "Paris 2023 Ancient Souvenir Package": {
     "def_index": 4897,
-    "paint_index": 0
-  },
-  "Patch | G2 Esports (Gold) | Stockholm 2021": {
-    "def_index": 4609,
     "paint_index": 0
   },
   "Sticker | mynio (Gold) | Paris 2023": {
@@ -15438,10 +15254,6 @@
     "paint_index": 0,
     "sticker_id": 7490
   },
-  "Patch | MOUZ (Gold) | Stockholm 2021": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
   "Sticker | Vitality (Gold) | Rio 2022": {
     "def_index": 1209,
     "paint_index": 0,
@@ -15665,10 +15477,6 @@
     "paint_index": 0,
     "sticker_id": 1518
   },
-  "Patch | Howl": {
-    "def_index": 4609,
-    "paint_index": 0
-  },
   "Music Kit | Beartooth, Disgusting": {
     "def_index": 58,
     "paint_index": 0,
@@ -15683,10 +15491,6 @@
     "def_index": 1209,
     "paint_index": 0,
     "sticker_id": 4933
-  },
-  "Patch | Dragon": {
-    "def_index": 4609,
-    "paint_index": 0
   },
   "Sticker | zorte (Gold) | Austin 2025": {
     "def_index": 1209,
@@ -15881,10 +15685,6 @@
     "def_index": 1209,
     "paint_index": 0,
     "sticker_id": 3114
-  },
-  "Patch | ENCE | Stockholm 2021": {
-    "def_index": 4609,
-    "paint_index": 0
   },
   "Sticker | westmelon (Holo) | Austin 2025": {
     "def_index": 1209,
@@ -16093,5 +15893,1101 @@
     "def_index": 1209,
     "paint_index": 0,
     "sticker_id": 3472
+  },
+  "Sticker | fer | Atlanta 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1919
+  },
+  "Sticker | fer | Krakow 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2202
+  },
+  "Sticker | n1ssim (Holo) | Budapest 2025": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 9988
+  },
+  "Sticker | Fnatic (Holo) | Rio 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6031
+  },
+  "Sticker | TeSeS (Holo) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5406
+  },
+  "Sticker | siuhy (Gold) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7510
+  },
+  "Sticker | sjuush (Gold) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5415
+  },
+  "Sticker | sh1ro (Holo) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7473
+  },
+  "Sticker | Fnatic | Cologne 2016": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1373
+  },
+  "Sticker | Natus Vincere | Cologne 2016": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1345
+  },
+  "Sticker | G2 Esports | Cologne 2016": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1357
+  },
+  "Sticker | dephh (Gold) | Berlin 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 4272
+  },
+  "ESL One Katowice 2015 Dust II Souvenir Package": {
+    "def_index": 4079,
+    "paint_index": 0
+  },
+  "Sticker | Counter Logic Gaming (Foil) | Cologne 2016": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1327
+  },
+  "Sticker | stavn (Gold) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5399
+  },
+  "Sticker | Bad News Eagles (Gold) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5334
+  },
+  "Sticker | Natus Vincere (Holo) | Atlanta 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1779
+  },
+  "Sticker | STYKO | Boston 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2750
+  },
+  "Sticker | MIBR (Holo) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5325
+  },
+  "Sticker | Stewie2K | London 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3134
+  },
+  "Sticker | felps | Boston 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2642
+  },
+  "Sticker | NiKo (Foil) | London 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3108
+  },
+  "Sticker | ZywOo (Holo) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5654
+  },
+  "Sticker | dupreeh (Foil) | Berlin 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 4154
+  },
+  "Sticker | Wicadia (Holo) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7629
+  },
+  "Sticker | iBUYPOWER | Cologne 2014": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 142
+  },
+  "Sticker | device (Foil) | Berlin 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 4148
+  },
+  "Sticker | REZ (Gold) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5519
+  },
+  "Sticker | AZR (Foil) | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3832
+  },
+  "Sticker | hutji | Boston 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2789
+  },
+  "Sticker | MOUZ (Foil) | Stockholm 2021": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5016
+  },
+  "Sticker | sh1ro (Gold) | Stockholm 2021": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5185
+  },
+  "Sticker | m0NESY (Holo) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5590
+  },
+  "Katowice 2019 Returning Challengers Autograph Capsule": {
+    "def_index": 4588,
+    "paint_index": 0
+  },
+  "Sticker | IHC Esports (Gold) | Rio 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6048
+  },
+  "Sticker | Renegades | Cologne 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 632
+  },
+  "Sticker | Hidden Hero (Foil)": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6604
+  },
+  "Sticker | stadodo (Gold) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7818
+  },
+  "Sticker | s1mple (Gold) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5539
+  },
+  "The Boardroom Sticker Capsule": {
+    "def_index": 4784,
+    "paint_index": 0
+  },
+  "Sticker | w0nderful (Holo, Champion) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7877
+  },
+  "Sticker | oSee (Holo) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5846
+  },
+  "Sticker | Dark Water Surf Ava (Foil)": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 4880
+  },
+  "Sticker | KRIMZ (Gold) | Paris 2023": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6740
+  },
+  "Sticker | kennyS | Krakow 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2289
+  },
+  "Sticker | Grayhound Gaming (Gold) | Rio 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6044
+  },
+  "Sticker | bLitz (Gold) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7746
+  },
+  "Sticker | cadiaN (Holo) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5402
+  },
+  "Sticker | Farlig (Gold) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5635
+  },
+  "Sticker | olofmeister (Foil) | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3679
+  },
+  "Sticker | Cloud9 | Krakow 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2107
+  },
+  "Sticker | FaZe Clan | Krakow 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2091
+  },
+  "Sticker | s1mple (Gold) | Stockholm 2021": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5131
+  },
+  "Boston 2018 Cache Souvenir Package": {
+    "def_index": 4467,
+    "paint_index": 0
+  },
+  "Sticker | Copenhagen Wolves | DreamHack 2014": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 233
+  },
+  "Sticker | Adeptus Titanicus 2": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 9409
+  },
+  "Sticker | Grim (Gold) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5787
+  },
+  "Sticker | Norwi (Gold) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5611
+  },
+  "Sticker | mezii (Gold) | Paris 2023": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6744
+  },
+  "Sticker | Brollan (Gold) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7502
+  },
+  "Sticker | forZe eSports (Gold) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5314
+  },
+  "Sticker | broky (Holo) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7441
+  },
+  "Sticker | IHC Esports (Gold) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5354
+  },
+  "Sticker | rain (Holo) | Paris 2023": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7083
+  },
+  "Sticker | Plopski (Gold) | Austin 2025": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 9250
+  },
+  "Sticker | fame (Gold, Champion) | Rio 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6585
+  },
+  "Sticker | North (Foil) | Berlin 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 4105
+  },
+  "Sticker | MIBR (Foil) | Berlin 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 4029
+  },
+  "Sticker | ChildKing (Holo) | Budapest 2025": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 10276
+  },
+  "Sticker | YEKINDAR (Gold) | Shanghai 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 8264
+  },
+  "Sticker | Ultramarines": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 9359
+  },
+  "Sticker | Maka (Gold) | Shanghai 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 8204
+  },
+  "Sticker | jks | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3828
+  },
+  "Sticker | MICHU | London 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3314
+  },
+  "Sticker | Heroic (Gold) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7301
+  },
+  "Sticker | KRIMZ | Atlanta 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1889
+  },
+  "Sticker | cajunb | Atlanta 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1973
+  },
+  "Sticker | qikert (Gold, Champion) | Rio 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6581
+  },
+  "Sticker | DeadFox (Gold) | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3752
+  },
+  "Sticker | tiziaN (Gold) | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3623
+  },
+  "Sticker | Kaze (Foil) | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3901
+  },
+  "Sticker | EliGE (Holo) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7525
+  },
+  "Sticker | ENCE (Gold) | Rio 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5964
+  },
+  "Sticker | Fnatic | Cologne 2014": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 124
+  },
+  "Antwerp 2022 Inferno Souvenir Package": {
+    "def_index": 4835,
+    "paint_index": 0
+  },
+  "Sticker | tenzki (Foil) | Cluj-Napoca 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 834
+  },
+  "Sticker | ANGE1 (Gold) | Berlin 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 4287
+  },
+  "Sticker | draken | London 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3185
+  },
+  "Sticker | Techno4K (Gold) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7758
+  },
+  "Sticker | hampus (Gold) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5523
+  },
+  "Sticker | REZ (Holo) | Stockholm 2021": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5226
+  },
+  "Sticker | chopper (Holo) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5738
+  },
+  "Sticker | Cloud9 (Gold) | Shanghai 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 8003
+  },
+  "Sticker | malbsMd (Gold) | Shanghai 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 8064
+  },
+  "ESL One Cologne 2014 Legends": {
+    "def_index": 4020,
+    "paint_index": 0
+  },
+  "Sticker | Rickeh (Foil) | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3649
+  },
+  "Sticker | Cloud9 | Boston 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2472
+  },
+  "Sticker | olofmeister (Foil) | Berlin 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 4226
+  },
+  "Sticker | Team Spirit (Gold) | Rio 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5992
+  },
+  "Sticker | B1ad3 (Foil) | MLG Columbus 2016": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1121
+  },
+  "Sticker | Space Soldiers (Holo) | London 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2996
+  },
+  "Sticker | Yellow Jaggyfish": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 4821
+  },
+  "Sticker | MOUZ (Gold) | Rio 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6016
+  },
+  "Sticker | Kvem (Holo) | Budapest 2025": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 9968
+  },
+  "Sticker | niko (Foil)  | London 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3294
+  },
+  "Sticker | Queen Of Pain": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 193
+  },
+  "Fracture Case": {
+    "def_index": 4698,
+    "paint_index": 0
+  },
+  "Sticker | Liquid Fire": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 4929
+  },
+  "Sticker | Sprout Esports (Glitter) | Rio 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5982
+  },
+  "Sticker | Copenhagen Wolves | Cologne 2014": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 136
+  },
+  "Sticker | dennis | Cluj-Napoca 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 746
+  },
+  "Sticker | olofmeister (Foil) | Krakow 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2191
+  },
+  "Sticker | Longevity (Foil)": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2408
+  },
+  "Sticker | Aleksib (Holo) | Rio 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6172
+  },
+  "Sticker | kennyS | Cluj-Napoca 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 710
+  },
+  "Sticker | Ninjas in Pyjamas (Gold) | Paris 2023": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6643
+  },
+  "Sticker | REZ (Holo) | Rio 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6176
+  },
+  "Sticker | iM (Holo, Champion) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7873
+  },
+  "Sticker | Rock, Paper, Scissors (Foil)": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5270
+  },
+  "★ StatTrak™ Shadow Daggers": {
+    "def_index": 516,
+    "paint_index": 0
+  },
+  "Autograph Capsule | Team EnVyUs | Cluj-Napoca 2015": {
+    "def_index": 4173,
+    "paint_index": 0
+  },
+  "Sticker | RUBINO | Cologne 2016": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1544
+  },
+  "Sticker | G2 Esports (Foil) | Cluj-Napoca 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 942
+  },
+  "Sticker | Zeus (Foil) | Atlanta 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2034
+  },
+  "Sticker | FugLy | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3816
+  },
+  "Sticker | Nifty (Foil) | Boston 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2856
+  },
+  "Sticker | TENZKI | Cologne 2016": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1541
+  },
+  "Stockholm 2021 Contenders Patch Pack": {
+    "def_index": 4808,
+    "paint_index": 0
+  },
+  "Sticker | Team Liquid | MLG Columbus 2016": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1027
+  },
+  "Sticker | EliGE (Foil) | MLG Columbus 2016": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1244
+  },
+  "Sticker | nex (Foil) | Krakow 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2308
+  },
+  "Sticker | mousesports (Foil) | Cologne 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 627
+  },
+  "Sticker | Fnatic (Holo) | Atlanta 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1755
+  },
+  "Sticker | volt (Holo) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7677
+  },
+  "Sticker | molodoy (Foil) | Austin 2025": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 8996
+  },
+  "Sticker | w0nderful (Holo) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7397
+  },
+  "Sticker | mopoz (Gold) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7814
+  },
+  "Sticker | Shooting Star Return": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 183
+  },
+  "Sticker | Blood Boiler": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 258
+  },
+  "Sticker | Leagues of Votann 1": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 9421
+  },
+  "Sticker | JT (Holo) | Shanghai 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 8291
+  },
+  "Sticker | Legendary (Foil)": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 4549
+  },
+  "Sticker | TRAVIS (Gold) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7778
+  },
+  "Sticker | Aleksib (Holo) | Budapest 2025": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 9836
+  },
+  "Sticker | tarik (Foil) | Berlin 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 4385
+  },
+  "Sticker | Free Hugs (Holo)": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3955
+  },
+  "Sticker | RUSH | Boston 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2699
+  },
+  "Sticker | Gambit Gaming (Foil) | Cologne 2016": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1331
+  },
+  "Sticker | KSCERATO (Glitter) | Shanghai 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 8226
+  },
+  "Sticker | NiKo (Gold) | Paris 2023": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6932
+  },
+  "Sticker | Luminosity Gaming (Foil) | Cluj-Napoca 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 957
+  },
+  "Sticker | Evil Geniuses (Gold) | Rio 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6012
+  },
+  "Sticker | KRIMZ (Gold) | Budapest 2025": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 10073
+  },
+  "Sticker | Camper (Foil)": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2934
+  },
+  "Sticker | One Sting (Holo)": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3960
+  },
+  "Sticker | Basilisk (Foil)": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1650
+  },
+  "Sticker | ropz (Holo, Champion) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5894
+  },
+  "Sticker | kioShiMa | Cluj-Napoca 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 707
+  },
+  "Sticker | NBK- | Cluj-Napoca 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 713
+  },
+  "Sticker | apEX | Cluj-Napoca 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 701
+  },
+  "Sticker | chayJESUS (Gold) | Budapest 2025": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 10217
+  },
+  "Sticker | FaZe Clan (Foil) | Cologne 2016": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1363
+  },
+  "Music Kit | Sasha, LNOE": {
+    "def_index": 58,
+    "paint_index": 0,
+    "music_kit_id": 10
+  },
+  "Sticker | New Sheriff (Foil)": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 110
+  },
+  "Sticker | ZywOo (Gold) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7498
+  },
+  "Sticker | Epsilon eSports (Holo) | Cologne 2014": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 141
+  },
+  "Sticker | Infinite Diamond (Holo)": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5262
+  },
+  "Sticker | Fluxo (Gold) | Paris 2023": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6699
+  },
+  "Sticker | ZywOo (Holo) | Paris 2023": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6811
+  },
+  "Sticker | Ariucle (Gold) | Austin 2025": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 9314
+  },
+  "Sticker | Vega Squadron (Holo) | Krakow 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2124
+  },
+  "Sticker | FaZe Clan (Holo) | Krakow 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2092
+  },
+  "Sticker | BIG (Holo) | Krakow 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2104
+  },
+  "Sticker | Dosia (Foil) | MLG Columbus 2016": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1289
+  },
+  "Sticker | byali (Foil) | Cologne 2016": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1611
+  },
+  "Sticker | s1mple (Glitter) | Paris 2023": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6770
+  },
+  "Sticker | qikert (Holo) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5762
+  },
+  "Sticker | Bash (Holo)": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 32
+  },
+  "Sticker | TACO (Foil) | Boston 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2649
+  },
+  "Sticker | ViCi Gaming (Foil) | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3546
+  },
+  "Sticker | IEM (Foil) | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3558
+  },
+  "Sticker | B1ad3 | Cluj-Napoca 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 716
+  },
+  "Sticker | MIBR | London 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2967
+  },
+  "Sticker | MIBR | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3508
+  },
+  "Sticker | KRIMZ | Boston 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2630
+  },
+  "Sticker | chelo (Gold) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5663
+  },
+  "Sticker | rain | London 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3104
+  },
+  "Sticker | MIBR (Gold) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5326
+  },
+  "Sticker | steel | Krakow 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2370
+  },
+  "Sticker | Team SoloMid | Cluj-Napoca 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 947
+  },
+  "Sticker | JW | Krakow 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2184
+  },
+  "Sticker | device | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3588
+  },
+  "Sticker | fer (Foil) | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3772
+  },
+  "Antwerp 2022 Overpass Souvenir Package": {
+    "def_index": 4838,
+    "paint_index": 0
+  },
+  "Antwerp 2022 Vertigo Souvenir Package": {
+    "def_index": 4841,
+    "paint_index": 0
+  },
+  "Sticker | Team EnVyUs | Cluj-Napoca 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 950
+  },
+  "Sticker | IEM (Holo) | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3557
+  },
+  "Sticker | coldzera | Cologne 2016": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1475
+  },
+  "Sticker | Counter Logic Gaming | Cluj-Napoca 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 917
+  },
+  "Sticker | Team Liquid (Holo) | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3529
+  },
+  "Sticker | Tyloo (Holo) | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3537
+  },
+  "Sticker | FaZe Clan (Holo) | Cologne 2016": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1362
+  },
+  "Sticker | Alpha Legion 2": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 9394
+  },
+  "Boston 2018 Train Souvenir Package": {
+    "def_index": 4468,
+    "paint_index": 0
+  },
+  "Sticker | kennyS | Atlanta 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1862
+  },
+  "Sticker | Team EnVyUs | Boston 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2516
+  },
+  "Sticker | Starry (Holo) | Austin 2025": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 9329
+  },
+  "Sticker | Fnatic (Holo) | Krakow 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2072
+  },
+  "Sticker | Astralis (Holo) | Krakow 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2064
+  },
+  "eSports 2013 Case": {
+    "def_index": 4002,
+    "paint_index": 0
+  },
+  "Sticker | RUSH (Foil) | Atlanta 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1848
+  },
+  "Sticker | Sneaky Beaky Dept. (Holo)": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5264
+  },
+  "Sticker | dupreeh (Foil) | MLG Columbus 2016": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1277
+  },
+  "Sticker | CRUC1AL (Gold) | Paris 2023": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6856
+  },
+  "Sticker | k0nfig (Gold) | Paris 2023": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6908
+  },
+  "Sticker | broky (Holo, Champion) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5890
+  },
+  "Sticker | sinnopsyy (Holo) | Rio 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6284
+  },
+  "Sticker | Nest Egg (Holo)": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3980
+  },
+  "Sticker | Zyphon (Holo) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5422
+  },
+  "Sticker | huNter (Holo) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5582
+  },
+  "Sticker | Sprout Esports (Holo) | Rio 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5983
+  },
+  "Sticker | Ninjas in Pyjamas (Gold) | Rio 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5980
   }
 }

@@ -131,6 +131,24 @@ async function gerarLinkDeBusca(nomeDaSkin, floatDeEntrada) {
                 }
             }
 
+            // D. PATCHES (Emblemas)
+            else if (nomeBase.includes('Patch |')) {
+                // A Valve usa o sticker_index para identificar Patches!
+                const pId = itemData.sticker_index || 
+                            itemData.sticker_id || 
+                            itemData.patch_index; // Fallback caso mudem no futuro
+
+                if (pId) {
+                    infoParaCache.patch_id = pId;
+                    console.log(`[API] Patch Index capturado: ${pId}`);
+                } else {
+                    console.log(`[AVISO] Patch encontrado, mas sem ID compatível.`);
+                    return null;
+                }
+            }
+
+
+
             // --- SALVAMENTO ---
             metadataCache.set(nomeBase, infoParaCache);
             salvarMetadataNoDisco();
@@ -154,6 +172,7 @@ function construirLinkComIds(cachedData, nomeCompleto, floatDeEntrada) {
     const eSticker = cachedData.sticker_id !== undefined;
     const eCharm = cachedData.keychain_id !== undefined;
     const eMusicKit = cachedData.music_kit_id !== undefined;
+    const ePatch = cachedData.patch_id !== undefined; // NOVA LINHA AQUI
 
     // 1. STICKERS
     if (eSticker) {
@@ -175,7 +194,13 @@ function construirLinkComIds(cachedData, nomeCompleto, floatDeEntrada) {
              params.append('category', '1');
         }
     }
-    // 4. ARMAS, AGENTES, CAIXAS (PADRÃO)
+    // 4. PATCHES (NOVO BLOCO)
+    else if (ePatch) {
+        // O CSFloat usa sticker_index na URL para buscar patches
+        params.append('sticker_index', cachedData.patch_id);
+    }
+
+    // 5. ARMAS, AGENTES, CAIXAS (PADRÃO)
     else {
         params.append('def_index', cachedData.def_index);
         

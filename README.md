@@ -18,3 +18,6 @@ telegram_chat_id=xxxxxx
 node .\src\csfloatLoginManager.js
 # apagar baileys auth e csfloat profile(caso pre-existentes)
 # rodar fetch geral
+
+# regex de remoçao
+"Patch[^}]*\},
