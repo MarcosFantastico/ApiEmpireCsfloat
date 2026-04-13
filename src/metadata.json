@@ -119,9 +119,6 @@
     "def_index": 4,
     "paint_index": 988
   },
-  "Elite Trapper Solman | Guerrilla Warfare": {
-    "ignore": true
-  },
   "Five-SeveN | Angry Mob": {
     "def_index": 3,
     "paint_index": 837
@@ -773,9 +770,6 @@
     "def_index": 13,
     "paint_index": 1185
   },
-  "Blackwolf | Sabre": {
-    "ignore": true
-  },
   "Desert Eagle | Mint Fan": {
     "def_index": 1,
     "paint_index": 1257
@@ -938,9 +932,7 @@
   "★ Gut Knife | Stained": {
     "ignore": true
   },
-  "'Two Times' McCoy | TACP Cavalry": {
-    "ignore": true
-  },
+
   "Nova | Rising Sun": {
     "def_index": 35,
     "paint_index": 1192
@@ -1017,9 +1009,7 @@
     "def_index": 9,
     "paint_index": 251
   },
-  "Berlin 2019 Minor Challengers (Holo/Foil)": {
-    "ignore": true
-  },
+
   "M4A1-S | Glitched Paint": {
     "def_index": 60,
     "paint_index": 1311
@@ -1112,9 +1102,6 @@
     "paint_index": 141
   },
   "★ Bowie Knife | Autotronic": {
-    "ignore": true
-  },
-  "Bio-Haz Specialist | SWAT": {
     "ignore": true
   },
   "★ Nomad Knife | Scorched": {
@@ -1325,9 +1312,7 @@
     "def_index": 13,
     "paint_index": 379
   },
-  "Markus Delrow | FBI HRT": {
-    "ignore": true
-  },
+
   "USP-S | Neo-Noir": {
     "def_index": 61,
     "paint_index": 653
@@ -1355,9 +1340,7 @@
     "def_index": 63,
     "paint_index": 622
   },
-  "Chem-Haz Capitaine | Gendarmerie Nationale": {
-    "ignore": true
-  },
+
   "SSG 08 | Zeno": {
     "def_index": 40,
     "paint_index": 513
@@ -1377,9 +1360,7 @@
     "def_index": 61,
     "paint_index": 1284
   },
-  "Operator | FBI SWAT": {
-    "ignore": true
-  },
+
   "AK-47 | VariCamo Grey": {
     "def_index": 7,
     "paint_index": 1288
@@ -1426,9 +1407,7 @@
     "def_index": 63,
     "paint_index": 643
   },
-  "Lieutenant 'Tree Hugger' Farlow | SWAT": {
-    "ignore": true
-  },
+
   "Sawed-Off | Limelight": {
     "def_index": 29,
     "paint_index": 596
@@ -1674,9 +1653,7 @@
     "def_index": 28,
     "paint_index": 514
   },
-  "3rd Commando Company | KSK": {
-    "ignore": true
-  },
+
   "AK-47 | Black Laminate": {
     "def_index": 7,
     "paint_index": 172
@@ -1804,9 +1781,7 @@
   "★ Shadow Daggers | Freehand": {
     "ignore": true
   },
-  "Ground Rebel  | Elite Crew": {
-    "ignore": true
-  },
+
   "★ Shadow Daggers | Black Laminate": {
     "ignore": true
   },
@@ -1999,9 +1974,6 @@
     "def_index": 8,
     "paint_index": 674
   },
-  "Michael Syfers  | FBI Sniper": {
-    "ignore": true
-  },
   "AK-47 | Jaguar": {
     "def_index": 7,
     "paint_index": 316
@@ -2010,9 +1982,7 @@
     "def_index": 30,
     "paint_index": 520
   },
-  "1st Lieutenant Farlow | SWAT": {
-    "ignore": true
-  },
+
   "Desert Eagle | Night Heist": {
     "def_index": 1,
     "paint_index": 1006
@@ -2090,9 +2060,7 @@
   "★ StatTrak™ Paracord Knife | Urban Masked": {
     "ignore": true
   },
-  "Primeiro Tenente | Brazilian 1st Battalion": {
-    "ignore": true
-  },
+
   "★ Falchion Knife | Ultraviolet": {
     "ignore": true
   },
@@ -3713,9 +3681,7 @@
     "def_index": 38,
     "paint_index": 914
   },
-  "M249 | Jungle DDPAT": {
-    "ignore": true
-  },
+
   "Dual Berettas | Elite 1.6": {
     "def_index": 2,
     "paint_index": 903
@@ -3835,9 +3801,7 @@
     "def_index": 26,
     "paint_index": 508
   },
-  "Sawed-Off | Mosaico": {
-    "ignore": true
-  },
+
   "Sawed-Off | Rust Coat": {
     "def_index": 29,
     "paint_index": 323
@@ -4007,9 +3971,7 @@
     "def_index": 36,
     "paint_index": 99
   },
-  "R8 Revolver | Memento": {
-    "ignore": true
-  },
+
   "Sawed-Off | Zander": {
     "def_index": 29,
     "paint_index": 655
