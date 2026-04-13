@@ -81,7 +81,7 @@ async function rasparMelhorOrdemDeCompra(context, url) {
                 }
 
                 // Se for arma e o comprador pede Sticker, Seed ou Pattern, nós pulamos.
-                const restricaoDetectada = ['Sticker', 'HasSticker', 'Seed', 'Pattern'].some(term => tooltipText.includes(term));
+                const restricaoDetectada = ['Sticker', 'HasSticker', 'Seed', 'Pattern', 'Charm', 'Keychain'].some(term => tooltipText.includes(term));
                 if (restricaoDetectada) continue; 
             }
 

@@ -172,7 +172,7 @@ function construirLinkComIds(cachedData, nomeCompleto, floatDeEntrada) {
     const eSticker = cachedData.sticker_id !== undefined;
     const eCharm = cachedData.keychain_id !== undefined;
     const eMusicKit = cachedData.music_kit_id !== undefined;
-    const ePatch = cachedData.patch_id !== undefined; // NOVA LINHA AQUI
+    const ePatch = cachedData.patch_id !== undefined;
 
     // 1. STICKERS
     if (eSticker) {
@@ -182,49 +182,68 @@ function construirLinkComIds(cachedData, nomeCompleto, floatDeEntrada) {
     else if (eCharm) {
         params.append('keychain_index', cachedData.keychain_id);
     }
-    // 3. MUSIC KITS (COM SUPORTE A STATTRAK)
+
+// 3. MUSIC KITS (COM SUPORTE A STATTRAK E NORMAL)
     else if (eMusicKit) {
         params.append('music_kit_index', cachedData.music_kit_id);
         
-        // Verifica se o nome original contém StatTrak™
+        // Assim como nas armas, FORÇAMOS a categoria para não misturar
+        let categoryCode = 1; // 1 = Normal
         if (nomeCompleto.includes('StatTrak™')) {
-            params.append('category', '2'); // 2 é o código para StatTrak no CSFloat
+            categoryCode = 2; // 2 = StatTrak
         }
-        else{
-             params.append('category', '1');
-        }
-    }
-    // 4. PATCHES (NOVO BLOCO)
-    else if (ePatch) {
-        // O CSFloat usa sticker_index na URL para buscar patches
-        params.append('sticker_index', cachedData.patch_id);
+        params.append('category', categoryCode);
     }
 
-    // 5. ARMAS, AGENTES, CAIXAS (PADRÃO)
-    else {
+    // 4. PATCHES
+    else if (ePatch) {
+        params.append('sticker_index', cachedData.patch_id);
+    }
+   // 5. ARMAS, AGENTES, CAIXAS (PADRÃO)
+   else {
         params.append('def_index', cachedData.def_index);
         
-        // Se for arma (tem paint_index), aplicamos filtros avançados
         const temPaintIndex = cachedData.paint_index && cachedData.paint_index !== 0;
         
-        // REMOVIDO o "Music Kit" daqui para não dar conflito!
         if (temPaintIndex || nomeCompleto.includes('Medusa') || nomeCompleto.includes('Dragon Lore')) {
              params.append('paint_index', cachedData.paint_index);
              
-             // Categoria (StatTrak / Souvenir) para Armas
-             let categoryCode = 1; // Normal
+             let categoryCode = 1; // 1 = Normal
              if (nomeCompleto.includes('StatTrak™')) categoryCode = 2;
              else if (nomeCompleto.includes('Souvenir')) categoryCode = 3;
              
-             // Adiciona category apenas se não for a normal, deixando URL mais limpa
-            params.append('category', categoryCode);
+             params.append('category', categoryCode);
              
-             // Ordenação e Float
-             params.append('sort_by', 'lowest_float');
-             if (floatDeEntrada && floatDeEntrada > 0.000001) {
+             // --- AQUI COMEÇA A MUDANÇA DA ORDENAÇÃO ---
+             const floatValido = floatDeEntrada && !isNaN(parseFloat(floatDeEntrada));
+
+             if (floatValido && parseFloat(floatDeEntrada) > 0.000001) {
+                // TEM FLOAT EXATO: Compara com itens levemente piores (Ordena do menor pro maior)
+                params.append('sort_by', 'lowest_float');
+                
                 const float_considerado = parseFloat(floatDeEntrada) + 0.00001;
                 const maxFloat = Math.ceil(float_considerado * 10000) / 10000;
                 params.append('min_float', maxFloat.toFixed(4));
+            } else {
+                // FLOAT N/A: Assume que é a pior skin possível dentro daquele desgaste
+                params.append('sort_by', 'highest_float'); // Inverte a ordem no CSFloat!
+
+                if (nomeCompleto.includes('(Factory New)')) {
+                    params.append('min_float', '0');
+                    params.append('max_float', '0.07');
+                } else if (nomeCompleto.includes('(Minimal Wear)')) {
+                    params.append('min_float', '0.07');
+                    params.append('max_float', '0.15');
+                } else if (nomeCompleto.includes('(Field-Tested)')) {
+                    params.append('min_float', '0.15');
+                    params.append('max_float', '0.38');
+                } else if (nomeCompleto.includes('(Well-Worn)')) {
+                    params.append('min_float', '0.38');
+                    params.append('max_float', '0.45');
+                } else if (nomeCompleto.includes('(Battle-Scarred)')) {
+                    params.append('min_float', '0.45');
+                    params.append('max_float', '1');
+                }
             }
         }
     }
