@@ -15,7 +15,7 @@ const MARGEM_PERCENTUAL_MINIMA = 5.0; // Exemplo: 5% de lucro sobre o custo. Aju
 //const TAXA_CSFLOAT = 0.98; 
 const COIN_EMPIRE = 0.6142808;
 const CHAT_ID_TELEGRAM = '5175130296'; 
-const ZAP_ID = '120363402483665337@g.us'; 
+const ZAP_ID = process.env.whatsapp_group; 
 
 const TERMOS_IGNORADOS = ['Graffiti |'];
 

@@ -17895,5 +17895,55 @@
     "def_index": 1209,
     "paint_index": 0,
     "sticker_id": 7052
+  },
+  "Sticker | denis (Foil) | Krakow 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2272
+  },
+  "Sticker | Heavygod (Gold) | Budapest 2025": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 9777
+  },
+  "Sticker | Vitality (Holo) | Rio 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6023
+  },
+  "Sticker | Tamara (Holo)": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 973
+  },
+  "Sticker | HEN1 (Foil) | Boston 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2583
+  },
+  "Sticker | jmqa (Gold) | London 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3157
+  },
+  "Sticker | Avangar (Holo) | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3465
+  },
+  "Sticker | story (Gold) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7698
+  },
+  "Music Kit | Ian Hultquist, Lion's Mouth": {
+    "def_index": 58,
+    "paint_index": 0,
+    "music_kit_id": 27
+  },
+  "Music Kit | Ben Bromfield, Rabbit Hole": {
+    "def_index": 58,
+    "paint_index": 0,
+    "music_kit_id": 79
   }
 }

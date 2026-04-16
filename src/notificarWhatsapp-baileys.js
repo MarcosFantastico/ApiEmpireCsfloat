@@ -1,3 +1,5 @@
+require("dotenv").config({ path: 'credentials.env' });
+
 const qrcode = require('qrcode-terminal');
 const {
     default: makeWASocket,
@@ -14,7 +16,6 @@ let sock;
 let isConnected = false;
 const messageQueue = [];
 let sending = false;
-
 const MAX_QUEUE_SIZE = 5; 
 const AUTH_DIR = path.join(__dirname, '..', 'baileys_auth');
 
@@ -56,7 +57,7 @@ async function initializeWhatsApp() {
                 messageQueue.length = 0; 
             }
 
-            enviarWhatsapp('120363402483665337@g.us', '✅ Bot conectado e fila limpa!');
+            enviarWhatsapp(process.env.whatsapp_group, '✅ Bot conectado e fila limpa!');
             processQueue();
         }
 
