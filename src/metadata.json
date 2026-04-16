@@ -932,7 +932,6 @@
   "★ Gut Knife | Stained": {
     "ignore": true
   },
-
   "Nova | Rising Sun": {
     "def_index": 35,
     "paint_index": 1192
@@ -1009,7 +1008,6 @@
     "def_index": 9,
     "paint_index": 251
   },
-
   "M4A1-S | Glitched Paint": {
     "def_index": 60,
     "paint_index": 1311
@@ -1312,7 +1310,6 @@
     "def_index": 13,
     "paint_index": 379
   },
-
   "USP-S | Neo-Noir": {
     "def_index": 61,
     "paint_index": 653
@@ -1340,7 +1337,6 @@
     "def_index": 63,
     "paint_index": 622
   },
-
   "SSG 08 | Zeno": {
     "def_index": 40,
     "paint_index": 513
@@ -1360,7 +1356,6 @@
     "def_index": 61,
     "paint_index": 1284
   },
-
   "AK-47 | VariCamo Grey": {
     "def_index": 7,
     "paint_index": 1288
@@ -1407,7 +1402,6 @@
     "def_index": 63,
     "paint_index": 643
   },
-
   "Sawed-Off | Limelight": {
     "def_index": 29,
     "paint_index": 596
@@ -1653,7 +1647,6 @@
     "def_index": 28,
     "paint_index": 514
   },
-
   "AK-47 | Black Laminate": {
     "def_index": 7,
     "paint_index": 172
@@ -1781,7 +1774,6 @@
   "★ Shadow Daggers | Freehand": {
     "ignore": true
   },
-
   "★ Shadow Daggers | Black Laminate": {
     "ignore": true
   },
@@ -1982,7 +1974,6 @@
     "def_index": 30,
     "paint_index": 520
   },
-
   "Desert Eagle | Night Heist": {
     "def_index": 1,
     "paint_index": 1006
@@ -2060,7 +2051,6 @@
   "★ StatTrak™ Paracord Knife | Urban Masked": {
     "ignore": true
   },
-
   "★ Falchion Knife | Ultraviolet": {
     "ignore": true
   },
@@ -3681,7 +3671,6 @@
     "def_index": 38,
     "paint_index": 914
   },
-
   "Dual Berettas | Elite 1.6": {
     "def_index": 2,
     "paint_index": 903
@@ -3801,7 +3790,6 @@
     "def_index": 26,
     "paint_index": 508
   },
-
   "Sawed-Off | Rust Coat": {
     "def_index": 29,
     "paint_index": 323
@@ -3971,7 +3959,6 @@
     "def_index": 36,
     "paint_index": 99
   },
-
   "Sawed-Off | Zander": {
     "def_index": 29,
     "paint_index": 655
@@ -17617,5 +17604,296 @@
     "def_index": 1209,
     "paint_index": 0,
     "sticker_id": 3652
+  },
+  "'Two Times' McCoy | TACP Cavalry": {
+    "def_index": 4680,
+    "paint_index": 0
+  },
+  "Sticker | Chicken of the Sky": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 4930
+  },
+  "Markus Delrow | FBI HRT": {
+    "def_index": 5306,
+    "paint_index": 0
+  },
+  "Michael Syfers  | FBI Sniper": {
+    "def_index": 5307,
+    "paint_index": 0
+  },
+  "Sticker | CR4ZY (Holo) | Berlin 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 4096
+  },
+  "Sticker | StarLadder (Foil) | Berlin 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 4117
+  },
+  "1st Lieutenant Farlow | SWAT": {
+    "def_index": 4712,
+    "paint_index": 0
+  },
+  "Patch | Team Liquid (Gold) | Stockholm 2021": {
+    "def_index": 4609,
+    "paint_index": 0,
+    "patch_id": 5088
+  },
+  "Patch | Tyloo | Stockholm 2021": {
+    "def_index": 4609,
+    "paint_index": 0,
+    "patch_id": 5113
+  },
+  "Sticker | Jame | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3603
+  },
+  "3rd Commando Company | KSK": {
+    "def_index": 5400,
+    "paint_index": 0
+  },
+  "Sticker | Team EnVyUs (Foil) | Cologne 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 648
+  },
+  "Sticker | apEX (Gold) | Stockholm 2021": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5248
+  },
+  "Boston 2018 Returning Challengers Autograph Capsule": {
+    "def_index": 4460,
+    "paint_index": 0
+  },
+  "Sticker | Lekr0 (Foil) | Boston 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2634
+  },
+  "Primeiro Tenente | Brazilian 1st Battalion": {
+    "def_index": 5405,
+    "paint_index": 0
+  },
+  "Elite Trapper Solman | Guerrilla Warfare": {
+    "def_index": 4773,
+    "paint_index": 0
+  },
+  "Sticker | Global Elite (Foil)": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3457
+  },
+  "Blackwolf | Sabre": {
+    "def_index": 5503,
+    "paint_index": 0
+  },
+  "Sticker | decenty (Gold) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7722
+  },
+  "Sticker | Snappi (Gold) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5559
+  },
+  "Sticker | felps (Gold) | Paris 2023": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7176
+  },
+  "Sticker | jks (Holo) | Paris 2023": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6923
+  },
+  "Sticker | Nodios (Gold) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7786
+  },
+  "Sticker | FalleN (Foil) | Krakow 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2197
+  },
+  "Sticker | TeSeS (Holo) | Stockholm 2021": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5160
+  },
+  "Operator | FBI SWAT": {
+    "def_index": 5305,
+    "paint_index": 0
+  },
+  "Bio-Haz Specialist | SWAT": {
+    "def_index": 4714,
+    "paint_index": 0
+  },
+  "Sticker | yuurih (Holo) | Shanghai 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 8223
+  },
+  "Sticker | Great Wave": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 4925
+  },
+  "Sticker | 1eeR (Gold) | Austin 2025": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 9142
+  },
+  "Sticker | FalleN (Holo) | Austin 2025": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 8981
+  },
+  "Sticker | Team SoloMid | Cologne 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 653
+  },
+  "Sticker | Counter Logic Gaming | MLG Columbus 2016": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1015
+  },
+  "Sticker | NEO (Foil) | Krakow 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2167
+  },
+  "Chem-Haz Capitaine | Gendarmerie Nationale": {
+    "def_index": 4750,
+    "paint_index": 0
+  },
+  "Sticker | Vigilance (Holo)": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 25
+  },
+  "Sticker | Avangar (Holo) | Boston 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2509
+  },
+  "Sticker | Emperor (Foil)": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 4630
+  },
+  "Lieutenant 'Tree Hugger' Farlow | SWAT": {
+    "def_index": 4756,
+    "paint_index": 0
+  },
+  "Ground Rebel  | Elite Crew": {
+    "def_index": 5105,
+    "paint_index": 0
+  },
+  "Patch | Gambit Gaming (Gold) | Stockholm 2021": {
+    "def_index": 4609,
+    "paint_index": 0,
+    "patch_id": 5090
+  },
+  "Sticker | Fnatic | MLG Columbus 2016": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1063
+  },
+  "Sticker | Keyd Stars | Katowice 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 314
+  },
+  "Patch | Copenhagen Flames | Stockholm 2021": {
+    "def_index": 4609,
+    "paint_index": 0,
+    "patch_id": 5123
+  },
+  "Patch | Sharks Esports | Stockholm 2021": {
+    "def_index": 4609,
+    "paint_index": 0,
+    "patch_id": 5111
+  },
+  "Sticker | qikert (Glitter) | Rio 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6559
+  },
+  "Patch | Koi": {
+    "def_index": 4609,
+    "paint_index": 0,
+    "patch_id": 4558
+  },
+  "Sticker | zhokiNg (Foil) | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3910
+  },
+  "Sticker | n0rb3r7 (Foil) | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3943
+  },
+  "Sticker | RUSH (Foil) | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3637
+  },
+  "Sticker | Space Soldiers | London 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2995
+  },
+  "Patch | paiN Gaming (Gold) | Stockholm 2021": {
+    "def_index": 4609,
+    "paint_index": 0,
+    "patch_id": 5100
+  },
+  "Sticker | Ramz1kBO$$ (Gold) | Berlin 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 4455
+  },
+  "Sticker | gla1ve (Gold) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7574
+  },
+  "Patch | Metal Supreme Master First Class": {
+    "def_index": 4609,
+    "paint_index": 0,
+    "patch_id": 4582
+  },
+  "Sticker | Jame (Gold, Champion) | Rio 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6577
+  },
+  "Sticker | Lucky 13 (Foil)": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 26
+  },
+  "Patch | Crazy Banana": {
+    "def_index": 4609,
+    "paint_index": 0,
+    "patch_id": 4550
+  },
+  "Sticker | Astralis (Holo) | Cologne 2016": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1366
+  },
+  "Sticker | Woro2k (Gold) | Paris 2023": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7052
   }
 }
