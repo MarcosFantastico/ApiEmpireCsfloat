@@ -14,9 +14,12 @@ telegranBotToken='xxxxxx'
 telegram_chat_id=xxxxxx
 
 
-# grupo do whatsapp
-whatsapp_group='120363402483665337@g.us'
+# chat do grupo do whatsapp
+whatsapp_group='1111111111111111111@g.us'
 
+
+# dependencias
+npm install node-telegram-bot-api
 
 # Funcionamento
 # logar no csfloat

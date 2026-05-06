@@ -43,11 +43,8 @@ async function rasparMelhorOrdemDeCompra(context, url) {
         const PRIMEIRO_ITEM = 'div.content div.header';
         await page.waitForSelector(PRIMEIRO_ITEM);
        // await page.click(PRIMEIRO_ITEM);
-       await page.waitForTimeout(2000);  // Pequena pausa para garantir que o clique seja registrado
+       await page.waitForTimeout(500);  // Pequena pausa para garantir que o clique seja registrado
        await page.click(PRIMEIRO_ITEM);
-
-
-        
 
 
         const PRECO_SELECTOR = 'div.order-container td.cdk-column-price';

@@ -21,6 +21,34 @@ const TERMOS_IGNORADOS = ['Graffiti |'];
 
 const bot = new TelegramBot(process.env.telegranBotToken, { polling: true });
 
+let botPausado = false;
+// Comandos para controle do bot via Telegram
+bot.onText(/\/pause/, (msg) => {
+    // Segurança: Verifica se o comando veio do seu chat
+    if (msg.chat.id.toString() !==  CHAT_ID_TELEGRAM) return;
+
+    botPausado = true;
+    bot.sendMessage(msg.chat.id, "⏸️ *Bot Pausado!* O scraper vai parar de buscar novas oportunidades.", { parse_mode: "Markdown" });
+    console.log("⏸️ [SISTEMA] Bot pausado via Telegram.");
+});
+
+bot.onText(/\/resume/, (msg) => {
+    if (msg.chat.id.toString() !== CHAT_ID_TELEGRAM) return;
+
+    botPausado = false;
+    bot.sendMessage(msg.chat.id, "▶️ *Bot Retomado!* Voltando a buscar oportunidades no Empire.", { parse_mode: "Markdown" });
+    console.log("▶️ [SISTEMA] Bot retomado via Telegram.");
+});
+
+bot.onText(/\/status/, (msg) => {
+    if (msg.chat.id.toString() !== CHAT_ID_TELEGRAM) return;
+    
+    const statusText = botPausado ? "⏸️ *Pausado*" : "▶️ *Rodando*";
+    bot.sendMessage(msg.chat.id, `🤖 *Status do Bot:*\nEstado atual: ${statusText}\nItens processados (Cache): ${processedIds.size}`, { parse_mode: "Markdown" });
+});
+
+
+
 bot.on('polling_error', (error) => {
   if (error.code === 'EFATAL' || error.code === 'ETIMEDOUT') return; 
   console.log(`[TELEGRAM POLLING] Erro: ${error.code}`);
@@ -105,6 +133,7 @@ const itemEhArma = eArmaOuFaca(nomeItem);
             if (!linkCsFloat) continue; 
 
             try {
+                console.log(`[SCRAPER] Raspando preço BO para: ${nomeItem} (Float: ${floatItem})`);
                 const resultado = await scraper.rasparMelhorOrdemDeCompra(globalBrowser, linkCsFloat);
                 if (resultado) {
                     precoBuyOrder = resultado.price;
@@ -245,7 +274,16 @@ process.on('SIGTERM', () => encerrarBot('SIGTERM'));
     }
 
     while (!isShuttingDown) {
+
+        // --- TRAVA DO PAUSE ---
+        if (botPausado) {
+            // Se estiver pausado, apenas dorme por 5 segundos e verifica de novo
+            await new Promise(r => setTimeout(r, 5000));
+            continue; 
+        }
         try {
+
+
             await processarItens();
         } catch (e) {
             console.error("Erro no loop principal:", e);
