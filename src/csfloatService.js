@@ -65,12 +65,25 @@ async function gerarLinkDeBusca(nomeDaSkin, floatDeEntrada) {
     // Rota de Listings (Funciona para 99% dos casos com estoque)
     const urlApi = `https://csfloat.com/api/v1/listings?market_hash_name=${nomeCodificado}&limit=1`;
 
-    try {
-        // Delay de segurança
+try {
+        // Delay de segurança já existente no seu código
         await sleep(15000 + Math.random() * 10000);
 
-        const response = await fetch(urlApi, OPTIONS);
-        if (!response.ok) return null;
+        // Adicionando um timeout manual de 12 segundos para a requisição não ficar presa
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 12000);
+
+        const response = await fetch(urlApi, { ...OPTIONS, signal: controller.signal });
+        clearTimeout(timeoutId);
+
+        // Se o CSFloat retornar erro (ex: 429 Too Many Requests, 502 Bad Gateway)
+        if (!response.ok) {
+            console.log(`[API AVISO] CSFloat respondeu com status ${response.status} para '${nomeBase}'. Ignorando temporariamente.`);
+            // Salva no cache para ignorar nas próximas rodadas e não floodar a API
+            metadataCache.set(nomeBase, { ignore: true });
+            salvarMetadataNoDisco();
+            return null;
+        }
 
         const dados = await response.json();
         const listing = dados.data?.[0];
@@ -79,75 +92,32 @@ async function gerarLinkDeBusca(nomeDaSkin, floatDeEntrada) {
         if (listing && listing.item) {
             const itemData = listing.item;
             
-            // Objeto base (todo item tem isso)
             const infoParaCache = {
                 def_index: itemData.def_index,
                 paint_index: itemData.paint_index || 0
             };
 
-            // --- LÓGICA ESPECIAL POR TIPO DE ITEM ---
-
-            // A. STICKERS (Adesivos)
+            // --- Suas lógicas de Sticker, Charm, Music Kit, Patch permanecem aqui idênticas ---
             if (nomeBase.includes('Sticker |')) {
-                const sId = itemData.sticker_index ||  // Prioridade 1 (Vem na raiz do item)
-                            itemData.sticker_id ||     // Prioridade 2 (Vem em outras rotas)
-                            itemData.stickerId ||      // Prioridade 3 (As vezes vem assim)
-                            listing.sticker_details?.sticker_id;
-
-                if (sId) {
-                    infoParaCache.sticker_id = sId;
-                    console.log(`[API] Sticker Index capturado: ${sId}`);
-                } else {
-                    console.log(`[AVISO] Sticker encontrado, mas sem ID compatível.`);
-                    return null; // Não salva cache errado
-                }
+                const sId = itemData.sticker_index || itemData.sticker_id || itemData.stickerId || listing.sticker_details?.sticker_id;
+                if (sId) infoParaCache.sticker_id = sId;
+                else return null;
             }
-
-            // B. CHARMS (Chaveiros)
             else if (nomeBase.includes('Charm |')) {
-                const cId = itemData.keychain_index || // Prioridade 1
-                            itemData.keychain_id;      // Prioridade 2
-
-                if (cId) {
-                    infoParaCache.keychain_id = cId;
-                    console.log(`[API] Keychain Index capturado: ${cId}`);
-                } else {
-                    console.log(`[AVISO] Charm encontrado, mas sem ID compatível.`);
-                    return null;
-                }
+                const cId = itemData.keychain_index || itemData.keychain_id;
+                if (cId) infoParaCache.keychain_id = cId;
+                else return null;
             }
-
-            // C. MUSIC KITS (Trilhas Sonoras)
             else if (nomeBase.includes('Music Kit |')) {
-                const mId = itemData.music_kit_index || // Prioridade 1
-                            itemData.music_kit_id;      // Prioridade 2
-
-                if (mId) {
-                    infoParaCache.music_kit_id = mId;
-                    console.log(`[API] Music Kit Index capturado: ${mId}`);
-                } else {
-                    console.log(`[AVISO] Music Kit encontrado, mas sem ID compatível.`);
-                    return null;
-                }
+                const mId = itemData.music_kit_index || itemData.music_kit_id;
+                if (mId) infoParaCache.music_kit_id = mId;
+                else return null;
             }
-
-            // D. PATCHES (Emblemas)
             else if (nomeBase.includes('Patch |')) {
-                // A Valve usa o sticker_index para identificar Patches!
-                const pId = itemData.sticker_index || 
-                            itemData.sticker_id || 
-                            itemData.patch_index; // Fallback caso mudem no futuro
-
-                if (pId) {
-                    infoParaCache.patch_id = pId;
-                    console.log(`[API] Patch Index capturado: ${pId}`);
-                } else {
-                    console.log(`[AVISO] Patch encontrado, mas sem ID compatível.`);
-                    return null;
-                }
+                const pId = itemData.sticker_index || itemData.sticker_id || itemData.patch_index;
+                if (pId) infoParaCache.patch_id = pId;
+                else return null;
             }
-
-
 
             // --- SALVAMENTO ---
             metadataCache.set(nomeBase, infoParaCache);
@@ -156,13 +126,21 @@ async function gerarLinkDeBusca(nomeDaSkin, floatDeEntrada) {
             return construirLinkComIds(infoParaCache, nomeDaSkin, floatDeEntrada);
         }
 
-        // Se chegou aqui, não achou listagem (Array vazio)
+        // Se a API respondeu OK, mas o array veio vazio (Item sem nenhuma listagem no CSFloat)
+        console.log(`[API] '${nomeBase}' não tem listagens no CSFloat. Adicionando ao ignore.`);
+        metadataCache.set(nomeBase, { ignore: true });
+        salvarMetadataNoDisco();
         return null; 
 
     } catch (error) {
-        console.error(`[API ERROR]: ${error.message}`);
+        // Captura o 'fetch failed' ou o Abort do Timeout de forma limpa
+        console.error(`[API ERROR] Falha ao conectar no CSFloat para '${nomeBase}': ${error.message}`);
+        
+        // Evita loop infinito: marca como ignore para a rodada atual não travar o bot
+        metadataCache.set(nomeBase, { ignore: true });
         return null;
     }
+
 }
 
 function construirLinkComIds(cachedData, nomeCompleto, floatDeEntrada) {
