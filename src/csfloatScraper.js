@@ -20,96 +20,114 @@ async function handlePopups(page) {
     }
 }
 
-/**
- * Raspa a ordem de compra.
- * REGRAS ATUAIS:
- * - IGNORA: Stickers específicos e Seeds/Patterns (Gemas, etc).
- * - ACEITA: Restrições de Float, StatTrak e ordens genéricas.
- */
+
 async function rasparMelhorOrdemDeCompra(context, url) {
     let page = null;
     try {
         page = await context.newPage();
         await page.setDefaultTimeout(25000); 
 
-        // Bloqueia imagens/fontes para velocidade
+        // Bloqueia mídias pesadas para maximizar velocidade
         await page.route('**/*.{png,jpg,jpeg,gif,css,font}', route => route.abort());
 
         await page.goto(url, { waitUntil: 'domcontentloaded' });
-        
         await handlePopups(page);
 
-        // Abre a lista de Buy Orders
-        const PRIMEIRO_ITEM = 'div.content div.header';
-        await page.waitForSelector(PRIMEIRO_ITEM);
-       // await page.click(PRIMEIRO_ITEM);
-       await page.waitForTimeout(500);  // Pequena pausa para garantir que o clique seja registrado
-       await page.click(PRIMEIRO_ITEM);
+        // 1. CLIQUE PARA ABRIR O NOVO MODAL
+        const PRIMEIRO_ITEM_CARD = 'div.content div.header, .item-card'; 
+        await page.waitForSelector(PRIMEIRO_ITEM_CARD);
+        await page.waitForTimeout(1000); 
+        await page.click(PRIMEIRO_ITEM_CARD);
 
+        // 2. ESPERA OS DADOS REAIS CARREGAREM
+        // Em vez de esperar só o container, esperamos a linha da tabela nascer
+        const ROW_SELECTOR = '.buy-orders-container tr.mat-mdc-row, table tr.mat-mdc-row';
+        await page.waitForSelector(ROW_SELECTOR, { timeout: 10000 });
+        
+        // O SEGREDO CONTRA A "RAPIDEZ": Aguarda mais 1 segundo para garantir 
+        // que o "loading" sumiu e os preços reais (da API deles) foram injetados na tabela.
+        await page.waitForTimeout(1200); 
 
-        const PRECO_SELECTOR = 'div.order-container td.cdk-column-price';
-        await page.waitForSelector(PRECO_SELECTOR);
+        const rows = await page.locator(ROW_SELECTOR).all();
+        
+        if (rows.length === 0) {
+            console.log('[SCRAPER] Nenhuma linha de Buy Order identificada no modal.');
+            return null;
+        }
 
-        // Pega todas as linhas
-        const rows = await page.locator('div.order-container tr.mat-mdc-row').all();
+        const isStandardSkin = url.includes('paint_index');
 
-      for (const row of rows) {
-            // --- 1. IDENTIFICAÇÃO DO TIPO DE BUSCA ---
-            // Se a URL contém 'paint_index', estamos buscando uma ARMA/FACA.
-            // Se NÃO contém, estamos buscando um ITEM ESPECIAL (Cápsula, Agente, Adesivo, Caixa).
-            const isStandardSkin = url.includes('paint_index');
+        for (const row of rows) {
+            const isHeader = await row.locator('th').count() > 0;
+            if (isHeader) continue;
 
-            // --- 2. FILTROS DE RESTRIÇÃO (Apenas para Armas) ---
+            // --- FILTROS DE RESTRIÇÃO (Apenas para Armas/Facas) ---
             if (isStandardSkin) {
-                // Se for arma, ignoramos se tiver ícone de sticker na linha
-                const countIcons = await row.locator('img.sticker-image').count(); 
-                if (countIcons > 0) continue;
-
-                // Faz o hover para checar tooltips de restrição (Pattern/Seed/Sticker)
                 await page.mouse.move(0, 0); 
-                await row.hover();
-                await page.waitForTimeout(300);
+                const priceCell = row.locator('.cdk-column-price'); 
+                
+                // Se a célula não estiver visível (pode ser um erro de renderização do site), pula
+                if (!(await priceCell.isVisible())) continue;
 
-                const overlayContainer = page.locator('.cdk-overlay-container');
-                let tooltipText = '';
-                if (await overlayContainer.isVisible()) {
-                    const tooltips = overlayContainer.locator('.mat-mdc-tooltip-surface');
-                    tooltipText = await tooltips.count() > 0 ? await tooltips.last().innerText() : await overlayContainer.innerText();
+                await priceCell.hover(); 
+                await page.waitForTimeout(400); 
+
+                const popover = page.locator('.cdk-overlay-popover[popover="manual"]').last();
+                
+               if (await popover.isVisible()) {
+                    // 1. Verificação Visual (Para quando o CSFloat renderiza a imagem do adesivo)
+                    const requiredStickerLocator = popover.locator('img[alt="STICKER"], img[alt^="STICKER"], img[alt*="Sticker"], .required-sticker-image');
+
+                    if (await requiredStickerLocator.count() > 0) {
+                        console.log(`[SCRAPER] Ignorando Buy Order com restrição de ADESIVO COLADO (Imagem detectada).`);
+                        continue; 
+                    }
+                    
+                    // 2. Verificação por Texto (Para quando usam código como "HasSticker(...)" ou exigem Seed/Pattern)
+                    const popoverText = await popover.innerText();
+                    
+                    const restricaoTextoDetectada = [
+                        'Sticker', 'HasSticker', // Pega adesivos por texto
+                        'Seed', 'Pattern',       // Pega exigências de desenho (Blue Gem, Fade)
+                        'Charm', 'Keychain'      // Pega exigências de chaveiro
+                    ].some(term => popoverText.toLowerCase().includes(term.toLowerCase()));
+                    
+                    if (restricaoTextoDetectada) {
+                        console.log(`[SCRAPER] ⛔ Ignorando Buy Order com restrição via TEXTO: ${popoverText.replace(/\n/g, ' ')}`);
+     continue;
+                    }
                 }
-
-                // Se for arma e o comprador pede Sticker, Seed ou Pattern, nós pulamos.
-                const restricaoDetectada = ['Sticker', 'HasSticker', 'Seed', 'Pattern', 'Charm', 'Keychain'].some(term => tooltipText.includes(term));
-                if (restricaoDetectada) continue; 
             }
 
-            // --- 3. EXTRAÇÃO DE PREÇO (Para todos os itens) ---
+            // --- EXTRAÇÃO DO PREÇO BLINDADA (Regex) ---
             const texto = await row.innerText();
-            if (texto && texto.includes('$')) {
-                // Usamos uma expressão regular para separar por qualquer espaço/tab/quebra de linha
-                // Isso resolve o problema de o preço e a quantidade virem "grudados" no innerText
-                const parts = texto.replace('$', '').trim().split(/\s+/);
+            
+            // Procura exatamente pelo $ seguido de números e pontos/vírgulas (Ignora a % do CSFloat)
+            const priceMatch = texto.match(/\$\s*([\d,.]+)/);
+            
+            if (priceMatch) {
+                const price = parseFloat(priceMatch[1].replace(',', ''));
                 
-                if (parts.length >= 2) {
-                    const price = parseFloat(parts[0].replace(',', ''));
-                    const quantity = parseInt(parts[1]);
-                    
-                    if (!isNaN(price) && !isNaN(quantity)) {
-                        console.log(`[SCRAPER] Melhor ordem VÁLIDA encontrada: $${price} (Qtd: ${quantity})`);
-                        return { price, quantity };
-                    }
+                // O CSFloat coloca a quantidade na última coluna da tabela. 
+                // Essa regex pega o último número inteiro da linha toda.
+                const qtyMatch = texto.match(/(\d+)\s*$/);
+                const quantity = qtyMatch ? parseInt(qtyMatch[1]) : 1;
+                
+                if (!isNaN(price) && !isNaN(quantity) && price > 0) {
+                    console.log(`[SCRAPER] Melhor ordem GENÉRICA e VÁLIDA encontrada: $${price} (Qtd: ${quantity})`);
+                    return { price, quantity };
                 }
             }
         }
         
-        console.log('[SCRAPER] Nenhuma ordem de compra compatível encontrada.');
+        console.log('[SCRAPER] Nenhuma ordem de compra genérica disponível.');
         return null;
 
     } catch (error) {
-        console.error(`[SCRAPER] Erro na URL ${url}: ${error.message}`);
+        console.error(`[SCRAPER ERROR] Falha ao analisar o novo layout: ${error.message}`);
         return null;
     } finally {
         if (page) await page.close(); 
     }
 }
-
 module.exports = { rasparMelhorOrdemDeCompra };

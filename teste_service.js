@@ -1,29 +1,45 @@
 // teste_service.js
-const csfloatService = require('./src/csfloatService.js');
+require('dotenv').config({ path: 'credentials.env' });
 
 async function rodarTestes() {
-    console.log("🧪 INICIANDO TESTE DO SERVICE DE LINKS 🧪\n");
+    console.log("🧪 TESTE TIRA-TEIMA DA API (COM HEADERS) 🧪\n");
 
-    // Lista de itens extremos para testar todas as lógicas do código
-    const itensParaTestar = [
-        "StatTrak™ Music Kit | Knock2, dashstar*", // Deve ter music_kit_index e category=2
-        "Music Kit | Knock2, dashstar*",           // Deve ter apenas music_kit_index
-        "Charm | Pocket Pop",                      // Deve ter keychain_index
-        "Sticker | zont1x (Gold) | Budapest 2025", // Deve ter sticker_index
-        "StatTrak™ AK-47 | Redline (Field-Tested)" // Deve ter def, paint, category=2 e float
-    ];
+    const item = "AWP | The End (Field-Tested)";
 
-    for (const item of itensParaTestar) {
-        console.log(`\x1b[33m🔎 Testando:\x1b[0m ${item}`);
-        
-        // Simulando um float arbitrário (0.15) para ver como a arma reage
-        const link = await csfloatService.gerarLinkDeBusca(item, 0.15);
-        
-        if (link) {
-            console.log(`\x1b[32m🔗 Link Gerado:\x1b[0m ${link}\n`);
-        } else {
-            console.log(`\x1b[31m❌ Falha ao gerar link.\x1b[0m\n`);
+    console.log(`🔎 Testando entrada do Empire: '${item}'`);
+    const nomeCompletoLimpo = item.trim();
+
+    const urlApi = `https://csfloat.com/api/v1/listings?market_hash_name=${encodeURIComponent(nomeCompletoLimpo)}&limit=1`;
+    console.log(`\n🌐 URL que vai pro CSFloat: ${urlApi}`);
+
+    // --- A CORREÇÃO ESTÁ AQUI: OS HEADERS PARA NÃO TOMAR BLOCK DO CLOUDFLARE ---
+    const OPTIONS = {
+        headers: {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'application/json'
         }
+    };
+
+    try {
+        const response = await fetch(urlApi, OPTIONS);
+        
+        if (!response.ok) {
+            console.log(`\n❌ CSFloat respondeu com erro HTTP: ${response.status}`);
+            return;
+        }
+
+        const dados = await response.json();
+
+        if (dados.data && dados.data.length > 0) {
+            const itemData = dados.data[0].item;
+            console.log(`\n🎉 SUCESSO! O CSFloat achou o item!`);
+            console.log(`🔫 Def Index capturado: ${itemData.def_index}`);
+            console.log(`🎨 Paint Index capturado: ${itemData.paint_index}`);
+        } else {
+            console.log(`\n❌ CSFloat não achou (retornou vazio []). Isso significa que você buscou o nomeBase em vez do nomeCompleto!`);
+        }
+    } catch (e) {
+        console.log(`\n❌ Erro de Fetch: ${e.message}`);
     }
 }
 

@@ -59,36 +59,36 @@ async function gerarLinkDeBusca(nomeDaSkin, floatDeEntrada) {
         return construirLinkComIds(cachedData, nomeDaSkin, floatDeEntrada);
     }
 
-    console.log(`[API] Buscando IDs para: '${nomeBase}'...`);
-    const nomeCodificado = encodeURIComponent(nomeBase);
+    // --- A CORREÇÃO ESTÁ AQUI ---
+    // Limpamos o nome original completo (com desgaste) tirando espaços duplos
+    const nomeCompletoLimpo = nomeDaSkin.trim().replace(/\s{2,}/g, ' ');
     
-    // Rota de Listings (Funciona para 99% dos casos com estoque)
+    // Codificamos o NOME COMPLETO para a API, não o nomeBase!
+    const nomeCodificado = encodeURIComponent(nomeCompletoLimpo);
+    
+    console.log(`[API] Buscando IDs para: '${nomeCompletoLimpo}'...`);
+    
+    // Rota de Listings com o nome completo exigido pela Valve/CSFloat
     const urlApi = `https://csfloat.com/api/v1/listings?market_hash_name=${nomeCodificado}&limit=1`;
 
 try {
-        // Delay de segurança já existente no seu código
         await sleep(15000 + Math.random() * 10000);
 
-        // Adicionando um timeout manual de 12 segundos para a requisição não ficar presa
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), 12000);
 
         const response = await fetch(urlApi, { ...OPTIONS, signal: controller.signal });
         clearTimeout(timeoutId);
 
-        // Se o CSFloat retornar erro (ex: 429 Too Many Requests, 502 Bad Gateway)
         if (!response.ok) {
-            console.log(`[API AVISO] CSFloat respondeu com status ${response.status} para '${nomeBase}'. Ignorando temporariamente.`);
-            // Salva no cache para ignorar nas próximas rodadas e não floodar a API
-            metadataCache.set(nomeBase, { ignore: true });
-            salvarMetadataNoDisco();
+            console.log(`[API AVISO] CSFloat respondeu com status ${response.status} para '${nomeCompletoLimpo}'. Pulando por enquanto.`);
+            // REMOVIDO: Não salvamos mais ignore: true aqui para não envenenar o cache por causa de lag!
             return null;
         }
 
         const dados = await response.json();
         const listing = dados.data?.[0];
 
-        // Se houver listagem e item válido
         if (listing && listing.item) {
             const itemData = listing.item;
             
@@ -97,7 +97,6 @@ try {
                 paint_index: itemData.paint_index || 0
             };
 
-            // --- Suas lógicas de Sticker, Charm, Music Kit, Patch permanecem aqui idênticas ---
             if (nomeBase.includes('Sticker |')) {
                 const sId = itemData.sticker_index || itemData.sticker_id || itemData.stickerId || listing.sticker_details?.sticker_id;
                 if (sId) infoParaCache.sticker_id = sId;
@@ -119,25 +118,21 @@ try {
                 else return null;
             }
 
-            // --- SALVAMENTO ---
+            // SALVA NO CACHE APENAS QUANDO DER SUCESSO ABSOLUTO!
             metadataCache.set(nomeBase, infoParaCache);
             salvarMetadataNoDisco();
             
             return construirLinkComIds(infoParaCache, nomeDaSkin, floatDeEntrada);
         }
 
-        // Se a API respondeu OK, mas o array veio vazio (Item sem nenhuma listagem no CSFloat)
-        console.log(`[API] '${nomeBase}' não tem listagens no CSFloat. Adicionando ao ignore.`);
-        metadataCache.set(nomeBase, { ignore: true });
-        salvarMetadataNoDisco();
+        // Se chegou aqui, a API retornou 200 OK mas array vazio [] (Estoque zerado naquele minuto)
+        console.log(`[API] '${nomeCompletoLimpo}' sem listagens no momento. Retentaremos na próxima vez.`);
+        // REMOVIDO: Não salvamos ignore: true. Pode ser que falte só a Factory New, mas a Field-Tested exista!
         return null; 
 
     } catch (error) {
-        // Captura o 'fetch failed' ou o Abort do Timeout de forma limpa
-        console.error(`[API ERROR] Falha ao conectar no CSFloat para '${nomeBase}': ${error.message}`);
-        
-        // Evita loop infinito: marca como ignore para a rodada atual não travar o bot
-        metadataCache.set(nomeBase, { ignore: true });
+        console.error(`[API ERROR] Falha de rede ao buscar '${nomeCompletoLimpo}': ${error.message}`);
+        // REMOVIDO: Não salvamos ignore: true por causa de queda de internet!
         return null;
     }
 

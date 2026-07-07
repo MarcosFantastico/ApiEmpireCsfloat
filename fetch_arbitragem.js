@@ -17,7 +17,7 @@ const COIN_EMPIRE = 0.6142808;
 const CHAT_ID_TELEGRAM = '5175130296'; 
 const ZAP_ID = process.env.whatsapp_group; 
 
-const TERMOS_IGNORADOS = ['Graffiti |'];
+const TERMOS_IGNORADOS = ['Graffiti |','Sticker Slab |'];
 
 const bot = new TelegramBot(process.env.telegranBotToken, { polling: true });
 
@@ -133,7 +133,7 @@ const itemEhArma = eArmaOuFaca(nomeItem);
             if (!linkCsFloat) continue; 
 
             try {
-                console.log(`[SCRAPER] Raspando preço BO para: ${nomeItem} (Float: ${floatItem})`);
+                console.log(`[SCRAPER] Raspando preço BO para: ${nomeItem} (Float: ${floatItem}) preco Empire: $${precoEmpire.toFixed(2)})`);
                 const resultado = await scraper.rasparMelhorOrdemDeCompra(globalBrowser, linkCsFloat);
                 if (resultado) {
                     precoBuyOrder = resultado.price;
