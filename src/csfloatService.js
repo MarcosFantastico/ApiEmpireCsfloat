@@ -157,15 +157,15 @@ function construirLinkComIds(cachedData, nomeCompleto, floatDeEntrada) {
     }
 
 // 3. MUSIC KITS (COM SUPORTE A STATTRAK E NORMAL)
+   // 3. MUSIC KITS (COM SUPORTE A STATTRAK E NORMAL)
     else if (eMusicKit) {
         params.append('music_kit_index', cachedData.music_kit_id);
         
-        // Assim como nas armas, FORÇAMOS a categoria para não misturar
-        let categoryCode = 1; // 1 = Normal
+        // CORREÇÃO: O CSFloat buga se enviarmos category=1 para Music Kits normais.
+        // Só mandamos o parâmetro de categoria se for a versão StatTrak.
         if (nomeCompleto.includes('StatTrak™')) {
-            categoryCode = 2; // 2 = StatTrak
+            params.append('category', 2); // 2 = StatTrak
         }
-        params.append('category', categoryCode);
     }
 
     // 4. PATCHES
