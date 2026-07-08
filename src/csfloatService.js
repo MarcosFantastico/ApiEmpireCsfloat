@@ -155,8 +155,6 @@ function construirLinkComIds(cachedData, nomeCompleto, floatDeEntrada) {
     else if (eCharm) {
         params.append('keychain_index', cachedData.keychain_id);
     }
-
-// 3. MUSIC KITS (COM SUPORTE A STATTRAK E NORMAL)
    // 3. MUSIC KITS (COM SUPORTE A STATTRAK E NORMAL)
     else if (eMusicKit) {
         params.append('music_kit_index', cachedData.music_kit_id);
