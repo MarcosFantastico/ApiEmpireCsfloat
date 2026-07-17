@@ -96,7 +96,8 @@ async function launchBrowserContext(forceNewProfile = false, headless = false) {
                 '--disable-setuid-sandbox',
                 '--disable-gpu',
                 '--no-zygote',
-                '--single-process'
+                '--single-process',
+                '--remote-debugging-port=9222'
             ],
             timeout: 60000 
         });

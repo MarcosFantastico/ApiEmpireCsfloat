@@ -5300,9 +5300,6 @@
     "def_index": 3,
     "paint_index": 1002
   },
-  "Glock-18 | Gamma Doppler (Minimal Wear) - Phase 2": {
-    "ignore": true
-  },
   "★ StatTrak™ Kukri Knife | Blue Steel": {
     "ignore": true
   },
@@ -5335,9 +5332,6 @@
     "ignore": true
   },
   "★ Shadow Daggers | Gamma Doppler (Minimal Wear) - Emerald": {
-    "ignore": true
-  },
-  "Glock-18 | Gamma Doppler (Field-Tested) - Phase 1": {
     "ignore": true
   },
   "★ StatTrak™ Survival Knife | Fade": {
@@ -5540,9 +5534,6 @@
   "★ StatTrak™ Gut Knife | Autotronic": {
     "ignore": true
   },
-  "Glock-18 | Gamma Doppler (Well-Worn) - Phase 2": {
-    "ignore": true
-  },
   "★ Stiletto Knife | Boreal Forest": {
     "ignore": true
   },
@@ -5670,9 +5661,6 @@
     "paint_index": 798
   },
   "★ Specialist Gloves | Forest DDPAT": {
-    "ignore": true
-  },
-  "Five-SeveN | Hyper Beast": {
     "ignore": true
   },
   "★ Talon Knife | Boreal Forest": {
@@ -6094,9 +6082,6 @@
     "paint_index": 72
   },
   "★ StatTrak™ Shadow Daggers | Forest DDPAT": {
-    "ignore": true
-  },
-  "MP7 | Full Stop": {
     "ignore": true
   },
   "FAMAS | Colony": {
@@ -23550,5 +23535,423 @@
     "def_index": 1209,
     "paint_index": 0,
     "sticker_id": 7497
+  },
+  "Charm | Austin 2025 Highlight | Strikes Back": {
+    "def_index": 1355,
+    "paint_index": 0,
+    "keychain_id": 36
+  },
+  "★ Shadow Daggers | Gamma Doppler - Phase 3": {
+    "def_index": 516,
+    "paint_index": 571
+  },
+  "Sticker | sh1ro (Gold) | Shanghai 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 8128
+  },
+  "Glock-18 | Gamma Doppler - Phase 2": {
+    "def_index": 4,
+    "paint_index": 570
+  },
+  "Nova | Baroque Orange": {
+    "def_index": 35,
+    "paint_index": 746
+  },
+  "P2000 | Coral Halftone": {
+    "def_index": 32,
+    "paint_index": 878
+  },
+  "Sticker | venomzera (Holo) | Cologne 2026": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 10988
+  },
+  "Glock-18 | Gamma Doppler - Phase 3": {
+    "def_index": 4,
+    "paint_index": 571
+  },
+  "Sticker | hypex (Foil) | Cologne 2026": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 10871
+  },
+  "Sticker | npl (Holo) | Cologne 2026": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 10880
+  },
+  "Sticker | phzy (Holo) | Cologne 2026": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 10740
+  },
+  "R8 Revolver | Memento": {
+    "def_index": 64,
+    "paint_index": 892
+  },
+  "Charm | Austin 2025 Highlight | donk Triple Kill": {
+    "def_index": 1355,
+    "paint_index": 0,
+    "keychain_id": 36
+  },
+  "Sticker | TaZ (Foil) | Cologne 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 477
+  },
+  "Sticker | FlyQuest (Holo) | Cologne 2026": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 10495
+  },
+  "Dual Berettas | Stained": {
+    "def_index": 2,
+    "paint_index": 43
+  },
+  "★ StatTrak™ Shadow Daggers | Tiger Tooth": {
+    "def_index": 516,
+    "paint_index": 409
+  },
+  "Glock-18 | Gamma Doppler - Phase 4": {
+    "def_index": 4,
+    "paint_index": 572
+  },
+  "Sticker | HellRaisers (Holo) | Berlin 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 4056
+  },
+  "Sticker | PENTA Sports | DreamHack 2014": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 226
+  },
+  "Autograph Capsule | mousesports | MLG Columbus 2016": {
+    "def_index": 4215,
+    "paint_index": 0
+  },
+  "Sticker | nettik (Gold) | Cologne 2026": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 11173
+  },
+  "Sticker | JT (Gold) | Paris 2023": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7172
+  },
+  "Sticker | disco doplan (Foil) | Atlanta 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1887
+  },
+  "Sticker | hutji (Gold) | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3896
+  },
+  "Sticker | peet (Foil) | Cologne 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 567
+  },
+  "★ Driver Gloves | Diamondback": {
+    "def_index": 5031,
+    "paint_index": 10040
+  },
+  "Glock-18 | Gamma Doppler - Phase 1": {
+    "def_index": 4,
+    "paint_index": 569
+  },
+  "Sticker | nexa (Gold) | Stockholm 2021": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5149
+  },
+  "Sticker | KSCERATO (Holo) | Budapest 2025": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 9660
+  },
+  "Sticker | jcobbb (Gold) | Budapest 2025": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 10005
+  },
+  "Sticker | brnz4n (Gold) | Cologne 2026": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 10985
+  },
+  "Sticker | bLitz (Gold) | Budapest 2025": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 9721
+  },
+  "FAMAS | Contrast Spray": {
+    "def_index": 10,
+    "paint_index": 22
+  },
+  "★ StatTrak™ Bowie Knife | Lore": {
+    "def_index": 514,
+    "paint_index": 1104
+  },
+  "Sticker | Krad (Gold) | Paris 2023": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6940
+  },
+  "MP7 | Full Stop": {
+    "def_index": 33,
+    "paint_index": 250
+  },
+  "Sticker | bLitz (Gold) | Cologne 2026": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 10597
+  },
+  "Sticker | kensizor (Gold) | Cologne 2026": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 10893
+  },
+  "CZ75-Auto | The Fuschia Is Now": {
+    "def_index": 63,
+    "paint_index": 269
+  },
+  "Sticker | s1mple | Cologne 2016": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1556
+  },
+  "Sticker | HellRaisers (Holo) | Atlanta 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 1771
+  },
+  "★ Sport Gloves | Creme Pinstripe": {
+    "def_index": 5030,
+    "paint_index": 1408
+  },
+  "Charm | Austin 2025 Highlight | Anchoring Double Kill": {
+    "def_index": 1355,
+    "paint_index": 0,
+    "keychain_id": 36
+  },
+  "Sticker | kyousuke (Gold) | Cologne 2026": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 10593
+  },
+  "G3SG1 | Contractor": {
+    "def_index": 11,
+    "paint_index": 46
+  },
+  "Sticker | NertZ (Holo) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7605
+  },
+  "Sticker | sjuush (Holo) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7613
+  },
+  "Sticker | arrozdoce (Holo) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7681
+  },
+  "Sticker | FURIA (Foil) | Cologne 2026": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 10394
+  },
+  "Nova | Toy Soldier": {
+    "def_index": 35,
+    "paint_index": 716
+  },
+  "Sticker | XANTARES (Holo) | Cologne 2026": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 10636
+  },
+  "Sticker | b1t (Foil) | Cologne 2026": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 10563
+  },
+  "Sticker | RUSH | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3636
+  },
+  "Sticker | hutji | Krakow 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2376
+  },
+  "Sticker | shox (Foil) | London 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3177
+  },
+  "★ StatTrak™ Falchion Knife | Safari Mesh": {
+    "def_index": 512,
+    "paint_index": 72
+  },
+  "Sticker | Jame | Boston 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2837
+  },
+  "G3SG1 | Jungle Dashed": {
+    "def_index": 11,
+    "paint_index": 147
+  },
+  "Sticker | aizy (Foil) | Cluj-Napoca 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 822
+  },
+  "★ Specialist Gloves | Lt. Commander": {
+    "def_index": 5034,
+    "paint_index": 10066
+  },
+  "Sticker | HEN1 (Foil) | Krakow 2017": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 2362
+  },
+  "Sticker | 3DMAX (Foil) | Austin 2025": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 8595
+  },
+  "Sticker | Edward (Gold) | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3782
+  },
+  "Sticker | Boombl4 (Gold) | Cologne 2026": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 10917
+  },
+  "Sticker | TeSeS (Glitter) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7616
+  },
+  "R8 Revolver | Bone Mask": {
+    "def_index": 64,
+    "paint_index": 27
+  },
+  "Sticker | nota (Gold) | Cologne 2026": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 10621
+  },
+  "SSG 08 | Orange Filigree": {
+    "def_index": 40,
+    "paint_index": 743
+  },
+  "Sticker | susp (Gold) | Cologne 2026": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 10905
+  },
+  "Sticker | v$m (Gold) | Cologne 2026": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 10813
+  },
+  "SSG 08 | Calligrafaux": {
+    "def_index": 40,
+    "paint_index": 1379
+  },
+  "Sticker | Starry (Holo) | Copenhagen 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 7849
+  },
+  "Sticker | Grim (Holo) | Cologne 2026": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 11016
+  },
+  "Sticker | felps (Holo) | Cologne 2026": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 11080
+  },
+  "Sticker | FL4MUS (Gold) | Shanghai 2024": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 8388
+  },
+  "Sticker | nitr0 (Gold) | Austin 2025": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 9214
+  },
+  "Sticker | boltz (Gold) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5691
+  },
+  "Sticker | ALEX (Foil) | Katowice 2019": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3922
+  },
+  "Sticker | YEKINDAR (Gold) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5771
+  },
+  "Sticker | jdm64 | Cologne 2015": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 596
+  },
+  "Sticker | NEO (Foil) | London 2018": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 3312
+  },
+  "Sticker | Calyx (Holo) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5730
+  },
+  "★ Navaja Knife | Case Hardened": {
+    "def_index": 520,
+    "paint_index": 44
+  },
+  "Sticker | NEOFRAG (Gold) | Rio 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 6373
+  },
+  "Sticker | Virtus.pro (Gold) | 2020 RMR": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 4760
+  },
+  "Music Kit | Beartooth, Aggressive": {
+    "def_index": 58,
+    "paint_index": 0,
+    "music_kit_id": 32
+  },
+  "★ Driver Gloves | Plum Quill": {
+    "def_index": 5031,
+    "paint_index": 1412
+  },
+  "Sticker | karrigan (Holo) | Antwerp 2022": {
+    "def_index": 1209,
+    "paint_index": 0,
+    "sticker_id": 5502
   }
 }

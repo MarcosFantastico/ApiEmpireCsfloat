@@ -20,6 +20,22 @@ async function handlePopups(page) {
     }
 }
 
+async function salvarScreenshot(page, tipo) {
+    if (!page) return;
+    try {
+        const fs = require('fs');
+        const path = require('path');
+        const dir = path.join(__dirname, '../logs/screenshots');
+        if (!fs.existsSync(dir)) {
+            fs.mkdirSync(dir, { recursive: true });
+        }
+        const filename = `${tipo}_${Date.now()}.png`;
+        await page.screenshot({ path: path.join(dir, filename) });
+        console.log(`[SCRAPER] 📸 Screenshot (${tipo}) salvo em: logs/screenshots/${filename}`);
+    } catch (e) {
+        console.error(`[SCRAPER ERROR] Falha ao salvar screenshot (${tipo}): ${e.message}`);
+    }
+}
 
 async function rasparMelhorOrdemDeCompra(context, url) {
     let page = null;
@@ -30,28 +46,123 @@ async function rasparMelhorOrdemDeCompra(context, url) {
         // Bloqueia mídias pesadas para maximizar velocidade
         await page.route('**/*.{png,jpg,jpeg,gif,css,font}', route => route.abort());
 
-        await page.goto(url, { waitUntil: 'domcontentloaded' });
+        // Usa 'networkidle' para garantir que os cards já carregaram antes de tentar interagir
+        await page.goto(url, { waitUntil: 'networkidle', timeout: 20000 }).catch(() => null);
         await handlePopups(page);
 
         // 1. CLIQUE PARA ABRIR O NOVO MODAL
-        const PRIMEIRO_ITEM_CARD = 'div.content div.header, .item-card'; 
-        await page.waitForSelector(PRIMEIRO_ITEM_CARD);
-        await page.waitForTimeout(1000); 
-        await page.click(PRIMEIRO_ITEM_CARD);
-
-        // 2. ESPERA OS DADOS REAIS CARREGAREM
-        // Em vez de esperar só o container, esperamos a linha da tabela nascer
-        const ROW_SELECTOR = '.buy-orders-container tr.mat-mdc-row, table tr.mat-mdc-row';
-        await page.waitForSelector(ROW_SELECTOR, { timeout: 10000 });
+        const CARD_SELECTOR = '.item-card, mat-card, cdk-row';
         
-        // O SEGREDO CONTRA A "RAPIDEZ": Aguarda mais 1 segundo para garantir 
-        // que o "loading" sumiu e os preços reais (da API deles) foram injetados na tabela.
-        await page.waitForTimeout(1200); 
+        // Espera que apareçam cards OU a mensagem de "sem resultados"
+        const foundNoItemsLocator = page.locator(':text("Found No Items")');
+        await Promise.race([
+            page.waitForSelector(CARD_SELECTOR, { timeout: 12000 }).catch(() => null),
+            foundNoItemsLocator.waitFor({ state: 'visible', timeout: 12000 }).catch(() => null)
+        ]);
+        
+        // Se a página não tem resultados, retorna silenciosamente (sem salvar print de erro)
+        if (await foundNoItemsLocator.count() > 0) {
+            console.log('[SCRAPER] ℹ️ "Found No Items" — sem listings no CSFloat para este item no momento.');
+            return null;
+        }
+        
+        // Aguarda mais 1.5s para os cards renderizarem completamente (Angular é lazy)
+        await page.waitForTimeout(1500); 
+        
+        const cards = await page.locator(CARD_SELECTOR).all();
+        let selectedCard = null;
+        
+        const querStatTrak = url.includes('category=2');
+        const querSouvenir = url.includes('category=3');
+        
+        for (const card of cards) {
+            const text = await card.innerText();
+            const textLower = text.toLowerCase();
+            
+            // Se NÃO queremos StatTrak, mas o card é StatTrak, pula
+            if (!querStatTrak && textLower.includes('stattrak')) {
+                continue;
+            }
+            
+            // Filtra Souvenir apenas em SKINS (NÃO em Souvenir Packages/caixas do tipo torneio)
+            // O card de uma CAIXA souvenir contém "container" ou "package" no texto dele
+            // O card de uma SKIN souvenir contém o wear ("minimal wear", "field-tested", etc.)
+            if (!querSouvenir && textLower.includes('souvenir')) {
+                const isSouvenirContainer = 
+                    textLower.includes('container') || 
+                    textLower.includes('package') ||
+                    textLower.includes('souvenir package');
+                if (!isSouvenirContainer) {
+                    // É skin souvenir de arma, não queremos — pula
+                    continue;
+                }
+                // É uma caixa/package souvenir — aceita normalmente
+            }
+            
+            selectedCard = card;
+            break;
+        }
+        
+        if (!selectedCard) {
+            console.log('[SCRAPER] Nenhum card correspondente aos filtros encontrado.');
+            await salvarScreenshot(page, 'sem_card_valido');
+            return null;
+        }
+        
+        // Clica no cabeçalho do título dentro do card para garantir que o modal abra
+        const header = selectedCard.locator('div.content div.header, .header, h2, h3');
+        if (await header.count() > 0) {
+            await header.first().click();
+        } else {
+            await selectedCard.click();
+        }
+
+        // 2. ESPERA OS DADOS REAIS CARREGAREM (OU MENSAGENS DE AVISO/SEM ORDENS)
+        const ROW_SELECTOR = '.buy-orders-container tr.mat-mdc-row, table tr.mat-mdc-row';
+        
+        // Seletores de mensagens que indicam ausência de ordens (sem timeout error)
+        const noOrdersLocator = page.locator(':text("Found No Buy Orders")');
+        const notAuthLocator = page.locator(':text("not authorized for this endpoint")');
+        
+        await Promise.race([
+            page.waitForSelector(ROW_SELECTOR, { timeout: 10000 }).catch(() => null),
+            noOrdersLocator.waitFor({ state: 'visible', timeout: 10000 }).catch(() => null),
+            notAuthLocator.waitFor({ state: 'visible', timeout: 10000 }).catch(() => null)
+        ]);
+        
+        if (await noOrdersLocator.count() > 0) {
+            console.log('[SCRAPER] ℹ️ "Found No Buy Orders" — sem ordens ativas para este item.');
+            return null;
+        }
+        if (await notAuthLocator.count() > 0) {
+            console.log('[SCRAPER] ℹ️ "not authorized for this endpoint" — sessão com limitação temporária.');
+            return null;
+        }
+        
+        // Se a tabela não carregou, dispara a exceção de timeout normal para salvar o print do erro real
+        await page.waitForSelector(ROW_SELECTOR, { timeout: 2000 });
+        
+        // Aguarda os preços serem preenchidos nas linhas (o CSFloat preenche via API após o DOM nascer)
+        // Usamos um retry simples: aguarda até 10s e verifica de 500ms em 500ms
+        let precoCarregado = false;
+        for (let tentativa = 0; tentativa < 20; tentativa++) {
+            await page.waitForTimeout(500);
+            precoCarregado = await page.evaluate(() => {
+                const rows = document.querySelectorAll('.buy-orders-container tr.mat-mdc-row, table tr.mat-mdc-row');
+                if (rows.length === 0) return false;
+                for (const row of rows) {
+                    if (row.innerText && row.innerText.includes('$')) return true;
+                }
+                return false;
+            });
+            if (precoCarregado) break;
+        }
 
         const rows = await page.locator(ROW_SELECTOR).all();
         
         if (rows.length === 0) {
             console.log('[SCRAPER] Nenhuma linha de Buy Order identificada no modal.');
+            await salvarScreenshot(page, 'sem_ordens');
             return null;
         }
 
@@ -125,6 +236,7 @@ async function rasparMelhorOrdemDeCompra(context, url) {
 
     } catch (error) {
         console.error(`[SCRAPER ERROR] Falha ao analisar o novo layout: ${error.message}`);
+        await salvarScreenshot(page, 'erro');
         return null;
     } finally {
         if (page) await page.close(); 

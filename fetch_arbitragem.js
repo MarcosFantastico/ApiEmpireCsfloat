@@ -86,6 +86,12 @@ async function fetchEmpireItens() {
         const response = await fetch(url, {
             headers: { "Authorization": `Bearer ${process.env.EMPIRE_TOKEN}` }
         });
+        
+        if (!response.ok) {
+            console.error(`[EMPIRE] Falha na API: Status HTTP ${response.status} (${response.statusText})`);
+            return [];
+        }
+        
         const json = await response.json();
         return json.data || [];
     } catch (e) {
@@ -230,7 +236,6 @@ async function notificar(item, precoEmp, precoBO, lucro, floatVal, linkCsFloat) 
             disable_web_page_preview: true 
         }); 
     } catch (e) { console.error(e); }
-
     // ENVIO WHATSAPP
     try {
         const status = await enviarWhatsapp(ZAP_ID, msgZap);

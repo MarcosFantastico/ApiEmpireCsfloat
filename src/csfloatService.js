@@ -32,10 +32,47 @@ function salvarMetadataNoDisco() {
 function obterNomeLimpo(marketHashName) {
     if (!marketHashName) return '';
     let limpo = marketHashName;
-    limpo = limpo.replace(/ \((Factory New|Minimal Wear|Field-Tested|Well-Worn|Battle-Scarred)\)$/, '');
+    // Remove o desgaste de qualquer lugar do nome (ex: antes de " - Phase X")
+    limpo = limpo.replace(/ \((Factory New|Minimal Wear|Field-Tested|Well-Worn|Battle-Scarred)\)/g, '');
     limpo = limpo.replace(/^StatTrak™ /, ''); 
     limpo = limpo.replace(/^Souvenir /, ''); 
-    return limpo;
+    return limpo.trim();
+}
+
+function ehArmaOuFaca(nomeCompleto) {
+    if (nomeCompleto.includes('★') && !nomeCompleto.includes('Gloves') && !nomeCompleto.includes('Wraps') && !nomeCompleto.includes('Hand Wraps')) {
+        return true;
+    }
+    const categoriasArmas = [
+        'AK-47', 'M4A4', 'M4A1-S', 'AWP', 'Desert Eagle', 'Glock-18', 'USP-S', 
+        'P250', 'Five-SeveN', 'Tec-9', 'CZ75-Auto', 'Dual Berettas', 'P2000', 
+        'R8 Revolver', 'Galil AR', 'FAMAS', 'SG 553', 'AUG', 'SSG 08', 'G3SG1', 
+        'SCAR-20', 'MP9', 'MAC-10', 'MP7', 'MP5-SD', 'UMP-45', 'P90', 'PP-Bizon', 
+        'Nova', 'XM1014', 'MAG-7', 'Sawed-Off', 'M249', 'Negev'
+    ];
+    return categoriasArmas.some(tipo => nomeCompleto.includes(tipo));
+}
+
+function obterDopplerPaintIndex(nomeDaSkin) {
+    const isGamma = nomeDaSkin.toLowerCase().includes('gamma doppler');
+    const nomeLower = nomeDaSkin.toLowerCase();
+
+    if (isGamma) {
+        if (nomeLower.includes('phase 1')) return 569;
+        if (nomeLower.includes('phase 2')) return 570;
+        if (nomeLower.includes('phase 3')) return 571;
+        if (nomeLower.includes('phase 4')) return 572;
+        if (nomeLower.includes('emerald')) return 568;
+    } else if (nomeLower.includes('doppler')) {
+        if (nomeLower.includes('ruby')) return 415;
+        if (nomeLower.includes('sapphire')) return 416;
+        if (nomeLower.includes('black pearl')) return 417;
+        if (nomeLower.includes('phase 1')) return 418;
+        if (nomeLower.includes('phase 2')) return 419;
+        if (nomeLower.includes('phase 3')) return 420;
+        if (nomeLower.includes('phase 4')) return 421;
+    }
+    return null;
 }
 
 const CSFLOAT_API_URL = "https://csfloat.com/api/v1/listings";
@@ -55,23 +92,32 @@ async function gerarLinkDeBusca(nomeDaSkin, floatDeEntrada) {
     // 1. VERIFICAÇÃO DE CACHE
     if (metadataCache.has(nomeBase)) {
         const cachedData = metadataCache.get(nomeBase);
-        if (cachedData.ignore) return null;
-        return construirLinkComIds(cachedData, nomeDaSkin, floatDeEntrada);
+        
+        // Se estiver como ignore, mas for Doppler, removemos do cache para re-testar com as novas regras
+        if (cachedData.ignore && nomeDaSkin.toLowerCase().includes('doppler')) {
+            metadataCache.delete(nomeBase);
+            salvarMetadataNoDisco();
+        } else {
+            if (cachedData.ignore) return null;
+            return construirLinkComIds(cachedData, nomeDaSkin, floatDeEntrada);
+        }
     }
 
     // --- A CORREÇÃO ESTÁ AQUI ---
     // Limpamos o nome original completo (com desgaste) tirando espaços duplos
     const nomeCompletoLimpo = nomeDaSkin.trim().replace(/\s{2,}/g, ' ');
     
-    // Codificamos o NOME COMPLETO para a API, não o nomeBase!
-    const nomeCodificado = encodeURIComponent(nomeCompletoLimpo);
+    // CORREÇÃO: O CSFloat/Steam não tem o sufixo " - Phase X" no market_hash_name.
+    // Removemos esse sufixo para fazer a chamada de API da Steam/CSFloat correta.
+    const nomeSteam = nomeCompletoLimpo.replace(/ - (Phase \d|Emerald|Ruby|Sapphire|Black Pearl)/i, '').trim();
+    const nomeCodificado = encodeURIComponent(nomeSteam);
     
-    console.log(`[API] Buscando IDs para: '${nomeCompletoLimpo}'...`);
+    console.log(`[API] Buscando IDs para: '${nomeSteam}'...`);
     
-    // Rota de Listings com o nome completo exigido pela Valve/CSFloat
+    // Rota de Listings com o nome completo sem a fase exigido pela Valve/CSFloat
     const urlApi = `https://csfloat.com/api/v1/listings?market_hash_name=${nomeCodificado}&limit=1`;
 
-try {
+    try {
         await sleep(15000 + Math.random() * 10000);
 
         const controller = new AbortController();
@@ -81,8 +127,7 @@ try {
         clearTimeout(timeoutId);
 
         if (!response.ok) {
-            console.log(`[API AVISO] CSFloat respondeu com status ${response.status} para '${nomeCompletoLimpo}'. Pulando por enquanto.`);
-            // REMOVIDO: Não salvamos mais ignore: true aqui para não envenenar o cache por causa de lag!
+            console.log(`[API AVISO] CSFloat respondeu com status ${response.status} para '${nomeSteam}'. Pulando por enquanto.`);
             return null;
         }
 
@@ -92,9 +137,16 @@ try {
         if (listing && listing.item) {
             const itemData = listing.item;
             
+            // Define o paint_index correto de acordo com a fase do Doppler/Gamma Doppler
+            let paintIndex = itemData.paint_index || 0;
+            const dopplerPaintIndex = obterDopplerPaintIndex(nomeDaSkin);
+            if (dopplerPaintIndex !== null) {
+                paintIndex = dopplerPaintIndex;
+            }
+            
             const infoParaCache = {
                 def_index: itemData.def_index,
-                paint_index: itemData.paint_index || 0
+                paint_index: paintIndex
             };
 
             if (nomeBase.includes('Sticker |')) {
@@ -159,8 +211,8 @@ function construirLinkComIds(cachedData, nomeCompleto, floatDeEntrada) {
     else if (eMusicKit) {
         params.append('music_kit_index', cachedData.music_kit_id);
         
-        // CORREÇÃO: O CSFloat buga se enviarmos category=1 para Music Kits normais.
-        // Só mandamos o parâmetro de categoria se for a versão StatTrak.
+        // O CSFloat buga se enviarmos category=1 para Music Kits normais, 
+        // então deixamos sem filtro de categoria e o Scraper filtra na tela.
         if (nomeCompleto.includes('StatTrak™')) {
             params.append('category', 2); // 2 = StatTrak
         }
@@ -174,16 +226,19 @@ function construirLinkComIds(cachedData, nomeCompleto, floatDeEntrada) {
    else {
         params.append('def_index', cachedData.def_index);
         
+        // Só aplicamos o filtro de categoria para Armas e Facas!
+        // Caixas, Agentes, etc. não usam esse filtro.
+        if (ehArmaOuFaca(nomeCompleto)) {
+             let categoryCode = 1; // 1 = Normal
+             if (nomeCompleto.includes('StatTrak™')) categoryCode = 2;
+             else if (nomeCompleto.includes('Souvenir')) categoryCode = 3;
+             params.append('category', categoryCode);
+        }
+        
         const temPaintIndex = cachedData.paint_index && cachedData.paint_index !== 0;
         
         if (temPaintIndex || nomeCompleto.includes('Medusa') || nomeCompleto.includes('Dragon Lore')) {
              params.append('paint_index', cachedData.paint_index);
-             
-             let categoryCode = 1; // 1 = Normal
-             if (nomeCompleto.includes('StatTrak™')) categoryCode = 2;
-             else if (nomeCompleto.includes('Souvenir')) categoryCode = 3;
-             
-             params.append('category', categoryCode);
              
              // --- AQUI COMEÇA A MUDANÇA DA ORDENAÇÃO ---
              const floatValido = floatDeEntrada && !isNaN(parseFloat(floatDeEntrada));
